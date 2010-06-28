@@ -86,25 +86,27 @@ def main():
 	print "Number of Lowes stores recorded: " + len(Lowes.storelist)
 	'''
 
+	## ** CAN'T USE LOCALLY CACHED VERSION, MECHANIZE DOESN'T RECOGNIZE IT AS HTML ** ##
 	br = mechanize.Browser()
 	#br.open("file:///home/bwald/Documents/homedepot/competitors-git/menards/website/www.menards.com/storeLocator.do")
-	br.open("www.menards.com/storeLocator.do")
+	br.open("http://www.menards.com/storeLocator.do")
 
 	#html = br.response().read()
 	
 	assert br.viewing_html()
 	print br.title()
-	br.select_form(name="state")
+	br.select_form(nr=0)
+	br.form.set_value(["IA"], name="state", kind="list")
+
 	'''
-	br.form.set_value("IA", name="state", kind="list")
 	try:
 		br.submit()
 	except HTTPError, e:
 		sys.exit("it failed for %d: %s" % (e.code, e.msg))
+	'''
 
 	html2 = br.response().read()
 	print html2
-	'''
 
 
 if __name__  == "__main__":

@@ -16,7 +16,7 @@ def getLowesStores():
 	# open index page and get list of all state store list URLs
 	# try to use a locally cached version of the page to reduce load
 	#webpage = BeautifulSoup(urlopen("http://lowes.know-where.com/lowes/cgi/region_list"))
-	webpage = BeautifulSoup(open('/home/bwald/Documents/homedepot/competitors/lowes/website/lowes.know-where.com/lowes/cgi/region_list', 'r'))
+	webpage = BeautifulSoup(open('/home/bwald/Documents/homedepot/competitors-git/lowes/website/lowes.know-where.com/lowes/cgi/region_list', 'r'))
 	htmlsubpages = webpage.findAll("a", { "href" : re.compile("region")})
 
 	# instantiate a StoreList object to hold addresses
@@ -79,7 +79,7 @@ def main():
 
 	'''
 	### get Lowes stores ###
-	csvwriter = writer(open('/home/bwald/Documents/homedepot/competitors/lowes/csv/loweslocations.csv', 'wb'))
+	csvwriter = writer(open('/home/bwald/Documents/homedepot/competitors-git/lowes/csv/loweslocations.csv', 'wb'))
 
 	Lowes = getLowesStores()
 
@@ -87,7 +87,7 @@ def main():
 	'''
 
 	br = mechanize.Browser()
-	#br.open("file:///home/bwald/Documents/homedepot/competitors/menards/website/www.menards.com/storeLocator.do")
+	#br.open("file:///home/bwald/Documents/homedepot/competitors-git/menards/website/www.menards.com/storeLocator.do")
 	br.open("www.menards.com/storeLocator.do")
 
 	#html = br.response().read()

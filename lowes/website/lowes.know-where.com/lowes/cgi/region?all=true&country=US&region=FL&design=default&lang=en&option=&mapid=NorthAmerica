@@ -1,0 +1,523 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Improving Home Improvement : Store Locator</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "FL";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+	<li id="kw_crumb_top" class="kw_crumb_past"><A href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">New Search</A>&gt;</li>
+
+
+
+
+	<li id="kw_crumb_region" class="kw_crumb_current">Florida </li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection" onsubmit="javascript:clear_kwplace()">
+	<INPUT type=hidden name=state-map value="FL">
+	
+	
+
+<script><!--
+function clear_kwplace() {
+        var f = document.kwform;
+        if(f.region){
+			f.region.value = '';
+		}
+        if (f.place.value == "Street Address, City, State/Province, ZIP/Postal Code, or Store Number") {
+                f.place.value = "";
+        }
+}
+-->
+</script>
+<p>
+
+
+
+
+
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="mapid"  VALUE="NorthAmerica">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="lang"   VALUE="en">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="design" VALUE="default">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <INPUT type="HIDDEN" name="country" value="US">
+        <INPUT type="HIDDEN" name="region_name" value="Florida">
+
+
+
+
+
+
+<input name="region" type="hidden" value="FL">
+
+<div class="store-locator-search-box">
+		<div class="content">
+			<div class="search-nav">Quick Find &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a></div>
+			<fieldset>
+			<ol>
+
+				<li>
+					<div class="form-input-block">
+						<input label="Find Store" class="xlarge" type="text" name="place" id="store-location" value="Street Address, City, State/Province, ZIP/Postal Code, or Store Number" onfocus="clear_kwplace();" onblur="if(value==''){value='Street Address, City, State/Province, ZIP/Postal Code, or Store Number';}"/>
+						
+					</div>
+				</li>
+
+				<li>
+					<table>
+						<tr>
+							<td>
+
+
+<label for="narrow-search">Narrow Your Search By:</label>
+<div class="form-input-block">
+	<ol id="narrow-search">
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="B" /> Grand Opening</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="C" /> Equipment Rental</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="A" /> Installation Services</label></li>
+	</ol>
+</div>
+</td>
+							<td><a class="button-green" href="javascript:clear_kwplace(); javascript:document.kwform.submit();"><span>Find Store</span></a></td>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+
+				</li>
+			</ol>
+			</fieldset>
+		</div>
+		
+	<div class="store-locator-search-box-bottom"></div>
+</div>
+
+
+
+	
+
+	<div style="margin-left: 8px;" class="store-locator-map">
+		<div class="kw_static_map" align="left">
+					<table ><tr><td><INPUT class="mapdisplay" type=image name=map src="http://lowes.know-where.com/lowes//region/US/map/FL.gif" width=455 height=291 border=0></td></tr></table>
+
+		</div>
+	</div>
+	</form>
+	<div style="clear: both" class="store-locator-results-page">
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/util.js"></script>
+   		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwresults.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwmap.js"></script>
+		<b> Stores in Florida</b>
+
+
+     <div id="kwresults_div"> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px;"> <tr> <td alight="left"> <span id="kw_page_links0"> </span> </td> <td align="right"> <form id="kwresults_pp_form0"> View <select id="kwresults_pp_select0"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table>  <table class="store-locator-results-table" cellpadding="0" cellspacing="0" style="clear: both;"> <tr> <th class="first">Store</th> <th>Phone &amp; Fax</th> <th>Hours</th> <th>Services</th> <th>Weekly Ad</th> <th>&nbsp;</th> </tr>   <tr id="kwresult0" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">1</div> <div class="address-block"> <h4>LOWE'S OF ALACHUA, FL</h4> <ul class="address"> <li>Store Number: 2984</li> <li>15910 NW 144 TERRACE</li> <li>ALACHUA, FL 32615</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 418-6060</li> <li>FAX: (386) 418-6063</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2984&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2984');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult1" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">2</div> <div class="address-block"> <h4>LOWE'S OF ALTAMONTE SPRINGS, FL</h4> <ul class="address"> <li>Store Number: 0604</li> <li>110 N. STATE ROAD 434</li> <li>ALTAMONTE SPRINGS, FL 32714</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 788-4305</li> <li>FAX: (407) 788-1649</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0604&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0604');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult2" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">3</div> <div class="address-block"> <h4>LOWE'S OF APOPKA, FL</h4> <ul class="address"> <li>Store Number: 2673</li> <li>1651 WEST ORANGE BLOSSOM TRAIL</li> <li>APOPKA, FL 32712</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 814-2760</li> <li>FAX: (407) 814-2763</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2673&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2673');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult3" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">4</div> <div class="address-block"> <h4>LOWE'S OF AUBURNDALE, FL</h4> <ul class="address"> <li>Store Number: 2457</li> <li>2301 US HIGHWAY 92 WEST</li> <li>AUBURNDALE, FL 33823</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 551-3070</li> <li>FAX: (863) 551-3073</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2457&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2457');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult4" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">5</div> <div class="address-block"> <h4>LOWE'S OF BARTOW, FL</h4> <ul class="address"> <li>Store Number: 2531</li> <li>425 EAST VAN FLEET DRIVE</li> <li>BARTOW, FL 33830</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 519-4000</li> <li>FAX: (863) 519-4003</li> </ul> </td> <td> <ul> <li>M-FRI 6-9</li><li> SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2531&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2531');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult5" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">6</div> <div class="address-block"> <h4>LOWE'S OF W. BOCA RATON, FL</h4> <ul class="address"> <li>Store Number: 1069</li> <li>21870 STATE ROAD 7</li> <li>BOCA RATON, FL 33428</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (561) 883-1215</li> <li>FAX: (561) 883-1475</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-6</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1069&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1069');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult6" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">7</div> <div class="address-block"> <h4>LOWE'S OF BOYNTON BEACH, FL</h4> <ul class="address"> <li>Store Number: 1111</li> <li>1500 CORPORATE DRIVE</li> <li>BOYNTON BEACH, FL 33426</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (561) 733-1397</li> <li>FAX: (561) 733-3682</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1111&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1111');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult7" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">8</div> <div class="address-block"> <h4>LOWE'S OF BRADENTON, FL</h4> <ul class="address"> <li>Store Number: 0772</li> <li>7395 52ND PLACE EAST</li> <li>BRADENTON, FL 34203</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (941) 756-1822</li> <li>FAX: (941) 756-2136</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0772&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0772');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult8" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">9</div> <div class="address-block"> <h4>LOWE'S OF CENTRAL BRADENTON, FL</h4> <ul class="address"> <li>Store Number: 1843</li> <li>4012 14TH STREET WEST</li> <li>BRADENTON, FL 34205</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (941) 526-1071</li> <li>FAX: (941) 526-1074</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1843&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1843');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult9" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">10</div> <div class="address-block"> <h4>LOWE'S OF BRANDON, FL</h4> <ul class="address"> <li>Store Number: 0573</li> <li>11375 CAUSEWAY BLVD.</li> <li>BRANDON, FL 33511</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 684-3008</li> <li>FAX: (813) 662-9270</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0573&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0573');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult10" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">11</div> <div class="address-block"> <h4>LOWE'S OF E. BRANDON, FL</h4> <ul class="address"> <li>Store Number: 2282</li> <li>1515 EAST BRANDON BOULEVARD</li> <li>BRANDON, FL 33511</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 793-9152</li> <li>FAX: (813) 793-9155</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2282&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2282');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult11" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">12</div> <div class="address-block"> <h4>LOWE'S OF BROOKSVILLE, FL</h4> <ul class="address"> <li>Store Number: 1827</li> <li>7117 BROAD STREET</li> <li>BROOKSVILLE, FL 34601</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 754-6320</li> <li>FAX: (352) 754-6323</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1827&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1827');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult12" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">13</div> <div class="address-block"> <h4>LOWE'S OF CAPE CORAL, FL</h4> <ul class="address"> <li>Store Number: 0592</li> <li>1651 N. E. PINE ISLAND RD.</li> <li>CAPE CORAL, FL 33909</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (239) 573-6377</li> <li>FAX: (239) 573-6399</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0592&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0592');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult13" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">14</div> <div class="address-block"> <h4>LOWE'S OF W. CAPE CORAL, FL</h4> <ul class="address"> <li>Store Number: 2361</li> <li>285 SW 25TH LANE</li> <li>CAPE CORAL, FL 33914</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (239) 458-6440</li> <li>FAX: (239) 458-6443</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2361&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2361');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult14" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">15</div> <div class="address-block"> <h4>LOWE'S OF S. CLEARWATER, FL</h4> <ul class="address"> <li>Store Number: 1714</li> <li>2619 GULF TO BAY BOULEVARD</li> <li>CLEARWATER, FL 33759</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (727) 725-7000</li> <li>FAX: (727) 725-7003</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1714&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1714');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult15" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">16</div> <div class="address-block"> <h4>LOWE'S OF CLEARWATER, FL</h4> <ul class="address"> <li>Store Number: 0771</li> <li>26990 NORTH HWY 19</li> <li>CLEARWATER, FL 33761</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (727) 724-3557</li> <li>FAX: (727) 712-0361</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0771&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0771');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult16" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">17</div> <div class="address-block"> <h4>LOWE'S OF CLERMONT, FL</h4> <ul class="address"> <li>Store Number: 2437</li> <li>1501 SANDY GROVE AVENUE</li> <li>CLERMONT, FL 34711</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 242-6960</li> <li>FAX: (352) 242-6963</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2437&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2437');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult17" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">18</div> <div class="address-block"> <h4>LOWE'S OF S.W. ORLANDO, FL</h4> <ul class="address"> <li>Store Number: 2438</li> <li>16905 CAGAN CROSSINGS BOULEVARD</li> <li>CLERMONT, FL 34714</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 241-0121</li> <li>FAX: (352) 243-0207</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2438&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2438');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult18" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">19</div> <div class="address-block"> <h4>LOWE'S OF CORAL SPRINGS, FL</h4> <ul class="address"> <li>Store Number: 0704</li> <li>3651 TURTLE CREEK DRIVE</li> <li>CORAL SPRINGS, FL 33067</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (954) 346-3993</li> <li>FAX: (954) 346-3958</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0704&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0704');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult19" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">20</div> <div class="address-block"> <h4>LOWE'S OF CRESTVIEW, FL</h4> <ul class="address"> <li>Store Number: 1782</li> <li>298 RASBERRY ROAD</li> <li>CRESTVIEW, FL 32536</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 423-7400</li> <li>FAX: (850) 423-7403</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1782&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1782');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult20" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">21</div> <div class="address-block"> <h4>LOWE'S OF DEFUNIAK SPRINGS, FL</h4> <ul class="address"> <li>Store Number: 2886</li> <li>135 BUSINESS PARK ROAD</li> <li>DEFUNIAK SPRINGS, FL 32435</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 951-6060</li> <li>FAX: (850) 951-6063</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2886&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2886');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult21" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">22</div> <div class="address-block"> <h4>LOWE'S OF DELAND, FL</h4> <ul class="address"> <li>Store Number: 1945</li> <li>303 INTERNATIONAL SPEEDWAY BLVD</li> <li>DELAND, FL 32724</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 785-2430</li> <li>FAX: (386) 785-2433</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1945&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1945');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult22" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">23</div> <div class="address-block"> <h4>LOWE'S OF DELTONA, FL</h4> <ul class="address"> <li>Store Number: 2364</li> <li>2170 HOWLAND BOULEVARD</li> <li>DELTONA, FL 32738</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 960-9031</li> <li>FAX: (386) 960-9034</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2364&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2364');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult23" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">24</div> <div class="address-block"> <h4>LOWE'S OF ESTERO, FL</h4> <ul class="address"> <li>Store Number: 2362</li> <li>10070 ESTERO TOWN COMMONS PLACE</li> <li>ESTERO, FL 33928</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (239) 494-9000</li> <li>FAX: (239) 494-9003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2362&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2362');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult24" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">25</div> <div class="address-block"> <h4>LOWE'S OF FERN PARK, FL</h4> <ul class="address"> <li>Store Number: 2652</li> <li>6735 SOUTH US HIGHWAY 17-92</li> <li>FERN PARK, FL 32730</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (321) 207-2860</li> <li>FAX: (321) 207-2863</li> </ul> </td> <td> <ul> <li>M-FRI 6-9</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2652&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2652');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult25" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">26</div> <div class="address-block"> <h4>LOWE'S OF FERNANDINA BEACH, FL</h4> <ul class="address"> <li>Store Number: 1647</li> <li>474283 EAST SR 200</li> <li>FERNANDINA BEACH, FL 32034</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 277-5000</li> <li>FAX: (904) 277-5004</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1647&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1647');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult26" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">27</div> <div class="address-block"> <h4>LOWE'S OF FT. MYERS, FL</h4> <ul class="address"> <li>Store Number: 0582</li> <li>14960 S. TAMIAMI TRAIL</li> <li>FORT MYERS, FL 33912</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (239) 433-9255</li> <li>FAX: (239) 433-9268</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0582&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0582');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult27" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">28</div> <div class="address-block"> <h4>LOWE'S OF FT. WALTON BEACH, FL</h4> <ul class="address"> <li>Store Number: 0479</li> <li>774 BEAL PARKWAY</li> <li>FORT WALTON BEACH, FL 32547</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 863-0900</li> <li>FAX: (850) 863-3101</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0479&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0479');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult28" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">29</div> <div class="address-block"> <h4>LOWE'S OF N.E. FT. MYERS, FL</h4> <ul class="address"> <li>Store Number: 2221</li> <li>8040 DANI DRIVE</li> <li>FT. MYERS, FL 33966</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (239) 896-1940</li> <li>FAX: (239) 896-1943</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2221&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2221');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult29" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">30</div> <div class="address-block"> <h4>LOWE'S OF S.W. GAINESVILLE, FL</h4> <ul class="address"> <li>Store Number: 0418</li> <li>3500 SW ARCHER ROAD</li> <li>GAINESVILLE, FL 32608</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 376-9900</li> <li>FAX: (352) 335-0125</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0418&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0418');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult30" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">31</div> <div class="address-block"> <h4>LOWE'S OF N.E. GAINESVILLE, FL</h4> <ul class="address"> <li>Store Number: 2365</li> <li>2564 N.W. 13TH STREET</li> <li>GAINESVILLE, FL 32609</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 367-8900</li> <li>FAX: (352) 367-8903</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2365&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2365');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult31" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">32</div> <div class="address-block"> <h4>LOWE'S OF GULF BREEZE, FL</h4> <ul class="address"> <li>Store Number: 1073</li> <li>1421 TIGER PARK LANE</li> <li>GULF BREEZE, FL 32563</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 932-0762</li> <li>FAX: (850) 932-1257</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1073&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1073');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult32" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">33</div> <div class="address-block"> <h4>LOWE'S OF HAINES CITY, FL</h4> <ul class="address"> <li>Store Number: 2702</li> <li>37051 US HIGHWAY 27</li> <li>HAINES CITY, FL 33844</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 422-9116</li> <li>FAX: (863) 422-9133</li> </ul> </td> <td> <ul> <li>M-FRI 6-9</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2702&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2702');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult33" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">34</div> <div class="address-block"> <h4>LOWE'S OF HIALEAH, FL</h4> <ul class="address"> <li>Store Number: 2254</li> <li>1650 WEST 37TH STREET</li> <li>HIALEAH, FL 33012</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (305) 820-4192</li> <li>FAX: (305) 820-4195</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2254&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2254');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult34" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">35</div> <div class="address-block"> <h4>LOWE'S OF N.W. MIAMI-DADE, FL</h4> <ul class="address"> <li>Store Number: 1841</li> <li>17460 NORTHWEST 57TH AVENUE</li> <li>HIALEAH, FL 33015</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (305) 817-6570</li> <li>FAX: (305) 817-6573</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1841&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1841');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult35" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">36</div> <div class="address-block"> <h4>LOWE'S OF HOMESTEAD, FL</h4> <ul class="address"> <li>Store Number: 2707</li> <li>1850 NE CAMPBELL DRIVE</li> <li>HOMESTEAD, FL 33033</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (305) 508-3020</li> <li>FAX: (305) 508-3023</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2707&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2707');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult36" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">37</div> <div class="address-block"> <h4>LOWE'S OF INDIAN HARBOUR BEACH, FL</h4> <ul class="address"> <li>Store Number: 2351</li> <li>1934 HIGHWAY A1A</li> <li>INDIAN HARBOUR BEACH, FL 32937</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (321) 779-7960</li> <li>FAX: (321) 779-7963</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2351&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2351');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult37" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">38</div> <div class="address-block"> <h4>LOWE'S OF INVERNESS, FL</h4> <ul class="address"> <li>Store Number: 1853</li> <li>2301 EAST GULF TO LAKE HIGHWAY</li> <li>INVERNESS, FL 34453</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 860-5800</li> <li>FAX: (352) 860-5803</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1853&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1853');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult38" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">39</div> <div class="address-block"> <h4>LOWE'S OF W. JACKSONVILLE, FL</h4> <ul class="address"> <li>Store Number: 1691</li> <li>5155 LENOX AVENUE</li> <li>JACKSONVILLE, FL 32205</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 486-1260</li> <li>FAX: (904) 486-1263</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI 6-10</li><li> SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1691&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1691');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult39" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">40</div> <div class="address-block"> <h4>LOWE'S OF N. JACKSONVILLE, FL</h4> <ul class="address"> <li>Store Number: 2472</li> <li>13125 CITY SQUARE DRIVE</li> <li>JACKSONVILLE, FL 32218</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 696-4063</li> <li>FAX: (904) 696-4066</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2472&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2472');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult40" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">41</div> <div class="address-block"> <h4>LOWE'S OF S. JACKSONVILLE, FL</h4> <ul class="address"> <li>Store Number: 0502</li> <li>4040 OLDFIELD CROSSING DRIVE</li> <li>JACKSONVILLE, FL 32223</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 886-7112</li> <li>FAX: (904) 886-2657</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0502&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0502');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult41" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">42</div> <div class="address-block"> <h4>LOWE'S OF E. JACKSONVILLE, FL</h4> <ul class="address"> <li>Store Number: 0503</li> <li>9525 REGENCY SQUARE BLVD, NO.</li> <li>JACKSONVILLE, FL 32225</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 855-8088</li> <li>FAX: (904) 855-0415</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0503&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0503');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult42" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">43</div> <div class="address-block"> <h4>LOWE'S OF N.E. JACKSONVILLE, FL</h4> <ul class="address"> <li>Store Number: 1699</li> <li>12945 ATLANTIC BOULEVARD</li> <li>JACKSONVILLE, FL 32225</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 486-4701</li> <li>FAX: (904) 486-4704</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI 7-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1699&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1699');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult43" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">44</div> <div class="address-block"> <h4>LOWE'S OF S. CENTRAL JACKSONVILLE, FL</h4> <ul class="address"> <li>Store Number: 1842</li> <li>8054 PHILIPS HIGHWAY</li> <li>JACKSONVILLE, FL 32256</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 828-5170</li> <li>FAX: (904) 828-5173</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1842&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1842');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult44" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">45</div> <div class="address-block"> <h4>LOWE'S OF JENSEN BEACH, FL</h4> <ul class="address"> <li>Store Number: 0703</li> <li>4100 NORTHWEST FEDERAL HIGHWAY</li> <li>JENSEN BEACH, FL 34957</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (772) 692-7745</li> <li>FAX: (772) 692-7753</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0703&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0703');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult45" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">46</div> <div class="address-block"> <h4>LOWE'S OF N. KISSIMMEE, FL</h4> <ul class="address"> <li>Store Number: 1652</li> <li>1300 OSCEOLA PARKWAY WEST</li> <li>KISSIMMEE, FL 34741</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 846-1292</li> <li>FAX: (407) 846-3597</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1652&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1652');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult46" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">47</div> <div class="address-block"> <h4>LOWE'S OF POINCIANA, FL</h4> <ul class="address"> <li>Store Number: 2363</li> <li>4420 PLEASANT HILL ROAD</li> <li>KISSIMMEE, FL 34746</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 452-1100</li> <li>FAX: (407) 452-1103</li> </ul> </td> <td> <ul> <li>M-FRI 6-9</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2363&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2363');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult47" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">48</div> <div class="address-block"> <h4>LOWE'S OF LADY LAKE, FL</h4> <ul class="address"> <li>Store Number: 1685</li> <li>13705 US 441</li> <li>LADY LAKE, FL 32159</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 259-6500</li> <li>FAX: (352) 259-6503</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1685&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1685');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult48" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">49</div> <div class="address-block"> <h4>LOWE'S OF LAKE CITY, FL</h4> <ul class="address"> <li>Store Number: 0179</li> <li>3463 NW BASCOM NORRIS DRIVE</li> <li>LAKE CITY, FL 32055</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 719-6622</li> <li>FAX: (386) 719-2058</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0179&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0179');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult49" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">50</div> <div class="address-block"> <h4>LOWE'S OF LAKE PARK, FL</h4> <ul class="address"> <li>Store Number: 1720</li> <li>401 NORTH CONGRESS AVENUE</li> <li>LAKE PARK, FL 33403</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (561) 207-9037</li> <li>FAX: (561) 207-9040</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1720&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1720');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult50" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">51</div> <div class="address-block"> <h4>LOWE'S OF LAKE WALES, FL</h4> <ul class="address"> <li>Store Number: 2240</li> <li>23227 US HIGHWAY 27</li> <li>LAKE WALES, FL 33859</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 734-5000</li> <li>FAX: (863) 734-5003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2240&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2240');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult51" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">52</div> <div class="address-block"> <h4>LOWE'S OF LAKELAND, FL</h4> <ul class="address"> <li>Store Number: 0783</li> <li>3525 LAKELAND HIGHLANDS ROAD</li> <li>LAKELAND, FL 33803</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 701-9800</li> <li>FAX: (863) 701-2921</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0783&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0783');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult52" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">53</div> <div class="address-block"> <h4>LOWE'S OF N. LAKELAND, FL</h4> <ul class="address"> <li>Store Number: 2253</li> <li>3600 NORTH ROAD 98</li> <li>LAKELAND, FL 33809</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 513-1161</li> <li>FAX: (863) 513-1164</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2253&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2253');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult53" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">54</div> <div class="address-block"> <h4>LOWE'S OF LARGO, FL</h4> <ul class="address"> <li>Store Number: 1701</li> <li>11101 ULMERTON ROAD</li> <li>LARGO, FL 33778</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (727) 588-1200</li> <li>FAX: (727) 588-1203</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1701&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1701');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult54" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">55</div> <div class="address-block"> <h4>LOWE'S OF LAKE COUNTY, FL</h4> <ul class="address"> <li>Store Number: 0569</li> <li>9540 US HWY 441</li> <li>LEESBURG, FL 34788</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 365-2223</li> <li>FAX: (352) 365-2134</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0569&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0569');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult55" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">56</div> <div class="address-block"> <h4>LOWE'S OF LIVE OAK, FL</h4> <ul class="address"> <li>Store Number: 2462</li> <li>208 72ND TRACE</li> <li>LIVE OAK, FL 32064</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 330-5760</li> <li>FAX: (386) 330-5763</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2462&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2462');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult56" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">57</div> <div class="address-block"> <h4>LOWE'S OF MARIANNA, FL</h4> <ul class="address"> <li>Store Number: 1924</li> <li>4860 MALLOY PLAZA</li> <li>MARIANNA, FL 32448</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 526-6440</li> <li>FAX: (850) 526-6443</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1924&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1924');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult57" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">58</div> <div class="address-block"> <h4>LOWE'S OF MELBOURNE, FL</h4> <ul class="address"> <li>Store Number: 0696</li> <li>2150 MINTON ROAD</li> <li>MELBOURNE, FL 32904</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (321) 953-2880</li> <li>FAX: (321) 953-6739</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0696&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0696');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult58" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">59</div> <div class="address-block"> <h4>LOWE'S OF KENDALL, FL</h4> <ul class="address"> <li>Store Number: 2904</li> <li>9191 SW 137TH AVENUE</li> <li>MIAMI, FL 33186</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (786) 319-5126</li> <li>FAX: (786) 319-5129</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2904&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2904');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult59" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">60</div> <div class="address-block"> <h4>LOWE'S OF MIDDLEBURG, FL</h4> <ul class="address"> <li>Store Number: 2970</li> <li>1700 BLANDING BOULEVARD</li> <li>MIDDLEBURG, FL 32068</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 589-3022</li> <li>FAX: (904) 589-3025</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2970&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2970');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult60" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">61</div> <div class="address-block"> <h4>LOWE'S OF MT. DORA, FL</h4> <ul class="address"> <li>Store Number: 2577</li> <li>18795 US HIGHWAY 441</li> <li>MT. DORA, FL 32757</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 385-3600</li> <li>FAX: (352) 385-3603</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2577&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2577');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult61" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">62</div> <div class="address-block"> <h4>LOWE'S OF NAPLES, FL</h4> <ul class="address"> <li>Store Number: 0613</li> <li>6415 NAPLES BLVD.</li> <li>NAPLES, FL 34109</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (239) 596-2570</li> <li>FAX: (239) 596-2587</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0613&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0613');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult62" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">63</div> <div class="address-block"> <h4>LOWE'S OF PORT RICHEY, FL</h4> <ul class="address"> <li>Store Number: 0724</li> <li>8312 LITTLE ROAD</li> <li>NEW PORT RICHEY, FL 34654</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (727) 859-9450</li> <li>FAX: (727) 859-9467</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0724&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0724');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult63" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">64</div> <div class="address-block"> <h4>LOWE'S OF NORTH PORT, FL</h4> <ul class="address"> <li>Store Number: 2727</li> <li>5601 TUSCOLA BOULEVARD</li> <li>NORTH PORT, FL 34287</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (941) 257-2200</li> <li>FAX: (941) 257-2203</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2727&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2727');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult64" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">65</div> <div class="address-block"> <h4>LOWE'S OF OAKLAND PARK, FL</h4> <ul class="address"> <li>Store Number: 0754</li> <li>1001 WEST OAKLAND PARK BLVD.</li> <li>OAKLAND PARK, FL 33311</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (954) 630-9550</li> <li>FAX: (954) 630-3281</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0754&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0754');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult65" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">66</div> <div class="address-block"> <h4>LOWE'S OF E. OCALA, FL</h4> <ul class="address"> <li>Store Number: 1855</li> <li>4600 EAST SILVER SPRINGS BOULEVARD</li> <li>OCALA, FL 34470</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 732-1944</li> <li>FAX: (352) 732-1947</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1855&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1855');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult66" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">67</div> <div class="address-block"> <h4>LOWE'S OF OCALA, FL</h4> <ul class="address"> <li>Store Number: 0440</li> <li>3535 SW 36TH AVENUE</li> <li>OCALA, FL 34474</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 237-7600</li> <li>FAX: (352) 873-4152</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0440&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0440');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult67" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">68</div> <div class="address-block"> <h4>LOWE'S OF S.W. MARION COUNTY, FL</h4> <ul class="address"> <li>Store Number: 2753</li> <li>7575 SW 90TH STREET</li> <li>OCALA, FL, FL 34476</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 861-3900</li> <li>FAX: (352) 861-3903</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2753&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2753');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult68" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">69</div> <div class="address-block"> <h4>LOWE'S OF ORANGE CITY, FL</h4> <ul class="address"> <li>Store Number: 0467</li> <li>901 SAXON BLVD.</li> <li>ORANGE CITY, FL 32763</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 774-7000</li> <li>FAX: (386) 774-0396</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0467&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0467');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult69" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">70</div> <div class="address-block"> <h4>LOWE'S OF ORANGE PARK, FL</h4> <ul class="address"> <li>Store Number: 1897</li> <li>2285 KINGSLEY AVENUE</li> <li>ORANGE PARK, FL 32073</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (904) 682-7667</li> <li>FAX: (904) 682-7670</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI 6-10</li><li> SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1897&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1897');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult70" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">71</div> <div class="address-block"> <h4>LOWE'S OF W. ORLANDO, FL</h4> <ul class="address"> <li>Store Number: 0642</li> <li>8700 W. COLONIAL DRIVE</li> <li>ORLANDO, FL 32818</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 532-6884</li> <li>FAX: (407) 532-3119</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0642&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0642');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult71" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">72</div> <div class="address-block"> <h4>LOWE'S OF S. ORLANDO, FL</h4> <ul class="address"> <li>Store Number: 0670</li> <li>2800 WEST SANDLAKE ROAD</li> <li>ORLANDO, FL 32819</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 351-4667</li> <li>FAX: (407) 352-0783</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0670&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0670');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult72" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">73</div> <div class="address-block"> <h4>LOWE'S OF S.E. ORLANDO, FL</h4> <ul class="address"> <li>Store Number: 1598</li> <li>3500 SOUTH SEMORAN BOULEVARD</li> <li>ORLANDO, FL 32822</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 382-2211</li> <li>FAX: (407) 384-3457</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1598&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1598');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult73" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">74</div> <div class="address-block"> <h4>LOWE'S OF WATERFORD LAKE, FL</h4> <ul class="address"> <li>Store Number: 1161</li> <li>12200 LAKE UNDERHILL ROAD</li> <li>ORLANDO, FL 32825</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 281-0177</li> <li>FAX: (407) 281-8386</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1161&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1161');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult74" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">75</div> <div class="address-block"> <h4>LOWE'S OF ORMOND BEACH, FL</h4> <ul class="address"> <li>Store Number: 0742</li> <li>1340 WEST GRANADA BLVD.</li> <li>ORMOND BEACH, FL 32174</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 671-9112</li> <li>FAX: (386) 671-9858</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0742&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0742');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult75" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">76</div> <div class="address-block"> <h4>LOWE'S OF OVIEDO, FL</h4> <ul class="address"> <li>Store Number: 1140</li> <li>1155 VIDINA PLACE</li> <li>OVIEDO, FL 32765</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 977-9599</li> <li>FAX: (407) 977-8605</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1140&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1140');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult76" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">77</div> <div class="address-block"> <h4>LOWE'S OF MILTON, FL</h4> <ul class="address"> <li>Store Number: 2715</li> <li>5143 HIGHWAY 90</li> <li>PACE, FL 32571</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 463-9000</li> <li>FAX: (850) 463-9003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2715&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2715');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult77" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">78</div> <div class="address-block"> <h4>LOWE'S OF PALATKA, FL</h4> <ul class="address"> <li>Store Number: 1820</li> <li>500 NORTH STATE ROAD 19</li> <li>PALATKA, FL 32177</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 326-5340</li> <li>FAX: (386) 326-5343</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1820&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1820');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult78" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">79</div> <div class="address-block"> <h4>LOWE'S OF PALM BAY, FL</h4> <ul class="address"> <li>Store Number: 2644</li> <li>1166 MALABAR ROAD</li> <li>PALM BAY, FL 32907</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (321) 327-6906</li> <li>FAX: (321) 327-6909</li> </ul> </td> <td> <ul> <li>M-FRU 6-9</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2644&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2644');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult79" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">80</div> <div class="address-block"> <h4>LOWE'S OF PALM COAST, FL</h4> <ul class="address"> <li>Store Number: 2241</li> <li>315 CYPRESS EDGE DRIVE</li> <li>PALM COAST, FL 32164</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 585-6000</li> <li>FAX: (386) 585-6003</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2241&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2241');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult80" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">81</div> <div class="address-block"> <h4>LOWE'S OF PANAMA CITY, FL</h4> <ul class="address"> <li>Store Number: 0448</li> <li>300 EAST 23RD STREET</li> <li>PANAMA CITY, FL 32405</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 913-1600</li> <li>FAX: (850) 763-9205</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0448&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0448');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult81" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">82</div> <div class="address-block"> <h4>LOWE'S OF PANAMA CITY BEACH, FL</h4> <ul class="address"> <li>Store Number: 2367</li> <li>11751 PANAMA CITY BEACH PARKWAY</li> <li>PANAMA CITY BEACH, FL 32407</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 636-3920</li> <li>FAX: (850) 636-3923</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2367&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2367');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult82" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">83</div> <div class="address-block"> <h4>LOWE'S OF PEMBROKE PINES, FL</h4> <ul class="address"> <li>Store Number: 1681</li> <li>130 NORTH UNIVERSITY DRIVE</li> <li>PEMBROKE PINES, FL 33024</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (954) 624-1900</li> <li>FAX: (954) 624-1903</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1681&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1681');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult83" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">84</div> <div class="address-block"> <h4>LOWE'S OF PENSACOLA, FL</h4> <ul class="address"> <li>Store Number: 0438</li> <li>1201 AIRPORT BLVD</li> <li>PENSACOLA, FL 32504</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 857-7900</li> <li>FAX: (850) 857-7914</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0438&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0438');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult84" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">85</div> <div class="address-block"> <h4>LOWE'S OF S.W. PENSACOLA, FL</h4> <ul class="address"> <li>Store Number: 1142</li> <li>4301 WEST FAIRFIELD DRIVE</li> <li>PENSACOLA, FL 32505</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 453-0159</li> <li>FAX: (850) 453-1464</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1142&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1142');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult85" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">86</div> <div class="address-block"> <h4>LOWE'S OF ENSLEY, FL</h4> <ul class="address"> <li>Store Number: 2788</li> <li>777 WEST NINE MILE ROAD</li> <li>PENSACOLA, FL 32534</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 316-3359</li> <li>FAX: (850) 316-3362</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2788&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2788');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult86" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">87</div> <div class="address-block"> <h4>LOWE'S OF PINELLAS PARK, FL</h4> <ul class="address"> <li>Store Number: 1190</li> <li>7301 PARK BLVD.</li> <li>PINELLAS PARK, FL 33781</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (727) 547-9335</li> <li>FAX: (727) 547-9895</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1190&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1190');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult87" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">88</div> <div class="address-block"> <h4>LOWE'S OF PLANT CITY, FL</h4> <ul class="address"> <li>Store Number: 1592</li> <li>2801 JAMES L. REDMAN PARKWAY</li> <li>PLANT CITY, FL 33566</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 659-4040</li> <li>FAX: (813) 659-4043</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1592&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1592');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult88" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">89</div> <div class="address-block"> <h4>LOWE'S OF POMPANO BEACH, FL</h4> <ul class="address"> <li>Store Number: 1792</li> <li>1851 NORTH FEDERAL HIGHWAY</li> <li>POMPANO BEACH, FL 33062</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (954) 545-7381</li> <li>FAX: (954) 545-7384</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1792&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1792');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult89" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">90</div> <div class="address-block"> <h4>LOWE'S OF PORT CHARLOTTE, FL</h4> <ul class="address"> <li>Store Number: 1732</li> <li>2000 TAMIAMI TRAIL</li> <li>PORT CHARLOTTE, FL 33948</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (941) 421-1041</li> <li>FAX: (941) 421-1044</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1732&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1732');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult90" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">91</div> <div class="address-block"> <h4>LOWE'S OF PORT ORANGE, FL</h4> <ul class="address"> <li>Store Number: 0741</li> <li>1751 DUNLAWTON AVENUE</li> <li>PORT ORANGE, FL 32127</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (386) 788-8566</li> <li>FAX: (386) 788-5365</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0741&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0741');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult91" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">92</div> <div class="address-block"> <h4>LOWE'S OF ST. LUCIE WEST, FL</h4> <ul class="address"> <li>Store Number: 2349</li> <li>701 NW ST. LUCIE WEST BOULEVARD</li> <li>PORT ST. LUCIE, FL 34986</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (772) 204-7160</li> <li>FAX: (772) 204-7163</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2349&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2349');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult92" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">93</div> <div class="address-block"> <h4>LOWE'S OF RIVERVIEW, FL</h4> <ul class="address"> <li>Store Number: 1911</li> <li>10425 GIBSONTON DRIVE</li> <li>RIVERVIEW, FL 33578</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 313-1424</li> <li>FAX: (813) 313-1427</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1911&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1911');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult93" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">94</div> <div class="address-block"> <h4>LOWE'S OF ROCKLEDGE, FL</h4> <ul class="address"> <li>Store Number: 1506</li> <li>3790 FISKE BLVD.</li> <li>ROCKLEDGE, FL 32955</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (321) 631-0696</li> <li>FAX: (321) 639-8279</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1506&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1506');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult94" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">95</div> <div class="address-block"> <h4>LOWE'S OF ROYAL PALM BEACH, FL</h4> <ul class="address"> <li>Store Number: 0654</li> <li>103 SOUTH STATE ROAD 7</li> <li>ROYAL PALM BEACH, FL 33411</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (561) 795-3808</li> <li>FAX: (561) 795-9726</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0654&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0654');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult95" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">96</div> <div class="address-block"> <h4>LOWE'S OF ST. PETERSBURG, FL</h4> <ul class="address"> <li>Store Number: 0740</li> <li>2365 25TH STREET NORTH</li> <li>SAINT PETERSBURG, FL 33713</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (727) 822-8220</li> <li>FAX: (727) 820-9210</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0740&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0740');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult96" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">97</div> <div class="address-block"> <h4>LOWE'S OF SANFORD, FL</h4> <ul class="address"> <li>Store Number: 1657</li> <li>3780 ORLANDO DRIVE</li> <li>SANFORD, FL 32773</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 430-4060</li> <li>FAX: (407) 430-4063</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1657&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1657');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult97" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">98</div> <div class="address-block"> <h4>LOWE'S OF N.E. SARASOTA, FL</h4> <ul class="address"> <li>Store Number: 1935</li> <li>5750 FRUITVILLE ROAD</li> <li>SARASOTA, FL 34232</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (941) 961-6261</li> <li>FAX: (941) 961-6264</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1935&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1935');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult98" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">99</div> <div class="address-block"> <h4>LOWE'S OF SEBRING, FL</h4> <ul class="address"> <li>Store Number: 2224</li> <li>2050 US 27 NORTH</li> <li>SEBRING, FL 33870</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 451-4000</li> <li>FAX: (863) 451-4003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2224&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2224');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult99" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">100</div> <div class="address-block"> <h4>LOWE'S OF W. DAVIE, FL</h4> <ul class="address"> <li>Store Number: 0725</li> <li>6600 DYKES ROAD</li> <li>SOUTHWEST RANCHES, FL 33331</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (954) 680-8667</li> <li>FAX: (954) 680-6435</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0725&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0725');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult100" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">101</div> <div class="address-block"> <h4>LOWE'S OF SPRING HILL, FL</h4> <ul class="address"> <li>Store Number: 1605</li> <li>4780 COMMERCIAL WAY</li> <li>SPRING HILL, FL 34606</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (352) 592-0176</li> <li>FAX: (352) 592-6517</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1605&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1605');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult101" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">102</div> <div class="address-block"> <h4>LOWE'S OF STUART, FL</h4> <ul class="address"> <li>Store Number: 1109</li> <li>3620 SOUTHEAST FEDERAL HIGHWAY</li> <li>STUART, FL 34997</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (772) 283-4229</li> <li>FAX: (772) 223-4168</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1109&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1109');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult102" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">103</div> <div class="address-block"> <h4>LOWE'S OF SUNRISE, FL</h4> <ul class="address"> <li>Store Number: 1113</li> <li>8050 WEST OAKLAND PARK BLVD.</li> <li>SUNRISE, FL 33351</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (954) 578-0246</li> <li>FAX: (954) 578-8505</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1113&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1113');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult103" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">104</div> <div class="address-block"> <h4>LOWE'S OF N.W. TALLAHASSEE, FL</h4> <ul class="address"> <li>Store Number: 0716</li> <li>5500 COMMONWEALTH BLVD.</li> <li>TALLAHASSEE, FL 32303</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 575-1435</li> <li>FAX: (850) 575-6240</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0716&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0716');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult104" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">105</div> <div class="address-block"> <h4>LOWE'S OF N.E. TALLAHASSEE, FL</h4> <ul class="address"> <li>Store Number: 0417</li> <li>2121 N.E. CAPITOL CIRCLE</li> <li>TALLAHASSEE, FL 32308</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (850) 386-5022</li> <li>FAX: (850) 385-7581</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0417&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0417');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult105" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">106</div> <div class="address-block"> <h4>LOWE'S OF S. TAMPA, FL</h4> <ul class="address"> <li>Store Number: 1629</li> <li>4210 SOUTH DALE MABRY HIGHWAY</li> <li>TAMPA, FL 33611</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 313-5040</li> <li>FAX: (813) 313-5043</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1629&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1629');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult106" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">107</div> <div class="address-block"> <h4>LOWE'S OF N. TAMPA, FL</h4> <ul class="address"> <li>Store Number: 2360</li> <li>12901 N. DALE MABRY HIGHWAY</li> <li>TAMPA, FL 33618</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 313-1321</li> <li>FAX: (813) 313-1324</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2360&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2360');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult107" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">108</div> <div class="address-block"> <h4>LOWE'S OF CENTRAL TAMPA, FL</h4> <ul class="address"> <li>Store Number: 0564</li> <li>6275 W. WATERS AVENUE</li> <li>TAMPA, FL 33634</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 249-6001</li> <li>FAX: (813) 249-4648</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0564&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0564');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult108" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">109</div> <div class="address-block"> <h4>LOWE'S OF OLDSMAR, FL</h4> <ul class="address"> <li>Store Number: 2639</li> <li>13841 W. HILLSBOROUGH AVENUE</li> <li>TAMPA, FL 33635</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 343-9010</li> <li>FAX: (813) 343-9013</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2639&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2639');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult109" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">110</div> <div class="address-block"> <h4>LOWE'S OF TAMPA PALMS, FL</h4> <ul class="address"> <li>Store Number: 1003</li> <li>6201 COMMERCE PALMS DRIVE</li> <li>TAMPA, FL 33647</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 558-6760</li> <li>FAX: (813) 558-6777</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1003&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1003');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult110" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">111</div> <div class="address-block"> <h4>LOWE'S OF TITUSVILLE, FL</h4> <ul class="address"> <li>Store Number: 0504</li> <li>4660 SOUTH STREET</li> <li>TITUSVILLE, FL 32780</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (321) 267-9221</li> <li>FAX: (321) 267-5980</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0504&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0504');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult111" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">112</div> <div class="address-block"> <h4>LOWE'S OF VENICE, FL</h4> <ul class="address"> <li>Store Number: 1683</li> <li>1745 TAMIAMI TRAIL SOUTH</li> <li>VENICE, FL 34293</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (941) 525-1000</li> <li>FAX: (941) 525-1003</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1683&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1683');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult112" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">113</div> <div class="address-block"> <h4>LOWE'S OF VERO BEACH, FL</h4> <ul class="address"> <li>Store Number: 0240</li> <li>6110 20TH STREET</li> <li>VERO BEACH, FL 32966</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (772) 564-6955</li> <li>FAX: (772) 564-6930</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0240&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0240');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult113" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">114</div> <div class="address-block"> <h4>LOWE'S OF WEST PALM BEACH, FL</h4> <ul class="address"> <li>Store Number: 1962</li> <li>4701 OKEECHOBEE BOULEVARD</li> <li>WEST PALM BEACH, FL 33417</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (561) 471-4828</li> <li>FAX: (561) 471-4831</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1962&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1962');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult114" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">115</div> <div class="address-block"> <h4>LOWE'S OF WINTER GARDEN, FL</h4> <ul class="address"> <li>Store Number: 2651</li> <li>3391 DANIELS ROAD</li> <li>WINTER GARDEN, FL 34787</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (407) 905-3900</li> <li>FAX: (407) 905-3903</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2651&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2651');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult115" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">116</div> <div class="address-block"> <h4>LOWE'S OF WINTER HAVEN, FL</h4> <ul class="address"> <li>Store Number: 1079</li> <li>700 3RD STREET S.W. / 490 CITI CENTRE</li> <li>WINTER HAVEN, FL 33880</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (863) 299-2819</li> <li>FAX: (863) 401-2620</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1079&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1079');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult116" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">117</div> <div class="address-block"> <h4>LOWE'S OF ZEPHYRHILLS, FL</h4> <ul class="address"> <li>Store Number: 1854</li> <li>7921 GALL BOULEVARD</li> <li>ZEPHYRHILLS, FL 33541</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (813) 838-9000</li> <li>FAX: (813) 838-9003</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1854&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1854');"><span>Shop This Store</span></a> </td> </tr>
+ </table> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px"> <tr> <td alight="left"> <span id="kw_page_links1"> </span> </td> <td align="right"> <form id="kwresults_pp_form1"> View <select id="kwresults_pp_select1"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table> </div> 
+	    <script type="text/javascript">
+			KWResults = new kwresults_pager();
+			KWResults.init_results();
+			KWResults.show_page(0);
+		</script>
+	</div>
+	<div style="margin-top:10px; clear: both;"></div>
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

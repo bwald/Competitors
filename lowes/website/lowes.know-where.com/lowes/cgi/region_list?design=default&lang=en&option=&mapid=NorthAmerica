@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title></title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+	<h1 id="page-header">Find Store</h1><div class="store-locator-search-box">	<div class="content" style="width: 540px;">	<div class="search-nav">		<a href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">Quick Find</a> &bull; Browse by State/Province &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a>	</div><br/><strong>Canada</strong><br>
+<ul class="multiple_results first">
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?country=CA&region=ON&design=default&lang=en&option=&mapid=NorthAmerica">Ontario</a></li>
+</ul><br class="clear"><br/>
+<strong>United States</strong><br/>
+<ul class="multiple_results first">	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=AL&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Alabama</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=AK&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Alaska</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=AZ&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Arizona</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=AR&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Arkansas</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=CA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>California</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=CO&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Colorado</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=CT&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Connecticut</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=DE&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Delaware</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=FL&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Florida</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=GA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Georgia</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=HI&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Hawaii</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=ID&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Idaho</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=IL&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Illinois</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=IN&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Indiana</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=IA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Iowa</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=KS&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Kansas</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=KY&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Kentucky</nobr></a></li>
+</ul><ul class="multiple_results">
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=LA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Louisiana</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=ME&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Maine</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MD&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Maryland</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Massachusetts</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MI&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Michigan</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MN&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Minnesota</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MS&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Mississippi</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MO&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Missouri</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=MT&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Montana</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NE&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Nebraska</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NV&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Nevada</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NH&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>New Hampshire</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NJ&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>New Jersey</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NM&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>New Mexico</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NY&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>New York</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=NC&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>North Carolina</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=ND&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>North Dakota</nobr></a></li>
+</ul><ul class="multiple_results">
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=OH&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Ohio</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=OK&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Oklahoma</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=OR&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Oregon</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=PA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Pennsylvania</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=RI&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Rhode Island</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=SC&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>South Carolina</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=SD&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>South Dakota</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=TN&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Tennessee</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=TX&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Texas</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=UT&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Utah</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=VT&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Vermont</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=VA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Virginia</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=WA&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Washington</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=WV&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>West Virginia</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=WI&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Wisconsin</nobr></a></li>
+	<li><a href="http://lowes.know-where.com/lowes/cgi/region?all=true&country=US&region=WY&design=default&lang=en&option=&mapid=NorthAmerica"><nobr>Wyoming</nobr></a></li>
+</ul><br class="clear">
+
+</div><div class="store-locator-search-box-bottom"></div></div><br class="clear">
+
+<br/><p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+

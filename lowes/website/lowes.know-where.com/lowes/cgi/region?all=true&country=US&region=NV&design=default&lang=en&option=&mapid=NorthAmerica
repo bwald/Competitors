@@ -1,0 +1,297 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Improving Home Improvement : Store Locator</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "NV";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+	<li id="kw_crumb_top" class="kw_crumb_past"><A href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">New Search</A>&gt;</li>
+
+
+
+
+	<li id="kw_crumb_region" class="kw_crumb_current">Nevada </li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection" onsubmit="javascript:clear_kwplace()">
+	<INPUT type=hidden name=state-map value="NV">
+	
+	
+
+<script><!--
+function clear_kwplace() {
+        var f = document.kwform;
+        if(f.region){
+			f.region.value = '';
+		}
+        if (f.place.value == "Street Address, City, State/Province, ZIP/Postal Code, or Store Number") {
+                f.place.value = "";
+        }
+}
+-->
+</script>
+<p>
+
+
+
+
+
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="mapid"  VALUE="NorthAmerica">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="lang"   VALUE="en">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="design" VALUE="default">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <INPUT type="HIDDEN" name="country" value="US">
+        <INPUT type="HIDDEN" name="region_name" value="Nevada">
+
+
+
+
+
+
+<input name="region" type="hidden" value="NV">
+
+<div class="store-locator-search-box">
+		<div class="content">
+			<div class="search-nav">Quick Find &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a></div>
+			<fieldset>
+			<ol>
+
+				<li>
+					<div class="form-input-block">
+						<input label="Find Store" class="xlarge" type="text" name="place" id="store-location" value="Street Address, City, State/Province, ZIP/Postal Code, or Store Number" onfocus="clear_kwplace();" onblur="if(value==''){value='Street Address, City, State/Province, ZIP/Postal Code, or Store Number';}"/>
+						
+					</div>
+				</li>
+
+				<li>
+					<table>
+						<tr>
+							<td>
+
+
+<label for="narrow-search">Narrow Your Search By:</label>
+<div class="form-input-block">
+	<ol id="narrow-search">
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="B" /> Grand Opening</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="C" /> Equipment Rental</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="A" /> Installation Services</label></li>
+	</ol>
+</div>
+</td>
+							<td><a class="button-green" href="javascript:clear_kwplace(); javascript:document.kwform.submit();"><span>Find Store</span></a></td>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+
+				</li>
+			</ol>
+			</fieldset>
+		</div>
+		
+	<div class="store-locator-search-box-bottom"></div>
+</div>
+
+
+
+	
+
+	<div style="margin-left: 8px;" class="store-locator-map">
+		<div class="kw_static_map" align="left">
+					<table ><tr><td><INPUT class="mapdisplay" type=image name=map src="http://lowes.know-where.com/lowes//region/US/map/NV.gif" width=455 height=291 border=0></td></tr></table>
+
+		</div>
+	</div>
+	</form>
+	<div style="clear: both" class="store-locator-results-page">
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/util.js"></script>
+   		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwresults.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwmap.js"></script>
+		<b> Stores in Nevada</b>
+
+
+     <div id="kwresults_div"> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px;"> <tr> <td alight="left"> <span id="kw_page_links0"> </span> </td> <td align="right"> <form id="kwresults_pp_form0"> View <select id="kwresults_pp_select0"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table>  <table class="store-locator-results-table" cellpadding="0" cellspacing="0" style="clear: both;"> <tr> <th class="first">Store</th> <th>Phone &amp; Fax</th> <th>Hours</th> <th>Services</th> <th>Weekly Ad</th> <th>&nbsp;</th> </tr>   <tr id="kwresult0" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">1</div> <div class="address-block"> <h4>LOWE'S OF CARSON CITY, NV</h4> <ul class="address"> <li>Store Number: 1024</li> <li>430 FAIRVIEW DRIVE</li> <li>CARSON CITY, NV 89701</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (775) 881-2460</li> <li>FAX: (775) 881-2474</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1024&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1024');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult1" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">2</div> <div class="address-block"> <h4>LOWE'S OF FERNLEY, NV</h4> <ul class="address"> <li>Store Number: 2661</li> <li>375 STANLEY DRIVE</li> <li>FERNLEY, NV 89408</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (775) 980-4000</li> <li>FAX: (775) 980-4003</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2661&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2661');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult2" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">3</div> <div class="address-block"> <h4>LOWE'S OF HENDERSON, NV</h4> <ul class="address"> <li>Store Number: 1033</li> <li>440 MARKS STREET</li> <li>HENDERSON, NV 89014</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 458-5297</li> <li>FAX: (702) 458-6287</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1033&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1033');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult3" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">4</div> <div class="address-block"> <h4>LOWE'S OF C. HENDERSON, NV</h4> <ul class="address"> <li>Store Number: 1537</li> <li>1401 SOUTH BOULDER HIGHWAY</li> <li>HENDERSON, NV 89015</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 568-3300</li> <li>FAX: (702) 568-3303</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1537&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1537');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult4" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">5</div> <div class="address-block"> <h4>LOWE'S OF C. LAS VEGAS, NV</h4> <ul class="address"> <li>Store Number: 1639</li> <li>4625 WEST CHARLESTON BOULEVARD</li> <li>LAS VEGAS, NV 89102</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 258-4136</li> <li>FAX: (702) 258-8513</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1639&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1639');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult5" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">6</div> <div class="address-block"> <h4>LOWE'S OF SUNRISE, NV</h4> <ul class="address"> <li>Store Number: 1620</li> <li>2875 E. CHARLESTON BOULEVARD</li> <li>LAS VEGAS, NV 89104</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 380-0065</li> <li>FAX: (702) 380-0068</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1620&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1620');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult6" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">7</div> <div class="address-block"> <h4>LOWE'S OF N.E. LAS VEGAS, NV</h4> <ul class="address"> <li>Store Number: 2477</li> <li>2465 N NELLIS BOULEVARD</li> <li>LAS VEGAS, NV 89115</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 352-1836</li> <li>FAX: (702) 352-1839</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2477&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2477');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult7" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">8</div> <div class="address-block"> <h4>LOWE'S OF LAS VEGAS, NV</h4> <ul class="address"> <li>Store Number: 2271</li> <li>5825 SOUTH EASTERN AVENUE</li> <li>LAS VEGAS, NV 89119</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 352-9090</li> <li>FAX: (702) 352-9093</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2271&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2271');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult8" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">9</div> <div class="address-block"> <h4>LOWE'S OF SUMMERLIN, NV</h4> <ul class="address"> <li>Store Number: 0784</li> <li>7550 WEST WASHINGTON</li> <li>LAS VEGAS, NV 89128</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 804-0054</li> <li>FAX: (702) 804-0071</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0784&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0784');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult9" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">10</div> <div class="address-block"> <h4>LOWE'S OF N.W. LAS VEGAS, NV</h4> <ul class="address"> <li>Store Number: 1863</li> <li>6050 WEST CRAIG ROAD</li> <li>LAS VEGAS, NV 89130</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 352-2540</li> <li>FAX: (702) 352-2543</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1863&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1863');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult10" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">11</div> <div class="address-block"> <h4>LOWE'S OF CENTENNIAL HILLS, NV</h4> <ul class="address"> <li>Store Number: 2844</li> <li>7751 N EL CAPITAN WAY</li> <li>LAS VEGAS, NV 89143</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 352-0940</li> <li>FAX: (702) 352-0943</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    
+<li>Opening Soon</li>
+  &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2844&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td>  </td> </tr>
+  <tr id="kwresult11" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">12</div> <div class="address-block"> <h4>LOWE'S OF W. SUMMERLIN, NV</h4> <ul class="address"> <li>Store Number: 1836</li> <li>851 SOUTH PAVILION CENTER DRIVE</li> <li>LAS VEGAS, NV 89144</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 352-2510</li> <li>FAX: (702) 352-2512</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1836&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1836');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult12" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">13</div> <div class="address-block"> <h4>LOWE'S OF W. SPRING VALLEY, NV</h4> <ul class="address"> <li>Store Number: 1703</li> <li>5050 SOUTH FORT APACHE ROAD</li> <li>LAS VEGAS, NV 89148</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 248-1700</li> <li>FAX: (702) 248-1703</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1703&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1703');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult13" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">14</div> <div class="address-block"> <h4>LOWE'S OF W. HENDERSON, NV</h4> <ul class="address"> <li>Store Number: 1719</li> <li>9955 SOUTH EASTERN AVENUE</li> <li>LAS VEGAS, NV 89183</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 270-7400</li> <li>FAX: (702) 270-7403</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1719&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1719');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult14" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">15</div> <div class="address-block"> <h4>LOWE'S OF NORTH LAS VEGAS, NV</h4> <ul class="address"> <li>Store Number: 2721</li> <li>2570 EAST CRAIG ROAD</li> <li>NORTH LAS VEGAS, NV 89030</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (702) 352-0490</li> <li>FAX: (702) 352-0493</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2721&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2721');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult15" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">16</div> <div class="address-block"> <h4>LOWE'S OF RENO, NV</h4> <ul class="address"> <li>Store Number: 0321</li> <li>5075 KIETZKE LANE</li> <li>RENO, NV 89511</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (775) 824-4750</li> <li>FAX: (775) 824-4763</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0321&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0321');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult16" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">17</div> <div class="address-block"> <h4>LOWE'S OF SPARKS, NV</h4> <ul class="address"> <li>Store Number: 0218</li> <li>2450 ODDIE BLVD.</li> <li>SPARKS, NV 89431</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (775) 356-6333</li> <li>FAX: (775) 355-6336</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0218&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0218');"><span>Shop This Store</span></a> </td> </tr>
+ </table> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px"> <tr> <td alight="left"> <span id="kw_page_links1"> </span> </td> <td align="right"> <form id="kwresults_pp_form1"> View <select id="kwresults_pp_select1"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table> </div> 
+	    <script type="text/javascript">
+			KWResults = new kwresults_pager();
+			KWResults.init_results();
+			KWResults.show_page(0);
+		</script>
+	</div>
+	<div style="margin-top:10px; clear: both;"></div>
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

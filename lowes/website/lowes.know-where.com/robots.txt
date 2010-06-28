@@ -1,0 +1,80 @@
+# See:  http://www.robotstxt.org/wc/robots.html
+User-agent: Googlebot
+User-agent: Slurp
+Allow: /lowes/cgi/region
+Allow: /lowes/cgi/index
+Allow: /lowes/cgi/region_list
+Allow: /lowes/cgi/site
+
+Allow: /pepboys/cgi/region
+Allow: /pepboys/cgi/index
+Allow: /pepboys/cgi/region_list
+Allow: /pepboys/cgi/site
+Allow: /pepboys/storelist.html
+Allow: /pepboys/stores
+
+User-agent: Keynote-Agent
+User-agent: MemoWeb
+User-agent: InfoNaviRobot
+User-agent: PerManSurfer
+User-agent: Teleport Pro
+User-agent: WebZIP
+User-agent: w3mir
+User-agent: ExtractorPro
+User-agent: EmailSiphon
+User-agent: SiteSweeper
+User-agent: eCatch
+User-agent: WebVCR
+User-agent: WebZiGi Pro
+User-agent: Offline Explorer
+User-agent: WebEMailExtractor
+User-agent: WhizBang! Lab
+User-agent: NetEngine
+User-agent: streambox.com spider
+User-agent: HeadDump
+User-agent: AgentName
+User-agent: MediaCrawler
+User-agent: CrawlerBoy
+User-agent: Scooter/2.0 G.R.A.B.
+User-agent: Scooter-W3-1.0
+User-agent: BorderManager 3.0
+User-agent: WebStripper
+User-agent: Openfind data gather
+User-agent: WFARC
+User-Agent: sitecheck.internetseer.com
+User-agent: Fetch API Request
+User-agent: Scheduled Cache Content Download Service
+User-agent: knowledge/0.5
+User-agent: WebTrends Alert
+User-agent: WebTrends Link Analyzer
+User-agent: Carnegie_Mellon_University_WebCrawler
+User-agent: Carnegie_Mellon_University_Research_WebBOT
+User-agent: SOFTWING_TEAR_AGENT
+User-agent: FAST-WebCrawler
+User-agent: Xenu Link Sleuth
+User-agent: AspTear
+User-agent: TurnitinBot
+User-agent: W3CRobot
+User-agent: Ask Jeeves
+User-agent: Pockey-GetHTML
+User-agent: devSoft's ickHTTP Control
+User-agent: ia_archiver
+User-agent: Googlebot
+User-agent: msnbot
+User-agent: sohu-search
+User-agent: Slurp
+User-agent: MJ12bot
+User-agent: ia_archiver
+User-agent: FasterFox
+Disallow: /
+
+User-agent: *
+Disallow: /Icon/
+Disallow: /bin/
+Disallow: /cgi-bin/
+Disallow: /cgi/
+Disallow: /demo2/
+Disallow: /oreck/
+Disallow: /DiscountTireInstaller/
+Disallow: /cm/
+Disallow: /admin/

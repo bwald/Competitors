@@ -1,0 +1,345 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Improving Home Improvement : Store Locator</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "KY";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+	<li id="kw_crumb_top" class="kw_crumb_past"><A href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">New Search</A>&gt;</li>
+
+
+
+
+	<li id="kw_crumb_region" class="kw_crumb_current">Kentucky </li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection" onsubmit="javascript:clear_kwplace()">
+	<INPUT type=hidden name=state-map value="KY">
+	
+	
+
+<script><!--
+function clear_kwplace() {
+        var f = document.kwform;
+        if(f.region){
+			f.region.value = '';
+		}
+        if (f.place.value == "Street Address, City, State/Province, ZIP/Postal Code, or Store Number") {
+                f.place.value = "";
+        }
+}
+-->
+</script>
+<p>
+
+
+
+
+
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="mapid"  VALUE="NorthAmerica">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="lang"   VALUE="en">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="design" VALUE="default">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <INPUT type="HIDDEN" name="country" value="US">
+        <INPUT type="HIDDEN" name="region_name" value="Kentucky">
+
+
+
+
+
+
+<input name="region" type="hidden" value="KY">
+
+<div class="store-locator-search-box">
+		<div class="content">
+			<div class="search-nav">Quick Find &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a></div>
+			<fieldset>
+			<ol>
+
+				<li>
+					<div class="form-input-block">
+						<input label="Find Store" class="xlarge" type="text" name="place" id="store-location" value="Street Address, City, State/Province, ZIP/Postal Code, or Store Number" onfocus="clear_kwplace();" onblur="if(value==''){value='Street Address, City, State/Province, ZIP/Postal Code, or Store Number';}"/>
+						
+					</div>
+				</li>
+
+				<li>
+					<table>
+						<tr>
+							<td>
+
+
+<label for="narrow-search">Narrow Your Search By:</label>
+<div class="form-input-block">
+	<ol id="narrow-search">
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="B" /> Grand Opening</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="C" /> Equipment Rental</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="A" /> Installation Services</label></li>
+	</ol>
+</div>
+</td>
+							<td><a class="button-green" href="javascript:clear_kwplace(); javascript:document.kwform.submit();"><span>Find Store</span></a></td>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+
+				</li>
+			</ol>
+			</fieldset>
+		</div>
+		
+	<div class="store-locator-search-box-bottom"></div>
+</div>
+
+
+
+	
+
+	<div style="margin-left: 8px;" class="store-locator-map">
+		<div class="kw_static_map" align="left">
+					<table ><tr><td><INPUT class="mapdisplay" type=image name=map src="http://lowes.know-where.com/lowes//region/US/map/KY.gif" width=455 height=291 border=0></td></tr></table>
+
+		</div>
+	</div>
+	</form>
+	<div style="clear: both" class="store-locator-results-page">
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/util.js"></script>
+   		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwresults.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwmap.js"></script>
+		<b> Stores in Kentucky</b>
+
+
+     <div id="kwresults_div"> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px;"> <tr> <td alight="left"> <span id="kw_page_links0"> </span> </td> <td align="right"> <form id="kwresults_pp_form0"> View <select id="kwresults_pp_select0"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table>  <table class="store-locator-results-table" cellpadding="0" cellspacing="0" style="clear: both;"> <tr> <th class="first">Store</th> <th>Phone &amp; Fax</th> <th>Hours</th> <th>Services</th> <th>Weekly Ad</th> <th>&nbsp;</th> </tr>   <tr id="kwresult0" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">1</div> <div class="address-block"> <h4>LOWE'S OF RUSSELL, KY</h4> <ul class="address"> <li>Store Number: 1123</li> <li>350 DIEDRICH BLVD.</li> <li>ASHLAND, KY 41101</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 329-9469</li> <li>FAX: (606) 329-8543</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1123&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1123');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult1" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">2</div> <div class="address-block"> <h4>LOWE'S OF BARDSTOWN, KY</h4> <ul class="address"> <li>Store Number: 2530</li> <li>3790 EAST JOHN ROWAN BOULEVARD</li> <li>BARDSTOWN, KY 40004</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 349-7482</li> <li>FAX: (502) 349-7485</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2530&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2530');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult2" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">3</div> <div class="address-block"> <h4>LOWE'S OF BOWLING GREEN, KY</h4> <ul class="address"> <li>Store Number: 0451</li> <li>150 AMERICAN LANE</li> <li>BOWLING GREEN, KY 42104</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 796-5000</li> <li>FAX: (270) 796-5018</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0451&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0451');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult3" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">4</div> <div class="address-block"> <h4>LOWE'S OF CAMPBELLSVILLE, KY</h4> <ul class="address"> <li>Store Number: 1770</li> <li>205 JEFRA AVENUE</li> <li>CAMPBELLSVILLE, KY 42718</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 469-1500</li> <li>FAX: (270) 469-1503</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1770&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1770');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult4" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">5</div> <div class="address-block"> <h4>LOWE'S OF CORBIN, KY</h4> <ul class="address"> <li>Store Number: 0494</li> <li>777 WEST CUMBERLAND GAP PKY.</li> <li>CORBIN, KY 40701</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 528-8500</li> <li>FAX: (606) 528-6826</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0494&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0494');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult5" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">6</div> <div class="address-block"> <h4>LOWE'S OF DANVILLE, KY</h4> <ul class="address"> <li>Store Number: 1622</li> <li>51 MAY BOULEVARD</li> <li>DANVILLE, KY 40422</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 238-9925</li> <li>FAX: (859) 239-9074</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1622&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1622');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult6" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">7</div> <div class="address-block"> <h4>LOWE'S OF ELIZABETHTOWN, KY</h4> <ul class="address"> <li>Store Number: 0460</li> <li>100 LOWE'S DRIVE</li> <li>ELIZABETHTOWN, KY 42701</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 737-5500</li> <li>FAX: (270) 765-2250</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI-SA 6-10 SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0460&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0460');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult7" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">8</div> <div class="address-block"> <h4>LOWE'S OF FLORENCE, KY</h4> <ul class="address"> <li>Store Number: 0554</li> <li>4800 HOUSTON ROAD</li> <li>FLORENCE, KY 41042</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 371-4770</li> <li>FAX: (859) 371-6195</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0554&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0554');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult8" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">9</div> <div class="address-block"> <h4>LOWE'S OF FRANKFORT, KY</h4> <ul class="address"> <li>Store Number: 0492</li> <li>350 LEONARDWOOD DRIVE</li> <li>FRANKFORT, KY 40601</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 223-7500</li> <li>FAX: (502) 223-7590</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0492&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0492');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult9" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">10</div> <div class="address-block"> <h4>LOWE'S OF FRANKLIN, KY</h4> <ul class="address"> <li>Store Number: 2776</li> <li>1555 NASHVILLE ROAD</li> <li>FRANKLIN, KY 42134</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 598-7320</li> <li>FAX: (270) 598-7323</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-6</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2776&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2776');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult10" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">11</div> <div class="address-block"> <h4>LOWE'S OF GEORGETOWN, KY</h4> <ul class="address"> <li>Store Number: 1736</li> <li>109 MAGNOLIA DRIVE</li> <li>GEORGETOWN, KY 40324</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 570-2060</li> <li>FAX: (502) 570-2063</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1736&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1736');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult11" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">12</div> <div class="address-block"> <h4>LOWE'S OF GLASGOW, KY</h4> <ul class="address"> <li>Store Number: 1796</li> <li>208 SL ROGERS WELLS BOULEVARD</li> <li>GLASGOW, KY 42141</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 659-3700</li> <li>FAX: (270) 659-3703</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-6</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1796&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1796');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult12" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">13</div> <div class="address-block"> <h4>LOWE'S OF HAZARD, KY</h4> <ul class="address"> <li>Store Number: 1819</li> <li>81 COMMERCE DRIVE</li> <li>HAZARD, KY 41701</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 435-7040</li> <li>FAX: (606) 435-7043</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1819&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1819');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult13" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">14</div> <div class="address-block"> <h4>LOWE'S OF HENDERSON, KY</h4> <ul class="address"> <li>Store Number: 2558</li> <li>2190 US HIGHWAY 60 EAST</li> <li>HENDERSON, KY 42420</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 869-6500</li> <li>FAX: (270) 869-6503</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2558&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2558');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult14" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">15</div> <div class="address-block"> <h4>LOWE'S OF HIGHLAND HEIGHTS, KY</h4> <ul class="address"> <li>Store Number: 1071</li> <li>2369 ALEXANDRIA PIKE</li> <li>HIGHLAND HEIGHTS, KY 41076</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 442-9333</li> <li>FAX: (859) 442-8067</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1071&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1071');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult15" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">16</div> <div class="address-block"> <h4>LOWE'S OF HOPKINSVILLE, KY</h4> <ul class="address"> <li>Store Number: 1666</li> <li>4580 FORT CAMPBELL BOULEVARD</li> <li>HOPKINSVILLE, KY 42240</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 707-7201</li> <li>FAX: (270) 707-7204</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1666&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1666');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult16" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">17</div> <div class="address-block"> <h4>LOWE'S OF S. LEXINGTON, KY</h4> <ul class="address"> <li>Store Number: 0607</li> <li>4055 NICHOLS PARK DRIVE</li> <li>LEXINGTON, KY 40503</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 971-8300</li> <li>FAX: (859) 971-8317</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0607&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0607');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult17" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">18</div> <div class="address-block"> <h4>LOWE'S OF E. LEXINGTON, KY</h4> <ul class="address"> <li>Store Number: 0507</li> <li>200 OLD TODDS ROAD</li> <li>LEXINGTON, KY 40509</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 266-7780</li> <li>FAX: (859) 268-0541</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0507&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0507');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult18" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">19</div> <div class="address-block"> <h4>LOWE'S OF N.E. LEXINGTON, KY</h4> <ul class="address"> <li>Store Number: 2345</li> <li>2300 GREY LAG WAY</li> <li>LEXINGTON, KY 40509</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 543-4300</li> <li>FAX: (859) 543-4303</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2345&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2345');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult19" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">20</div> <div class="address-block"> <h4>LOWE'S OF LONDON, KY</h4> <ul class="address"> <li>Store Number: 2666</li> <li>136 KEAVEY ROAD</li> <li>LONDON, KY 40744</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 330-1440</li> <li>FAX: (606) 330-1443</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2666&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2666');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult20" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">21</div> <div class="address-block"> <h4>LOWE'S OF C. LOUISVILLE, KY</h4> <ul class="address"> <li>Store Number: 1923</li> <li>2100 BASHFORD MANOR LANE</li> <li>LOUISVILLE, KY 40218</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 238-5245</li> <li>FAX: (502) 238-5248</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1923&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1923');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult21" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">22</div> <div class="address-block"> <h4>LOWE'S OF E. LOUISVILLE, KY</h4> <ul class="address"> <li>Store Number: 0474</li> <li>501 SO. HURSTBOURNE PKWY</li> <li>LOUISVILLE, KY 40222</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 394-9400</li> <li>FAX: (502) 394-9665</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0474&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0474');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult22" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">23</div> <div class="address-block"> <h4>LOWE'S OF S. LOUISVILLE, KY</h4> <ul class="address"> <li>Store Number: 1518</li> <li>9800 PRESTON CROSSING BLVD.</li> <li>LOUISVILLE, KY 40229</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 810-0116</li> <li>FAX: (502) 810-9246</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1518&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1518');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult23" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">24</div> <div class="address-block"> <h4>LOWE'S OF N.E. LOUISVILLE, KY</h4> <ul class="address"> <li>Store Number: 2245</li> <li>4930 NORTON HEALTHCARE BOULEVARD</li> <li>LOUISVILLE, KY 40241</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 420-1452</li> <li>FAX: (502) 420-1455</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2245&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2245');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult24" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">25</div> <div class="address-block"> <h4>LOWE'S OF S.W. LOUISVILLE, KY</h4> <ul class="address"> <li>Store Number: 0705</li> <li>6651 DIXIE HIGHWAY</li> <li>LOUISVILLE, KY 40258</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 933-0745</li> <li>FAX: (502) 933-7636</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0705&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0705');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult25" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">26</div> <div class="address-block"> <h4>LOWE'S OF MADISONVILLE, KY</h4> <ul class="address"> <li>Store Number: 0016</li> <li>550 ISLAND FORD ROAD</li> <li>MADISONVILLE, KY 42431</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 825-1999</li> <li>FAX: (270) 821-1301</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0016&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0016');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult26" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">27</div> <div class="address-block"> <h4>LOWE'S OF MAYFIELD, KY</h4> <ul class="address"> <li>Store Number: 2490</li> <li>1208C PARIS ROAD</li> <li>MAYFIELD, KY 42066</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 251-6365</li> <li>FAX: (270) 251-6368</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2490&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2490');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult27" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">28</div> <div class="address-block"> <h4>LOWE'S OF MAYSVILLE, KY</h4> <ul class="address"> <li>Store Number: 2497</li> <li>314 EAST MAPLE LEAF ROAD</li> <li>MAYSVILLE, KY 41056</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 759-3660</li> <li>FAX: (606) 759-3663</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2497&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2497');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult28" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">29</div> <div class="address-block"> <h4>LOWE'S OF MOREHEAD, KY</h4> <ul class="address"> <li>Store Number: 1808</li> <li>100 KROGER CENTER</li> <li>MOREHEAD, KY 40351</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 780-2200</li> <li>FAX: (606) 780-2203</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1808&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1808');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult29" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">30</div> <div class="address-block"> <h4>LOWE'S OF MT. STERLING, KY</h4> <ul class="address"> <li>Store Number: 2768</li> <li>550 INDIAN MOUND DRIVE</li> <li>MT STERLING, KY 40353</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 499-2300</li> <li>FAX: (859) 499-2303</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2768&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2768');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult30" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">31</div> <div class="address-block"> <h4>LOWE'S OF MURRAY, KY</h4> <ul class="address"> <li>Store Number: 0722</li> <li>1400 LOWE'S DRIVE</li> <li>MURRAY, KY 42071</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 753-9099</li> <li>FAX: (270) 753-7082</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0722&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0722');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult31" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">32</div> <div class="address-block"> <h4>LOWE'S OF NICHOLASVILLE, KY</h4> <ul class="address"> <li>Store Number: 2581</li> <li>1421 KEENE ROAD</li> <li>NICHOLASVILLE, KY 40356</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 881-6200</li> <li>FAX: (859) 881-6203</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2581&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2581');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult32" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">33</div> <div class="address-block"> <h4>LOWE'S OF OWENSBORO, KY</h4> <ul class="address"> <li>Store Number: 0657</li> <li>415 FULTON DRIVE</li> <li>OWENSBORO, KY 42303</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 691-9900</li> <li>FAX: (270) 691-9256</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0657&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0657');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult33" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">34</div> <div class="address-block"> <h4>LOWE'S OF PADUCAH, KY</h4> <ul class="address"> <li>Store Number: 0465</li> <li>5176 HINKLEVILLE ROAD</li> <li>PADUCAH, KY 42001</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 441-7000</li> <li>FAX: (270) 443-8100</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0465&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0465');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult34" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">35</div> <div class="address-block"> <h4>LOWE'S OF E. PADUCAH, KY</h4> <ul class="address"> <li>Store Number: 2460</li> <li>3131 IRVIN COBB DRIVE</li> <li>PADUCAH, KY 42003</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (270) 444-5520</li> <li>FAX: (270) 444-5523</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2460&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2460');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult35" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">36</div> <div class="address-block"> <h4>LOWE'S OF PAINTSVILLE, KY</h4> <ul class="address"> <li>Store Number: 1797</li> <li>527 NORTH MAYO TRAIL</li> <li>PAINTSVILLE, KY 41240</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 788-1360</li> <li>FAX: (606) 788-1363</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1797&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1797');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult36" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">37</div> <div class="address-block"> <h4>LOWE'S OF PIKEVILLE, KY</h4> <ul class="address"> <li>Store Number: 0435</li> <li>183 CASSADY BLVD.</li> <li>PIKEVILLE, KY 41501</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 433-0020</li> <li>FAX: (606) 432-4189</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0435&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0435');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult37" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">38</div> <div class="address-block"> <h4>LOWE'S OF RICHMOND, KY</h4> <ul class="address"> <li>Store Number: 1006</li> <li>814 EASTERN BYPASS</li> <li>RICHMOND, KY 40475</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 625-0251</li> <li>FAX: (859) 625-9605</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1006&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1006');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult38" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">39</div> <div class="address-block"> <h4>LOWE'S OF SHELBYVILLE, KY</h4> <ul class="address"> <li>Store Number: 2592</li> <li>544 TAYLORSVILLE ROAD</li> <li>SHELBYVILLE, KY 40065</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 844-2720</li> <li>FAX: (502) 844-2723</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2592&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2592');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult39" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">40</div> <div class="address-block"> <h4>LOWE'S OF SHEPHERDSVILLE, KY</h4> <ul class="address"> <li>Store Number: 2945</li> <li>800 CONESTOGA PARKWAY</li> <li>SHEPHERDSVILLE, KY 40165</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (502) 215-2600</li> <li>FAX: (502) 215-2603</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2945&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2945');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult40" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">41</div> <div class="address-block"> <h4>LOWE'S OF SOMERSET, KY</h4> <ul class="address"> <li>Store Number: 0558</li> <li>2001 SOUTH HWY. 27</li> <li>SOMERSET, KY 42501</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (606) 679-5656</li> <li>FAX: (606) 678-0957</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0558&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0558');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult41" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">42</div> <div class="address-block"> <h4>LOWE'S OF WINCHESTER, KY</h4> <ul class="address"> <li>Store Number: 0464</li> <li>1221 BY-PASS ROAD</li> <li>WINCHESTER, KY 40391</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (859) 744-6700</li> <li>FAX: (859) 744-5252</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0464&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0464');"><span>Shop This Store</span></a> </td> </tr>
+ </table> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px"> <tr> <td alight="left"> <span id="kw_page_links1"> </span> </td> <td align="right"> <form id="kwresults_pp_form1"> View <select id="kwresults_pp_select1"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table> </div> 
+	    <script type="text/javascript">
+			KWResults = new kwresults_pager();
+			KWResults.init_results();
+			KWResults.show_page(0);
+		</script>
+	</div>
+	<div style="margin-top:10px; clear: both;"></div>
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

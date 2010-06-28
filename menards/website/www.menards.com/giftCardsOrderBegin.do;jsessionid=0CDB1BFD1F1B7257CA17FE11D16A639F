@@ -1,0 +1,735 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK REL="SHORTCUT ICON" HREF="web/static/images/menards.ico">
+<title>Menards.com - Gift Cards Order Information</title>
+
+
+<link rel="stylesheet" type="text/css" href="web/static/styles/typography.css" />
+<link rel="stylesheet" type="text/css" href="web/static/styles/layout.css" />
+    <!--[if gte IE 5.5]>
+    <![if lt IE 7]>
+      <link rel="stylesheet" type="text/css" href="web/static/styles/ieEarlyStyle.css" />
+<style type="text/css">
+img.pngFix, input.pngFix, div.pngFix, a.pngFix { behavior: url(web/static/iepngfix/iepngfix.htc); }
+</style>
+    <![endif]>
+    <![endif]-->
+
+    <style type="text/css" media="screen">
+/*<![CDATA[*/
+    @import url(web/static/styles/styles.css);
+    /*]]>*/
+    </style>
+    <script src="web/static/js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8">
+</script>
+    <script src="web/static/js/jquery.hoverIntent.minified.js" type="text/javascript" charset="utf-8">
+</script>
+    <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+	var $j = jQuery.noConflict();
+    $j(document).ready(function() {
+      
+      function addMega(){
+        $j(this).addClass("hovering");
+        }
+
+      function removeMega(){
+        $j(this).removeClass("hovering");
+        }
+
+    var megaConfig = {
+         interval: 150,
+         sensitivity: 4,
+         over: addMega,
+         timeout: 300,
+         out: removeMega
+    };
+	
+    $j("li.mega").hoverIntent(megaConfig)
+
+      
+    });
+
+
+    //]]>
+    </script>
+
+<script language="JavaScript">
+  function viewAttachment(attachmentURL, pageTitle) {
+	  widthVar=675;
+	  heightVar=500;
+	  leftVar = (window.screen.width - widthVar)/2;
+	  topVar = (window.screen.height - heightVar)/2;
+	  props = "";
+	  if(pageTitle == null) {
+	    pageTitle = "Attachment Viewer";
+	  }
+		  // rewrite if tag has appended jsessionid
+	  if (attachmentURL.indexOf(";") > 1) {
+	    attachmentURL = attachmentURL.substring(0,attachmentURL.indexOf(";"));
+	  }	
+	  actionString ="viewAttachment.do?url="+attachmentURL+"&title="+pageTitle;
+  
+	  props +="height="+heightVar+",";
+	  props +="width="+widthVar+",";
+	  props +="top="+topVar+",";
+	  props +="left="+leftVar+",";
+	  props +="status=0,resizable=yes";		  
+	
+	  window.open(actionString, "", props);
+  }
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-560775-1']);
+
+  _gaq.push(['_trackPageview']);
+
+</script>
+
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div id="header">
+      
+
+      <a href="/index.do"><div class="headerlogo pngFix"></div></a>
+    
+      <ul class="header_navigation MLinkBar"> <!-- main Class should be header_subnavigation when SOC joins M.com -->
+        <li> <a href="rebateCoupons.do" class="head">Rebate Center </a> </li>
+        <li class="nonlink"> | </li>
+        <li> <a href="specialOrderHome.do" class="head"> Order Tracker </a></li>
+        <li class="nonlink">| </li>
+        <li> <a href="giftCards.do" class="head">Gift Cards</a> </li>
+        <li class="nonlink"> | </li> 
+        <li> <a href="storeLocator.do" class="head">Store Locator</a> </li>
+        <li class="nonlink"> | </li> 
+        <li> <a href="weeklyAd.do" class="head" onClick="_gaq.push(['_trackEvent', 'WeeklyAd', 'Clicked', 'Top']);">Weekly Ad</a> </li>
+      </ul>
+
+      <div class="clear"> </div>
+      
+<script language="javascript" src="web/static/js/guestServices.js"></script>
+
+      <div id="mainMenu">
+        <ul id="menu" class="menuArea">
+          <li id="first"><img src="web/static/images/index/topNav_leftCurve.png" class="pngFix" border="0" /></li>
+          <li class="mega"><a href="#" id="Products" class="mainMenu">&nbsp; Products <img src="web/static/images/index/menuArrow.png" class="pngFix" align="absmiddle" border="0" /></a>
+          <div class="subMegaClass">
+            <a href="newAtMenards.do">New at Menards</a><br />
+            <a href="featuredProjectsMain.do">Featured Projects</a><br />
+            <a href="featuredProjects.do?dispatch=homesMain" class="secondaryMenuItems">Homes</a><br />
+            <a href="featuredProjects.do?dispatch=garagesMain" class="secondaryMenuItems">Garages</a><br />
+            <a href="featuredProjects.do?dispatch=postFramesMain" class="secondaryMenuItems">Post Frames</a><br />
+            <a href="http://www.midwestmanufacturing.com/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Shop', 'Clicked', 'SubMenu Products']);">Featured Products</a><br />
+            <a href="http://www.countertopsinc.com/home" class="secondaryMenuItems" target="_blank">Countertops</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=0" class="secondaryMenuItems" target="_blank">Doors</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=1" class="secondaryMenuItems" target="_blank">Decking</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=2" class="secondaryMenuItems" target="_blank">Metal Roof &amp; Siding</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=4" class="secondaryMenuItems" target="_blank">Landscaping Block</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=3" class="secondaryMenuItems" target="_blank">Trusses</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=7" class="secondaryMenuItems" target="_blank">Buildings</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/projects.do" class="secondaryMenuItems" target="_blank">Projects</a><br />
+            <a href="http://shop.menards.com" target="_blank">Special Order Center</a>
+          </div>
+          </li>
+          <li class="mega"><a href="#" class="mainMenu">&nbsp; Promotions <img src="web/static/images/index/menuArrow.png" class="pngFix" align="absmiddle" border="0" /></a>
+          <div class="subMegaClass">
+            <a href="weeklyAd.do" onClick="_gaq.push(['_trackEvent', 'WeeklyAd', 'Clicked', 'Menu']);">Weekly Ad</a><br />
+            <a href="http://cs.silverpop.com/menards/prefcenter/sign_up.sp" onClick="_gaq.push(['_trackEvent', 'Email', 'Clicked', 'Email Subscription']);">E-Mail Subscription</a><br />
+            <a href="energystarTool.do">Energy Star</a>
+          </div>
+          </li>
+          <li class="mega"><a href="guestServices.do" class="mainMenu">&nbsp; Guest Services <img src="web/static/images/index/menuArrow.png" class="pngFix" align="absmiddle" border="0" /></a>
+          <div class="subMegaClass">
+            <a href="specialOrderHome.do">Order Tracker</a><br />
+            <a href="rebateCoupons.do">Rebate Center</a><br />
+            <a href="creditPrograms.do">Credit Programs</a><br />
+            <a href="storeLocator.do">Store Locator</a><br />
+            <a href="FAQs.do">FAQ</a><br />
+            <a href="returnPolicy.do">Return Policy</a><br />
+            <a href="javascript:guestFeedback()">Contact Us</a><br />
+            <a href="http://esp.amtrustgroup.com/menardscm/Menards.aspx" target="_blank">Protection Plan</a><br />
+            <a href="privacy.do">Privacy &amp; Terms</a>
+          </div>
+          </li>
+          <li><a href="http://shop.menards.com" target="_blank" class="mainMenu" onClick="_gaq.push(['_trackEvent', 'Shop', 'Clicked', 'Menu']);">&nbsp; Shop</a></li>
+          <li><a href="giftCards.do" class="mainMenu">&nbsp; Gift Cards</a></li>
+          <li><a href="giftRegistry.do" class="mainMenu">&nbsp; Gift Registry</a></li>
+          <li id="search" class="search rightFloat"> &nbsp; </li>
+          <li id="last"><img src="web/static/images/index/topNav_rightCurve.png" class="pngFix" border="0" /></li>
+        </ul>
+      </div>
+
+
+
+    </div>
+    <div class="shadowRow">&nbsp;</div>
+    <div id="mainContent">
+      
+            
+
+
+
+
+
+
+
+<script language="JavaScript" defer>
+<!--
+var imgList = new Array(33);
+var imgInfo = new Array(33);
+var imgPositions = new Array(33);
+
+function preLoadImages() {
+imgInfo[0]=new ImageInfo();
+imgList[0] = new Image;
+imgList[0].src = "web/static/images/giftCards/blank.gif";
+
+imgInfo[1]=new ImageInfo("41","Menard Green","7","Y","web/managed/giftcards/sHolder44.gif","web/managed/giftcards/selectHolder44.gif");
+imgInfo[2]=new ImageInfo("43","Merry Christmas Tree","8","N","web/managed/giftcards/sHolder47.gif","web/managed/giftcards/selectHolder47.gif");
+imgInfo[3]=new ImageInfo("37","Happy Father&#39;s Day","2","Y","web/managed/giftcards/sHolder40.gif","web/managed/giftcards/selectHolder40.gif");
+imgInfo[4]=new ImageInfo("39","Holiday Snowflake","8","N","web/managed/giftcards/sHolder42.gif","web/managed/giftcards/selectHolder42.gif");
+imgInfo[5]=new ImageInfo("13","Just For You Mom","1","N","web/managed/giftcards/sHolder13.gif","web/managed/giftcards/selectHolder13.gif");
+imgInfo[6]=new ImageInfo("40","Merry Christmas Bulbs","8","N","web/managed/giftcards/sHolder43.gif","web/managed/giftcards/selectHolder43.gif");
+imgInfo[7]=new ImageInfo("15","Happy Mother&#39;s Day Garden","1","N","web/managed/giftcards/sHolder15.gif","web/managed/giftcards/selectHolder15.gif");
+imgInfo[8]=new ImageInfo("38","Merry Christmas Green","8","N","web/managed/giftcards/sHolder41.gif","web/managed/giftcards/selectHolder41.gif");
+imgInfo[9]=new ImageInfo("42","Mothers Day Flower","1","N","web/managed/giftcards/sHolder45.gif","web/managed/giftcards/selectHolder45.gif");
+imgInfo[10]=new ImageInfo("1","Father&#39;s Day Ties","2","Y","web/managed/giftcards/sHolder9.gif","web/managed/giftcards/selectHolder9.gif");
+imgInfo[11]=new ImageInfo("30","Happy Holidays - Wreath","8","N","web/managed/giftcards/sHolder33.gif","web/managed/giftcards/selectHolder33.gif");
+imgInfo[12]=new ImageInfo("33","Congratulations Tools","10","N","web/managed/giftcards/sHolder36.gif","web/managed/giftcards/selectHolder36.gif");
+imgInfo[13]=new ImageInfo("24","Congratulations","999","N","web/managed/giftcards/sHolder27.gif","web/managed/giftcards/selectHolder27.gif");
+imgInfo[14]=new ImageInfo("32","Seasons Greetings - Cardinal","999","N","web/managed/giftcards/sHolder35.gif","web/managed/giftcards/selectHolder35.gif");
+imgInfo[15]=new ImageInfo("44","Presents","8","N","web/managed/giftcards/sHolder46.gif","web/managed/giftcards/selectHolder46.gif");
+imgInfo[16]=new ImageInfo("31","Merry Christmas - Santa","999","N","web/managed/giftcards/sHolder34.gif","web/managed/giftcards/selectHolder34.gif");
+imgInfo[17]=new ImageInfo("34","Blue Print","7","Y","web/managed/giftcards/sHolder37.gif","web/managed/giftcards/selectHolder37.gif");
+imgInfo[18]=new ImageInfo("7","Thank You","6","Y","web/managed/giftcards/sHolder4.gif","web/managed/giftcards/selectHolder4.gif");
+imgInfo[19]=new ImageInfo("8","American Flag","7","N","web/managed/giftcards/sHolder3.gif","web/managed/giftcards/selectHolder3.gif");
+imgInfo[20]=new ImageInfo("11","Thank You Flag","6","N","web/managed/giftcards/sHolder11.gif","web/managed/giftcards/selectHolder11.gif");
+imgInfo[21]=new ImageInfo("36","Thank You Metal","6","N","web/managed/giftcards/sHolder39.gif","web/managed/giftcards/selectHolder39.gif");
+imgInfo[22]=new ImageInfo("0","Just For You","9","Y","web/managed/giftcards/sHolder10.gif","web/managed/giftcards/selectHolder10.gif");
+imgInfo[23]=new ImageInfo("35","Birthday Bolts","5","N","web/managed/giftcards/sHolder38.gif","web/managed/giftcards/selectHolder38.gif");
+imgInfo[24]=new ImageInfo("6","Great Job","9","N","web/managed/giftcards/sHolder1.gif","web/managed/giftcards/selectHolder1.gif");
+imgInfo[25]=new ImageInfo("25","Flowers with Vase","999","N","web/managed/giftcards/sHolder28.gif","web/managed/giftcards/selectHolder28.gif");
+imgInfo[26]=new ImageInfo("16","Get Well Soon!","7","N","web/managed/giftcards/sHolder16.gif","web/managed/giftcards/selectHolder16.gif");
+imgInfo[27]=new ImageInfo("2","Happy Anniversary","4","N","web/managed/giftcards/sHolder5.gif","web/managed/giftcards/selectHolder5.gif");
+imgInfo[28]=new ImageInfo("5","Heart","999","N","web/managed/giftcards/sHolder7.gif","web/managed/giftcards/selectHolder7.gif");
+imgInfo[29]=new ImageInfo("18","Nice Going","9","N","web/managed/giftcards/sHolder18.gif","web/managed/giftcards/selectHolder18.gif");
+imgInfo[30]=new ImageInfo("3","Baby","7","N","web/managed/giftcards/sHolder8.gif","web/managed/giftcards/selectHolder8.gif");
+imgInfo[31]=new ImageInfo("14","Drawn Rainbow","7","N","web/managed/giftcards/sHolder14.gif","web/managed/giftcards/selectHolder14.gif");
+imgInfo[32]=new ImageInfo("17","Happy Retirement","7","N","web/managed/giftcards/sHolder17.gif","web/managed/giftcards/selectHolder17.gif");
+imgInfo[33]=new ImageInfo("-1","None","999","N","web/managed/giftcards/sHolder0.gif","web/managed/giftcards/selectHolder0.gif");
+}
+//-->
+var imgCardPositions = new Array(8);
+</script> 
+ 
+<script src="web/static/js/giftcard.js" type="text/javascript"></script>
+
+
+<form name="giftCardOrderInfoForm" method="post" action="/giftCardsOrderInfo.do" onsubmit="return validateForm(this);">
+<input type="hidden" name="gcBacker" value="-1">
+<input type="hidden" name="gcInside" value="-1">
+
+<h1>Gift Cards</h1>
+<br>
+<div id="page" class="mainContent secondaryPage"> 
+
+<div id="wrap">
+
+<table bgcolor="#FFFFFF" width="925" align="center">
+<tr><td>
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+<tr><td><h2>Order Menards Gift Card</h2></td>
+<td rowspan="2">
+<script src=https://seal.verisign.com/getseal?host_name=www.menards.com&size=M&use_flash=NO&use_transparent=YES></script>
+</td></tr>
+<tr><td>
+<div class="formtext"><h2>If you have any concerns or questions, please contact Menards Giftcard Sales at 888-412-7789 between 8:00 am - 5:00pm CST, Monday - Friday.</h2></div>
+</td></tr></table>
+</td></tr>
+<tr><td align="center">
+<img border="0" align="center" src="web/static/images/giftCards/orderStep1.gif" />
+</td></tr>
+<tr><td><div class="titleboxes"><h3>Where would you like your Menards Gift Cards shipped?</h3></div></td>
+</tr>
+
+<tr><td width="90%" align="left">
+<table>
+
+<tr><td><div class="formtext"><h4>Company Name</h4></div></td><td>	
+<input type="text" name="shipToCompany" maxlength="45" value="">
+</td><td class="layout2Label1"></td>
+<td></tr>
+<tr><td class="layout2Label1"><div class="formtext"><h4>First Name</h4></div></td>
+<td><input type="text" name="shipToFirstName" maxlength="45" value="">
+</td><td class="layout2Label1"><div class="formtext"><h4>Last Name</h4></div></td>
+<td><input type="text" name="shipToLastName" maxlength="100" value="">
+</td></tr>
+<tr><td class="layout2Label1"><div class="formtext"><h4>Address 1:</h4></div></td>
+<td><input type="text" name="shipToAddress1" maxlength="45" value=""></td>
+<td class="layout2Label1"><div class="formtext"><h4>Address 2:</h4></div></td>
+<td><input type="text" name="shipToAddress2" maxlength="25" value=""></td>
+</tr>
+<tr><td class="layout2Label1"><div class="formtext"><h4>City:</h4></div></td>
+<td>
+<input type="text" name="shipToCity" maxlength="100" value="">
+</td>
+<td class="layout2Label1"><div class="formtext"><h4>State:</h4></div></td>
+<td>
+<select name="shipToStateProvince"><option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AR">Arkansas</option>
+<option value="AZ">Arizona</option>
+<option value="AA">Armed Forces Americas</option>
+<option value="AE">Armed Forces Europe</option>
+<option value="AP">Armed Forces Pacific</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option></select>
+</td></tr>
+<tr><td class="layout2Label1"><div class="formtext"><h4>Zip Code:</h4></div></td>
+<td><input type="text" name="shipToZipCode" maxlength="5" value=""></td>
+<td class="layout2Label1"><div class="formtext"><h4>Daytime Phone:</h4></div></td>
+<td>(<input type="text" name="shipToPhoneAreaCode" maxlength="3" size="2" value="">)
+<input type="text" name="shipToPhonePrefix" maxlength="3" size="2" value="">
+-
+<input type="text" name="shipToPhoneNumber" maxlength="4" size="3" value="">
+</td>
+<tr><td align="right"><input name="saveAddress" type="checkbox" checked></td>
+<td colspan="3" align="left" class="layout2Label1">
+Leave checked to remember this address next time. (Requires cookies to be enabled)
+</td></tr>
+</table>
+</td></tr>
+
+
+<tr><td><div class="titleboxes"><h3>Gift Card Holder</h3></div></td></tr>
+
+<tr><td><div class="formtext"><h2><input type="radio" name="GCHradio" onclick="document.all.GCHdiv.className = 'ShowSection'; selectPicture(0);" checked> Yes <input type="radio" name="GCHradio"onclick="document.all.GCHdiv.className = 'HideSection'; document.forms['giftCardOrderInfoForm'].gcBacker.value = -1;" > No</h2></div></td></tr>
+<tr><td>
+<div id="GCHdiv" class="ShowSection">
+	<div class="formtext"><h2>You can choose from one of our featured designs or select an alternate category for more designs.
+	Then click on an image to select an envelope for your gift card.</h2></div>
+	<table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr valign="top"> 
+			<td width="65%">
+				<table width="200" border="0" cellspacing="0" cellpadding="4" align="center">
+					<tr><td><div class="formtext"><h3>Selected Holder</h3></div></td></tr>
+					<tr><td><img name="bigImage" id="bigImage" src="web/static/images/giftCards/blank.gif" width="280" height="208"></td></tr>
+				</table>
+			</td>
+			<td>
+				<table border="0" width="162px" cellspacing="0" cellpadding="4" align="center">
+					<tr>
+						<td colspan="3" align="right" style="padding-top:10px;">
+							<select name="category" onchange="changeCategory(this.value); selectPicture(0);"><option value="-1">Featured</option>
+								<option value="4">Anniversary</option>
+<option value="5">Birthday</option>
+<option value="2">Father&#39;s Day</option>
+<option value="8">Holiday</option>
+<option value="9">Incentives</option>
+<option value="7">Miscellaneous</option>
+<option value="1">Mother&#39;s Day</option>
+<option value="6">Thank You</option>
+<option value="10">Wedding / New Home</option></select><br>
+						</td>
+					</tr>
+					<tr> 
+						<td> 
+							<div align="center">
+								<span id="imageArea2" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+								</span>
+							</div>
+						</td>
+						<td>
+							<div align="center">
+								<span id="imageArea1" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+								</span>
+							</div>
+						</td>
+						<td> 
+							<div align="center">
+<span id="imageArea0" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div>
+</td>
+</tr>
+<tr> <td> 
+<div align="center"><span id="imageArea5" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td><td> <div align="center"><span id="imageArea4" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td><td> <div align="center">
+<span id="imageArea3" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td></tr><tr> <td> <div align="center">
+<span id="imageArea8" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td><td> 
+<div align="center"><span id="imageArea7" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td><td> 
+<div align="center"><span id="imageArea6" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td></tr><tr> <td> 
+<div align="center"><span id="imageArea11" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td><td> <div align="center"><span id="imageArea10" name="imageArea">
+<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div></td><td> <div align="center">
+<span id="imageArea9" name="imageArea"><img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0" height="35">
+</span></div>
+						</td> 
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+</td></tr>
+
+<script language="JavaScript">
+	var imgCardInfo = new Array(8);
+	imgCardInfo[0] = new ImageInfo();
+
+	imgCardInfo[1]=new ImageInfo("1","House","-1","Y","web/managed/giftcards/holiday1.jpg","web/managed/giftcards/holiday1.jpg");
+	imgCardInfo[2]=new ImageInfo("2","Giftbox","0","Y","web/managed/giftcards/holiday2.jpg","web/managed/giftcards/holiday2.jpg");
+	imgCardInfo[3]=new ImageInfo("2","Giftbox","1","Y","web/managed/giftcards/holiday2.jpg","web/managed/giftcards/holiday2.jpg");
+	imgCardInfo[4]=new ImageInfo("3","Merry Christmas Bulbs","2","Y","web/managed/giftcards/holiday3.jpg","web/managed/giftcards/holiday3.jpg");
+	imgCardInfo[5]=new ImageInfo("4","Merry Christmas Tree","2","N","web/managed/giftcards/holiday4.jpg","web/managed/giftcards/holiday4.jpg");
+	imgCardInfo[6]=new ImageInfo("5","Happy Holidays Green","2","N","web/managed/giftcards/holiday5.jpg","web/managed/giftcards/holiday5.jpg");
+	imgCardInfo[7]=new ImageInfo("6","Merry Christmas Green","2","N","web/managed/giftcards/holiday6.jpg","web/managed/giftcards/holiday6.jpg");
+	
+</script>
+<tr><td><div class="titleboxes"><h3>Gift Card Selection</h3></div></tr>
+<tr><td>
+<div id="GCCHdiv" class="ShowSection">
+	<div class="formtext"><h2>Please choose the style of gift card you would like to order.</h2></div>
+	<table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr valign="top"> 
+			<!-- Big Image -->
+			<td width="65%">
+				<table width="200" border="0" cellspacing="0" cellpadding="4" align="center">
+					<tr><td><div class="formtext"><h3>Selected Card</h3></div></td></tr>
+					<tr><td><img name="bigCardImage" id="bigCardImage" src="web/managed/giftcards/holiday1.jpg" width="150" /></td></tr>
+				</table>
+			</td>
+			<!-- Change Category -->
+			<td>
+				<table border="0" width="162px" cellspacing="0" cellpadding="4" align="center">
+					<tr>
+						<td colspan="3" align="right" style="padding-top:10px; padding-bottom: 5px;">
+							<select id="cardCategory" onchange="changeCardCategory(this.value); selectCardPicture(0);">
+								<option value="-1">Featured</option>
+								<option value="0">Mother's Day</option>
+								<option value="1">Father's Day</option>
+								<option value="2">Holiday</option>
+							</select><br>
+						</td>
+					</tr>
+					<!-- 6 Select Images -->
+					<tr>
+						<td> 
+							<div align="right">
+								<span id="imageCardArea2" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0">
+								</span>
+							</div>
+						</td>
+						<td>
+							<div align="right">
+								<span id="imageCardArea1" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0">
+								</span>
+							</div>
+						</td>
+						<td> 
+							<div align="right">
+								<span id="imageCardArea0" name="imageArea">
+									<a href="javascript:selectCardPicture(0)">
+										<img height="35" border="0" width="50" src="web/managed/giftcards/holiday1.jpg" alt="Giftbox" name="smallImage"/>
+									</a>
+								</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td> 
+							<div align="right">
+								<span id="imageCardArea5" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0">
+								</span>
+							</div>
+						</td>
+						<td>
+							<div align="right">
+								<span id="imageCardArea4" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0">
+								</span>
+							</div>
+						</td>
+						<td> 
+							<div align="right">
+								<span id="imageCardArea3" name="imageArea">
+									<img name="smallImage" src="web/static/images/giftCards/blank.gif" width="50" border="0">
+								</span>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+</td>
+</tr>
+
+<tr><td>
+<div class="titleboxes"><h3>Gift Card Denomination</h3></div>
+</td></tr><tr><td>
+	<div class="formtext"><h2>Choose a dollar amount or enter a whole dollar value from $10 to $2,500.
+All gift cards will be delivered to the same address.</h2></div></td></tr>
+	<tr>
+	<td width="80%" align="center"><br>
+	<table cellspacing="0px" cellpadding="0px">
+	<tr><Td class="cardType">Standard Gift Cards</Td>
+	<td class="cardType">Variable Gift Cards</td>
+	</tr>
+	<tr><td colspan="2" align="center">
+<table width="100%" cellspacing="5px" background="web/static/images/main/cardAmountBg.gif" class="layout2Content">
+<tr>
+<td class="layout2Label2" width="25%">Choose the Amount</td>
+<td class="layout2Label2" width="15%">Quantity</td>
+		<td rowspan="5" align="center" width="20%"><img src="web/static/images/main/verDivLine.gif" width="24" height="168"></td>
+		 <td class="layout2Label2" width="25%">Enter Your Amount </td>
+ <td class="layout2Label2" width="15%">Quantity</td>
+</tr>
+<tr>
+<td class="layout2Label2">$10</td>
+<td class="layout2Label2"><input type="text" name="g010Qty" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+		<td class="layout2Label2">$<input type="text" name="amt0" maxlength="4" size="4" value="" onchange="computeTotal(this.form);">.00</td>
+<td class="layout2Label2"><input type="text" name="qty0" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+
+</tr><tr>
+<td class="layout2Label2">$25</td>
+<td class="layout2Label2"><input type="text" name="g025Qty" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+<td class="layout2Label2">$<input type="text" name="amt1" maxlength="4" size="4" value="" onchange="computeTotal(this.form);">.00</td>
+<td class="layout2Label2"><input type="text" name="qty1" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td> 
+</tr>
+<tr>
+<td class="layout2Label2">$50</td>
+<td class="layout2Label2"><input type="text" name="g050Qty" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+<td class="layout2Label2">$<input type="text" name="amt2" maxlength="4" size="4" value="" onchange="computeTotal(this.form);">.00</td>
+<td class="layout2Label2"><input type="text" name="qty2" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+</tr>
+<tr>
+		<td class="layout2Label2">$100</td>
+<td class="layout2Label2"><input type="text" name="g100Qty" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+
+<td class="layout2Label2">$<input type="text" name="amt3" maxlength="4" size="4" value="" onchange="computeTotal(this.form);">.00</td>
+<td class="layout2Label2"><input type="text" name="qty3" maxlength="3" size="3" value="" onchange="computeTotal(this.form);"></td>
+</tr>
+</table>
+	</td></tr>
+	<tr>
+	<td colspan="2" class="orderSubTotal">Subtotal &nbsp; <span id="total">$0</span>.00</td>
+	</tr>
+	</table>
+</td>
+</tr>
+<tr>
+<td class="layout2Label3" height="20px" align="center">
+Shipping method:
+<select name="shippingMethod"><option value="0">U.S. Postal Service - FREE</option>
+<option value="5">2nd Day Federal Express - $9.98**</option>
+<option value="10">Next Afternoon Federal Express - $14.98</option></select>
+<br>
+
+<span style="font-size:8pt;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="javascript:policyWindow('giftCardsShippingInfo.do')">Click Here for Holiday Shipping Details</a>
+</span>
+
+
+
+
+
+<span style="font-size:8pt; color: #900;">**Orders $500 and over ship "2nd Day Federal Express" for FREE.</span>
+</td>
+</tr>
+<tr>
+<td>
+<div class="titleboxes"><h3>Personal Message sent to recipient</h3></div>
+</td>
+</tr>
+<tr><td>
+<div class="formtext"><h2><input id="pmradioyes" type="radio" name="PMradio" value="yes" onclick="document.getElementById('PMdiv').className = 'ShowSection';" checked> Yes <input type="radio" name="PMradio" value="no" onclick="document.forms['giftCardOrderInfoForm'].gcFrom.value = ''; document.forms['giftCardOrderInfoForm'].gcTo.value = ''; document.forms['giftCardOrderInfoForm'].gcMessage.value = ''; document.getElementById('PMdiv').className = 'HideSection';" > No</h2></div>
+</td></tr>
+<tr>
+<td>
+ <div id="PMdiv" class="ShowSection">
+<table width="700" align="center">
+<tr>
+<td class="sideBarText"><div class="formtext"><h2>From</h2></div></td>
+<td><input type="text" name="gcFrom" maxlength="15" value=""></td>
+<td class="sideBarText"><div class="formtext"><h2>To</h2></div></td>
+<td><input type="text" name="gcTo" maxlength="15" value=""></td>
+</tr>
+<tr>
+<td valign="top" class="sideBarText"><div class="formtext"><h2>Message<br></h2></div></td>
+<td colspan="3">
+<span class="layout2Note">(Optional, Max 200 characters or about 25 words)</span><br>
+<textarea name="gcMessage" cols="40" rows="5" onkeypress="if(event.keyCode==13) { return false; } if(this.value.length >= 200) { return false; }"></textarea>
+</td></tr></table></div>
+</td></tr>
+
+<tr><td><input type="image" align="absmiddle" border="0" src="web/static/images/main/btnGiftContinue.png" class="pngFix">
+</td></tr></table>
+</div>
+<br><br>
+
+	<div id="otProtectPlan">
+    <div class="hpHeaderBar">Return Policy</div>
+        <br><p>Menards will allow Gift Cards purchased online at Menards.com to 
+be returned at any of our retail stores.<br><br>
+To process the return quickly, you will need to have the <u>original receipt</u> from Menards.com 
+(received via email with the Menards.com logo) and the <u>credit card</u> used in that purchase.
+</p>
+        <p class="rightFloat"><a href="returnPolicy.do">Learn More</a></p>
+        </div>
+   
+       <div id="otReturnPol">
+    <div class="hpHeaderBar">Questions or Concerns</div>
+        <br><p>If you have a question about any gift card order, please call Menards Incentive Sales at 888-412-7789 between the hours of 8 a.m. and 5 p.m. CST, Monday through Friday. One of our friendly team members will be more than happy to assist with your concerns. </p>
+       <br><p class="rightFloat"><a href="guestServices.do">Learn More</a></p>
+        </div><br><br>
+ 
+
+ <div class="clear"></div>
+</div>
+
+<br></form>
+<script language="JavaScript" defer>
+<!--
+preLoadImages();
+setTimeout('sync()', 5);
+//-->
+
+changeCardCategory(-1);
+</script>
+
+       
+  	
+
+      <br />
+    </div>
+    
+    
+    <div id="footer">
+      
+
+
+
+
+    <ul>
+        <li class="footFirst"><img src="web/static/images/index/footer_leftCurve.png" class="pngFix" border="0" /></li>
+        <li class="footContent"><img src="web/static/images/index/footer_logo.png" border="0" align="absmiddle" class="footLogo pngFix" /> 
+          <ul class="footer_navigation leftFloat">
+            <li> <a href="careers.do" class="foot"> Careers </a></li>
+            <li class="foot">| </li>
+            <li> <a href="http://www.menardsrealestate.com/" target="_blank" class="foot">Real Estate</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="vendorRegistration.do" class="foot">Supplier Form</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="http://www.menardsracing.com" target="_blank" class="foot">Menards Racing</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="privacy.do" class="foot">Privacy &amp; Terms</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="javascript:guestFeedback()" class="foot">Contact Us</a> </li>
+          </ul><br />
+          <span class="foot smallerText" style="padding-left:1px;">Copyright ©2004-Fri Jun 25 12:29:59 CDT 2010 Menard, Inc.</span>
+        </li>
+        <li class="footLast"><img src="web/static/images/index/footer_rightCurve.png" class="pngFix" border="0" /></li>
+
+      </ul>
+
+    </div>
+    
+
+  </div>
+
+
+
+
+<script type="text/javascript">
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+</script>
+
+</body>
+</html>

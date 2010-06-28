@@ -1,0 +1,357 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Improving Home Improvement : Store Locator</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "MO";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+	<li id="kw_crumb_top" class="kw_crumb_past"><A href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">New Search</A>&gt;</li>
+
+
+
+
+	<li id="kw_crumb_region" class="kw_crumb_current">Missouri </li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection" onsubmit="javascript:clear_kwplace()">
+	<INPUT type=hidden name=state-map value="MO">
+	
+	
+
+<script><!--
+function clear_kwplace() {
+        var f = document.kwform;
+        if(f.region){
+			f.region.value = '';
+		}
+        if (f.place.value == "Street Address, City, State/Province, ZIP/Postal Code, or Store Number") {
+                f.place.value = "";
+        }
+}
+-->
+</script>
+<p>
+
+
+
+
+
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="mapid"  VALUE="NorthAmerica">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="lang"   VALUE="en">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="design" VALUE="default">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <INPUT type="HIDDEN" name="country" value="US">
+        <INPUT type="HIDDEN" name="region_name" value="Missouri">
+
+
+
+
+
+
+<input name="region" type="hidden" value="MO">
+
+<div class="store-locator-search-box">
+		<div class="content">
+			<div class="search-nav">Quick Find &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a></div>
+			<fieldset>
+			<ol>
+
+				<li>
+					<div class="form-input-block">
+						<input label="Find Store" class="xlarge" type="text" name="place" id="store-location" value="Street Address, City, State/Province, ZIP/Postal Code, or Store Number" onfocus="clear_kwplace();" onblur="if(value==''){value='Street Address, City, State/Province, ZIP/Postal Code, or Store Number';}"/>
+						
+					</div>
+				</li>
+
+				<li>
+					<table>
+						<tr>
+							<td>
+
+
+<label for="narrow-search">Narrow Your Search By:</label>
+<div class="form-input-block">
+	<ol id="narrow-search">
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="B" /> Grand Opening</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="C" /> Equipment Rental</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="A" /> Installation Services</label></li>
+	</ol>
+</div>
+</td>
+							<td><a class="button-green" href="javascript:clear_kwplace(); javascript:document.kwform.submit();"><span>Find Store</span></a></td>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+
+				</li>
+			</ol>
+			</fieldset>
+		</div>
+		
+	<div class="store-locator-search-box-bottom"></div>
+</div>
+
+
+
+	
+
+	<div style="margin-left: 8px;" class="store-locator-map">
+		<div class="kw_static_map" align="left">
+					<table ><tr><td><INPUT class="mapdisplay" type=image name=map src="http://lowes.know-where.com/lowes//region/US/map/MO.gif" width=455 height=291 border=0></td></tr></table>
+
+		</div>
+	</div>
+	</form>
+	<div style="clear: both" class="store-locator-results-page">
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/util.js"></script>
+   		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwresults.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwmap.js"></script>
+		<b> Stores in Missouri</b>
+
+
+     <div id="kwresults_div"> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px;"> <tr> <td alight="left"> <span id="kw_page_links0"> </span> </td> <td align="right"> <form id="kwresults_pp_form0"> View <select id="kwresults_pp_select0"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table>  <table class="store-locator-results-table" cellpadding="0" cellspacing="0" style="clear: both;"> <tr> <th class="first">Store</th> <th>Phone &amp; Fax</th> <th>Hours</th> <th>Services</th> <th>Weekly Ad</th> <th>&nbsp;</th> </tr>   <tr id="kwresult0" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">1</div> <div class="address-block"> <h4>LOWE'S OF ARNOLD, MO</h4> <ul class="address"> <li>Store Number: 2303</li> <li>920 ARNOLD COMMONS</li> <li>ARNOLD, MO 63010</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 212-6000</li> <li>FAX: (636) 212-6003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2303&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2303');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult1" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">2</div> <div class="address-block"> <h4>LOWE'S OF BALLWIN, MO</h4> <ul class="address"> <li>Store Number: 1503</li> <li>14810 MANCHESTER ROAD</li> <li>BALLWIN, MO 63011</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 527-8805</li> <li>FAX: (636) 527-4037</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1503&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1503');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult2" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">3</div> <div class="address-block"> <h4>LOWE'S OF BRIDGETON, MO</h4> <ul class="address"> <li>Store Number: 2299</li> <li>11974 PAUL MAYER AVENUE</li> <li>BRIDGETON, MO 63044</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (314) 292-0042</li> <li>FAX: (314) 292-0045</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2299&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2299');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult3" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">4</div> <div class="address-block"> <h4>LOWE'S OF CAPE GIRARDEAU, MO</h4> <ul class="address"> <li>Store Number: 0317</li> <li>3440 LOWES DRIVE</li> <li>CAPE GIRARDEAU, MO 63701</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 335-6500</li> <li>FAX: (573) 335-3138</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0317&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0317');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult4" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">5</div> <div class="address-block"> <h4>LOWE'S OF CARTHAGE, MO</h4> <ul class="address"> <li>Store Number: 2647</li> <li>433 WEST FIR ROAD</li> <li>CARTHAGE, MO 64836</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 388-6000</li> <li>FAX: (417) 388-6003</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2647&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2647');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult5" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">6</div> <div class="address-block"> <h4>LOWE'S OF CHESTERFIELD, MO</h4> <ul class="address"> <li>Store Number: 0731</li> <li>290 T.H.F. BLVD</li> <li>CHESTERFIELD, MO 63005</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 728-0163</li> <li>FAX: (636) 536-1285</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0731&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0731');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult6" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">7</div> <div class="address-block"> <h4>LOWE'S OF CHILLICOTHE, MO</h4> <ul class="address"> <li>Store Number: 2459</li> <li>100 WEST BUSINESS 36</li> <li>CHILLICOTHE, MO 64601</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (660) 707-4840</li> <li>FAX: (660) 707-4843</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2459&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2459');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult7" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">8</div> <div class="address-block"> <h4>LOWE'S OF COLUMBIA, MO</h4> <ul class="address"> <li>Store Number: 0008</li> <li>201 CONLEY ROAD NORTH</li> <li>COLUMBIA, MO 65201</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 499-6767</li> <li>FAX: (573) 449-8341</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0008&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0008');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult8" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">9</div> <div class="address-block"> <h4>LOWE'S OF FARMINGTON, MO</h4> <ul class="address"> <li>Store Number: 1746</li> <li>625 WEST KARSCH BOULEVARD</li> <li>FARMINGTON, MO 63640</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 701-8200</li> <li>FAX: (573) 701-8203</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1746&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1746');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult9" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">10</div> <div class="address-block"> <h4>LOWE'S OF FENTON, MO</h4> <ul class="address"> <li>Store Number: 1055</li> <li>1 GRAVOIS BLUFFS PLAZA DRIVE</li> <li>FENTON, MO 63026</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 349-9064</li> <li>FAX: (636) 326-5130</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1055&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1055');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult10" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">11</div> <div class="address-block"> <h4>LOWE'S OF FESTUS, MO</h4> <ul class="address"> <li>Store Number: 1809</li> <li>1111 BRADLEY STREET</li> <li>FESTUS, MO 63028</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 933-3320</li> <li>FAX: (636) 933-3323</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1809&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1809');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult11" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">12</div> <div class="address-block"> <h4>LOWE'S OF FLORISSANT, MO</h4> <ul class="address"> <li>Store Number: 0748</li> <li>3180 NORTH HIGHWAY 67</li> <li>FLORISSANT, MO 63033</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (314) 972-8817</li> <li>FAX: (314) 972-9366</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0748&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0748');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult12" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">13</div> <div class="address-block"> <h4>LOWE'S OF HANNIBAL, MO</h4> <ul class="address"> <li>Store Number: 2991</li> <li>3651 STARDUST DRIVE</li> <li>HANNIBAL, MO 63401</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 248-8170</li> <li>FAX: (573) 248-8173</li> </ul> </td> <td> <ul> <li>M-SA 6:30-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2991&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2991');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult13" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">14</div> <div class="address-block"> <h4>LOWE'S OF HOLLISTER, MO</h4> <ul class="address"> <li>Store Number: 1096</li> <li>165 MALL ROAD</li> <li>HOLLISTER, MO 65672</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 334-8622</li> <li>FAX: (417) 334-3362</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1096&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1096');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult14" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">15</div> <div class="address-block"> <h4>LOWE'S OF INDEPENDENCE, MO</h4> <ul class="address"> <li>Store Number: 1098</li> <li>19000 EAST VALLEY VIEW PARKWAY</li> <li>INDEPENDENCE, MO 64055</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 795-7443</li> <li>FAX: (816) 795-6427</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1098&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1098');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult15" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">16</div> <div class="address-block"> <h4>LOWE'S OF JEFFERSON CITY, MO</h4> <ul class="address"> <li>Store Number: 1077</li> <li>3441 MISSOURI BLVD.</li> <li>JEFFERSON CITY, MO 65109</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 638-2400</li> <li>FAX: (573) 638-2417</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1077&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1077');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult16" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">17</div> <div class="address-block"> <h4>LOWE'S OF JOPLIN, MO</h4> <ul class="address"> <li>Store Number: 0278</li> <li>2600 RANGE LINE ROAD</li> <li>JOPLIN, MO 64804</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 782-1940</li> <li>FAX: (417) 782-0444</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0278&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0278');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult17" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">18</div> <div class="address-block"> <h4>LOWE'S OF KANSAS CITY - GLADSTONE, MO</h4> <ul class="address"> <li>Store Number: 2767</li> <li>4811 N. OAK TRAFFICWAY</li> <li>KANSAS CITY, MO 64118</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 414-4220</li> <li>FAX: (816) 414-4223</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2767&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2767');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult18" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">19</div> <div class="address-block"> <h4>LOWE'S OF EAST KANSAS CITY, MO</h4> <ul class="address"> <li>Store Number: 2943</li> <li>4201 STERLING AVENUE</li> <li>KANSAS CITY, MO 64133</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 743-2300</li> <li>FAX: (816) 743-2303</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2943&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2943');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult19" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">20</div> <div class="address-block"> <h4>LOWE'S OF S. KANSAS CITY, MO</h4> <ul class="address"> <li>Store Number: 1623</li> <li>1700 WEST 133RD STREET</li> <li>KANSAS CITY, MO 64145</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 942-2777</li> <li>FAX: (816) 942-2173</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1623&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1623');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult20" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">21</div> <div class="address-block"> <h4>LOWE'S OF N. KANSAS CITY, MO</h4> <ul class="address"> <li>Store Number: 1078</li> <li>8601 N. BOARDWALK AVENUE</li> <li>KANSAS CITY, MO 64154</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 746-4211</li> <li>FAX: (816) 746-5017</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1078&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1078');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult21" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">22</div> <div class="address-block"> <h4>LOWE'S OF KIRKWOOD, MO</h4> <ul class="address"> <li>Store Number: 0764</li> <li>1212 SOUTH KIRKWOOD ROAD</li> <li>KIRKWOOD, MO 63122</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (314) 835-1779</li> <li>FAX: (314) 835-9193</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0764&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0764');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult22" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">23</div> <div class="address-block"> <h4>LOWE'S OF LAKE ST. LOUIS, MO</h4> <ul class="address"> <li>Store Number: 2311</li> <li>6302 RONALD REAGAN DRIVE</li> <li>LAKE SAINT LOUIS, MO 63367</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 561-5914</li> <li>FAX: (636) 561-5917</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2311&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2311');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult23" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">24</div> <div class="address-block"> <h4>LOWE'S OF LEBANON, MO</h4> <ul class="address"> <li>Store Number: 2565</li> <li>190 EAST HIGHWAY 32</li> <li>LEBANON, MO 65536</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 588-6970</li> <li>FAX: (417) 588-6973</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2565&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2565');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult24" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">25</div> <div class="address-block"> <h4>LOWE'S OF LEE'S SUMMIT, MO</h4> <ul class="address"> <li>Store Number: 1180</li> <li>1830 NORTHWEST CHIPMAN ROAD</li> <li>LEES SUMMIT, MO 64081</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 246-2004</li> <li>FAX: (816) 246-2059</li> </ul> </td> <td> <ul> <li>M-FRI 6-10</li><li> SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1180&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1180');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult25" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">26</div> <div class="address-block"> <h4>LOWE'S OF LIBERTY, MO</h4> <ul class="address"> <li>Store Number: 1565</li> <li>1920 NORTH STEWART ROAD</li> <li>LIBERTY, MO 64068</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 407-2140</li> <li>FAX: (816) 407-2143</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1565&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1565');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult26" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">27</div> <div class="address-block"> <h4>LOWE'S OF MAPLEWOOD, MO</h4> <ul class="address"> <li>Store Number: 1966</li> <li>2300 MAPLEWOOD COMMONS DRIVE</li> <li>MAPLEWOOD, MO 63143</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (314) 450-1000</li> <li>FAX: (314) 450-1003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1966&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1966');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult27" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">28</div> <div class="address-block"> <h4>LOWE'S OF MOBERLY, MO</h4> <ul class="address"> <li>Store Number: 3088</li> <li>1800 EAST OUTER ROAD</li> <li>MOBERLY, MO 65270</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (660) 269-4210</li> <li>FAX: (660) 269-4213</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=3088&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('3088');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult28" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">29</div> <div class="address-block"> <h4>LOWE'S OF MONETT, MO</h4> <ul class="address"> <li>Store Number: 2576</li> <li>925 EAST US HIGHWAY 60</li> <li>MONETT, MO 65708</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 393-2000</li> <li>FAX: (417) 393-2003</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2576&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2576');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult29" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">30</div> <div class="address-block"> <h4>LOWE'S OF NEOSHO, MO</h4> <ul class="address"> <li>Store Number: 2849</li> <li>1490 CLEMON DRIVE</li> <li>NEOSHO, MO 64850</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 312-6000</li> <li>FAX: (417) 312-6003</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2849&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2849');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult30" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">31</div> <div class="address-block"> <h4>LOWE'S OF OSAGE BEACH, MO</h4> <ul class="address"> <li>Store Number: 1147</li> <li>950 HIGHWAY 42</li> <li>OSAGE BEACH, MO 65065</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 302-8808</li> <li>FAX: (573) 302-1075</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1147&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1147');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult31" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">32</div> <div class="address-block"> <h4>LOWE'S OF OZARK, MO</h4> <ul class="address"> <li>Store Number: 2226</li> <li>1800 WEST MARLER LANE</li> <li>OZARK, MO 65721</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 485-8804</li> <li>FAX: (417) 485-8807</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2226&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2226');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult32" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">33</div> <div class="address-block"> <h4>LOWE'S OF RAYMORE, MO</h4> <ul class="address"> <li>Store Number: 2626</li> <li>225 NORTH DEAN AVENUE</li> <li>RAYMORE, MO 64083</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 348-4320</li> <li>FAX: (816) 348-4323</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2626&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2626');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult33" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">34</div> <div class="address-block"> <h4>LOWE'S OF REPUBLIC, MO</h4> <ul class="address"> <li>Store Number: 2314</li> <li>1225 US HIGHWAY 60 EAST</li> <li>REPUBLIC, MO 65738</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 233-9030</li> <li>FAX: (417) 233-9033</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2314&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2314');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult34" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">35</div> <div class="address-block"> <h4>LOWE'S OF ROLLA, MO</h4> <ul class="address"> <li>Store Number: 1083</li> <li>2300 NORTH BISHOP AVENUE</li> <li>ROLLA, MO 65401</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 364-4424</li> <li>FAX: (573) 364-7839</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1083&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1083');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult35" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">36</div> <div class="address-block"> <h4>LOWE'S OF ST. CHARLES, MO</h4> <ul class="address"> <li>Store Number: 1057</li> <li>2900 WEST CLAY STREET</li> <li>SAINT CHARLES, MO 63301</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 723-2447</li> <li>FAX: (636) 723-2384</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1057&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1057');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult36" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">37</div> <div class="address-block"> <h4>LOWE'S OF ST. JOSEPH, MO</h4> <ul class="address"> <li>Store Number: 0305</li> <li>3901 N. BELT HIGHWAY</li> <li>SAINT JOSEPH, MO 64506</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (816) 364-4880</li> <li>FAX: (816) 364-4682</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0305&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0305');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult37" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">38</div> <div class="address-block"> <h4>LOWE'S OF S. ST. LOUIS, MO</h4> <ul class="address"> <li>Store Number: 2300</li> <li>932 LOUGHBOROUGH AVENUE</li> <li>SAINT LOUIS, MO 63111</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (314) 450-2140</li> <li>FAX: (314) 450-2143</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2300&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2300');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult38" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">39</div> <div class="address-block"> <h4>LOWE'S OF O'FALLON, MO</h4> <ul class="address"> <li>Store Number: 0753</li> <li>8501 MEXICO ROAD</li> <li>SAINT PETERS, MO 63376</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 379-2855</li> <li>FAX: (636) 980-2668</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0753&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0753');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult39" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">40</div> <div class="address-block"> <h4>LOWE'S OF ST. ROBERT, MO</h4> <ul class="address"> <li>Store Number: 2769</li> <li>120 CARSON BOULEVARD</li> <li>SAINT ROBERT, MO 65584</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 336-9500</li> <li>FAX: (573) 336-9503</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2769&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2769');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult40" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">41</div> <div class="address-block"> <h4>LOWE'S OF SEDALIA, MO</h4> <ul class="address"> <li>Store Number: 1067</li> <li>3811 WEST BROADWAY</li> <li>SEDALIA, MO 65301</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (660) 827-2330</li> <li>FAX: (660) 829-1385</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1067&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1067');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult41" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">42</div> <div class="address-block"> <h4>LOWE'S OF SIKESTON, MO</h4> <ul class="address"> <li>Store Number: 1209</li> <li>1240 S. MAIN STREET</li> <li>SIKESTON, MO 63801</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 472-7800</li> <li>FAX: (573) 472-8080</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1209&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1209');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult42" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">43</div> <div class="address-block"> <h4>LOWE'S OF N. SPRINGFIELD, MO</h4> <ul class="address"> <li>Store Number: 0733</li> <li>1707 WEST NORTON ROAD</li> <li>SPRINGFIELD, MO 65803</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 833-2000</li> <li>FAX: (417) 833-6739</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0733&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0733');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult43" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">44</div> <div class="address-block"> <h4>LOWE'S OF SPRINGFIELD, MO</h4> <ul class="address"> <li>Store Number: 0422</li> <li>1850 EAST PRIMROSE</li> <li>SPRINGFIELD, MO 65804</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (417) 889-1980</li> <li>FAX: (417) 889-2637</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0422&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0422');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult44" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">45</div> <div class="address-block"> <h4>LOWE'S OF OAK GROVE VILLAGE, MO</h4> <ul class="address"> <li>Store Number: 2729</li> <li>760 EAGLES COURT</li> <li>SULLIVAN, MO 63080</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (573) 860-2602</li> <li>FAX: (573) 860-2606</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2729&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2729');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult45" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">46</div> <div class="address-block"> <h4>LOWE'S OF WARRENSBURG, MO</h4> <ul class="address"> <li>Store Number: 2600</li> <li>912 NORTH COLLEGE AVENUE</li> <li>WARRENSBURG, MO 64093</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (660) 747-1001</li> <li>FAX: (660) 747-1004</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2600&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2600');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult46" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">47</div> <div class="address-block"> <h4>LOWE'S OF WASHINGTON, MO</h4> <ul class="address"> <li>Store Number: 1648</li> <li>2023 WASHINGTON CROSSING</li> <li>WASHINGTON, MO 63090</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 529-6000</li> <li>FAX: (636) 529-6003</li> </ul> </td> <td> <ul> <li>M-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1648&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1648');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult47" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">48</div> <div class="address-block"> <h4>LOWE'S OF WENTZVILLE, MO</h4> <ul class="address"> <li>Store Number: 2761</li> <li>1889 WENTZVILLE PARKWAY</li> <li>WENTZVILLE, MO 63385</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (636) 327-4711</li> <li>FAX: (636) 327-4720</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2761&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2761');"><span>Shop This Store</span></a> </td> </tr>
+ </table> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px"> <tr> <td alight="left"> <span id="kw_page_links1"> </span> </td> <td align="right"> <form id="kwresults_pp_form1"> View <select id="kwresults_pp_select1"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table> </div> 
+	    <script type="text/javascript">
+			KWResults = new kwresults_pager();
+			KWResults.init_results();
+			KWResults.show_page(0);
+		</script>
+	</div>
+	<div style="margin-top:10px; clear: both;"></div>
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

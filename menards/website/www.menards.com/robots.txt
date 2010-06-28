@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /scrip.html
+Disallow: scrip.html

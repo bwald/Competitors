@@ -1,0 +1,41 @@
+// PLEASE READ THIS BEFORE EDITING THIS PAGE!!!!!
+
+// Nothing should have an empty string ("") If there is one header link and alt text, copy and paste it to all six
+// array spots. Image size is 490 by 370 (W x H). Header Height is 62 pixels. Footer Height is 74 pixels.
+// Images must be Optimized in order to be viewed on the web. If the image is over 1000 KB or 1 MB, please check it.
+
+// You can not use quotes (") for text for inches, apostrophies (') for feet or cut down words like til for until,
+// ampersands (&) for and, trademark symbols, nor registered symbols in this file. The HTML versions like &amp;,
+// &quot;, and &trade; can not be used either. The browser will not support them when using an external file like this!
+
+// -------------------------------------------------------------------------------------------------------------------
+
+// mainImage is an array of the six pictures that represent the rotating image slideshow.
+mainImage[0] = "g61600102m/1_slide.jpg"; // first picture in the slideshow
+mainImage[1] = "g61600102m/2_slide.jpg"; // second picture in the slideshow
+mainImage[2] = "g61600102m/3_slide.jpg"; // third picture in the slideshow
+mainImage[3] = "g61600102m/4_slide.jpg"; // forth picture in the slideshow
+
+// mainBody1altText is an array of the alt text
+mainBody1altText[0] = "Landscaping Block Sale"; // alt text Image 1
+mainBody1altText[1] = "Low Maintenance Composite Decking"; // alt text Image 2
+mainBody1altText[2] = "All MasterCraft Special Order Entry Doors"; // alt text Image 3
+mainBody1altText[3] = "Start Saving Today With These BIG Brands"; // alt text Image 4
+
+// mainBody1Links is an array of the links
+mainBody1Links[0] = "weeklyAd.do?event=Menards%20Landscaping%20Block%20Sale&pageNumber=1"; // Link for Image 1
+mainBody1Links[1] = "weeklyAd.do?event=Menards%20Summer%20Sale%20I&pageNumber=8"; // Link for Image 2
+mainBody1Links[2] = "weeklyAd.do?event=Menards%20Summer%20Sale%20I&pageNumber=18"; // Link for Image 3
+mainBody1Links[3] = "weeklyAd.do?event=Menards%20Summer%20Sale%20I&pageNumber=25"; // Link for Image 4
+
+// mainBody2altText is an array of the alt text
+mainBody2altText[0] = "Landscaping Block Sale"; // alt text Image 1
+mainBody2altText[1] = "Low Maintenance Composite Decking"; // alt text Image 2
+mainBody2altText[2] = "30% Tax Credit"; // alt text Image 3
+mainBody2altText[3] = "Start Saving Today With These BIG Brands"; // alt text Image 4
+
+// mainBody2Links is an array of the links
+mainBody2Links[0] = "weeklyAd.do?event=Menards%20Landscaping%20Block%20Sale&pageNumber=1"; // Link for Image 1
+mainBody2Links[1] = "weeklyAd.do?event=Menards%20Summer%20Sale%20I&pageNumber=8"; // Link for Image 2
+mainBody2Links[2] = "energystar.do"; // Link for Image 3
+mainBody2Links[3] = "weeklyAd.do?event=Menards%20Summer%20Sale%20I&pageNumber=25"; // Link for Image 4

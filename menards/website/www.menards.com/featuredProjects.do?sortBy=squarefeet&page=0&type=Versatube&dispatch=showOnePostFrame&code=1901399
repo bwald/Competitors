@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK REL="SHORTCUT ICON" HREF="web/static/images/menards.ico">
+<title>Menards.com - Featured PostFrame</title>
+
+
+<link rel="stylesheet" type="text/css" href="web/static/styles/typography.css" />
+<link rel="stylesheet" type="text/css" href="web/static/styles/layout.css" />
+    <!--[if gte IE 5.5]>
+    <![if lt IE 7]>
+      <link rel="stylesheet" type="text/css" href="web/static/styles/ieEarlyStyle.css" />
+<style type="text/css">
+img.pngFix, input.pngFix, div.pngFix, a.pngFix { behavior: url(web/static/iepngfix/iepngfix.htc); }
+</style>
+    <![endif]>
+    <![endif]-->
+
+    <style type="text/css" media="screen">
+/*<![CDATA[*/
+    @import url(web/static/styles/styles.css);
+    /*]]>*/
+    </style>
+    <script src="web/static/js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8">
+</script>
+    <script src="web/static/js/jquery.hoverIntent.minified.js" type="text/javascript" charset="utf-8">
+</script>
+    <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+	var $j = jQuery.noConflict();
+    $j(document).ready(function() {
+      
+      function addMega(){
+        $j(this).addClass("hovering");
+        }
+
+      function removeMega(){
+        $j(this).removeClass("hovering");
+        }
+
+    var megaConfig = {
+         interval: 150,
+         sensitivity: 4,
+         over: addMega,
+         timeout: 300,
+         out: removeMega
+    };
+	
+    $j("li.mega").hoverIntent(megaConfig)
+
+      
+    });
+
+
+    //]]>
+    </script>
+
+<script language="JavaScript">
+  function viewAttachment(attachmentURL, pageTitle) {
+	  widthVar=675;
+	  heightVar=500;
+	  leftVar = (window.screen.width - widthVar)/2;
+	  topVar = (window.screen.height - heightVar)/2;
+	  props = "";
+	  if(pageTitle == null) {
+	    pageTitle = "Attachment Viewer";
+	  }
+		  // rewrite if tag has appended jsessionid
+	  if (attachmentURL.indexOf(";") > 1) {
+	    attachmentURL = attachmentURL.substring(0,attachmentURL.indexOf(";"));
+	  }	
+	  actionString ="viewAttachment.do?url="+attachmentURL+"&title="+pageTitle;
+  
+	  props +="height="+heightVar+",";
+	  props +="width="+widthVar+",";
+	  props +="top="+topVar+",";
+	  props +="left="+leftVar+",";
+	  props +="status=0,resizable=yes";		  
+	
+	  window.open(actionString, "", props);
+  }
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-560775-1']);
+
+  _gaq.push(['_trackPageview']);
+
+</script>
+
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div id="header">
+      
+
+      <a href="/index.do"><div class="headerlogo pngFix"></div></a>
+    
+      <ul class="header_navigation MLinkBar"> <!-- main Class should be header_subnavigation when SOC joins M.com -->
+        <li> <a href="rebateCoupons.do" class="head">Rebate Center </a> </li>
+        <li class="nonlink"> | </li>
+        <li> <a href="specialOrderHome.do" class="head"> Order Tracker </a></li>
+        <li class="nonlink">| </li>
+        <li> <a href="giftCards.do" class="head">Gift Cards</a> </li>
+        <li class="nonlink"> | </li> 
+        <li> <a href="storeLocator.do" class="head">Store Locator</a> </li>
+        <li class="nonlink"> | </li> 
+        <li> <a href="weeklyAd.do" class="head" onClick="_gaq.push(['_trackEvent', 'WeeklyAd', 'Clicked', 'Top']);">Weekly Ad</a> </li>
+      </ul>
+
+      <div class="clear"> </div>
+      
+<script language="javascript" src="web/static/js/guestServices.js"></script>
+
+      <div id="mainMenu">
+        <ul id="menu" class="menuArea">
+          <li id="first"><img src="web/static/images/index/topNav_leftCurve.png" class="pngFix" border="0" /></li>
+          <li class="mega"><a href="#" id="Products" class="mainMenu">&nbsp; Products <img src="web/static/images/index/menuArrow.png" class="pngFix" align="absmiddle" border="0" /></a>
+          <div class="subMegaClass">
+            <a href="newAtMenards.do">New at Menards</a><br />
+            <a href="featuredProjectsMain.do">Featured Projects</a><br />
+            <a href="featuredProjects.do?dispatch=homesMain" class="secondaryMenuItems">Homes</a><br />
+            <a href="featuredProjects.do?dispatch=garagesMain" class="secondaryMenuItems">Garages</a><br />
+            <a href="featuredProjects.do?dispatch=postFramesMain" class="secondaryMenuItems">Post Frames</a><br />
+            <a href="http://www.midwestmanufacturing.com/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Shop', 'Clicked', 'SubMenu Products']);">Featured Products</a><br />
+            <a href="http://www.countertopsinc.com/home" class="secondaryMenuItems" target="_blank">Countertops</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=0" class="secondaryMenuItems" target="_blank">Doors</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=1" class="secondaryMenuItems" target="_blank">Decking</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=2" class="secondaryMenuItems" target="_blank">Metal Roof &amp; Siding</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=4" class="secondaryMenuItems" target="_blank">Landscaping Block</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=3" class="secondaryMenuItems" target="_blank">Trusses</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/productGroup.do?groupId=7" class="secondaryMenuItems" target="_blank">Buildings</a><br />
+            <a href="http://www.midwestmanufacturing.com/MidwestManufacturing/projects.do" class="secondaryMenuItems" target="_blank">Projects</a><br />
+            <a href="http://shop.menards.com" target="_blank">Special Order Center</a>
+          </div>
+          </li>
+          <li class="mega"><a href="#" class="mainMenu">&nbsp; Promotions <img src="web/static/images/index/menuArrow.png" class="pngFix" align="absmiddle" border="0" /></a>
+          <div class="subMegaClass">
+            <a href="weeklyAd.do" onClick="_gaq.push(['_trackEvent', 'WeeklyAd', 'Clicked', 'Menu']);">Weekly Ad</a><br />
+            <a href="http://cs.silverpop.com/menards/prefcenter/sign_up.sp" onClick="_gaq.push(['_trackEvent', 'Email', 'Clicked', 'Email Subscription']);">E-Mail Subscription</a><br />
+            <a href="energystarTool.do">Energy Star</a>
+          </div>
+          </li>
+          <li class="mega"><a href="guestServices.do" class="mainMenu">&nbsp; Guest Services <img src="web/static/images/index/menuArrow.png" class="pngFix" align="absmiddle" border="0" /></a>
+          <div class="subMegaClass">
+            <a href="specialOrderHome.do">Order Tracker</a><br />
+            <a href="rebateCoupons.do">Rebate Center</a><br />
+            <a href="creditPrograms.do">Credit Programs</a><br />
+            <a href="storeLocator.do">Store Locator</a><br />
+            <a href="FAQs.do">FAQ</a><br />
+            <a href="returnPolicy.do">Return Policy</a><br />
+            <a href="javascript:guestFeedback()">Contact Us</a><br />
+            <a href="http://esp.amtrustgroup.com/menardscm/Menards.aspx" target="_blank">Protection Plan</a><br />
+            <a href="privacy.do">Privacy &amp; Terms</a>
+          </div>
+          </li>
+          <li><a href="http://shop.menards.com" target="_blank" class="mainMenu" onClick="_gaq.push(['_trackEvent', 'Shop', 'Clicked', 'Menu']);">&nbsp; Shop</a></li>
+          <li><a href="giftCards.do" class="mainMenu">&nbsp; Gift Cards</a></li>
+          <li><a href="giftRegistry.do" class="mainMenu">&nbsp; Gift Registry</a></li>
+          <li id="search" class="search rightFloat"> &nbsp; </li>
+          <li id="last"><img src="web/static/images/index/topNav_rightCurve.png" class="pngFix" border="0" /></li>
+        </ul>
+      </div>
+
+
+
+    </div>
+    <div class="shadowRow">&nbsp;</div>
+    <div id="mainContent">
+      
+            
+
+
+
+
+
+
+
+
+<h1><span></span>Featured Projects - Versatube</h1>
+<br />
+<div id="page" class="mainContent secondaryPage">
+
+<table border="0" width="945px" cellpadding="0" cellspacing="0">
+<Tr>
+<td id="leftFeatContent" valign="top">
+<div class="leftNav">
+<a class="mainCat" href="featuredProjects.do?sortBy=squarefeet&dispatch=postFramesMain">Featured Post Frames<img align="absmiddle" src="web/static/images/main/arrowRight.gif" border="0"></a>
+
+<a class="catLink" href="featuredProjects.do?sortBy=squarefeet&dispatch=showPostFrameListing&page=0&type=Agricultural">Agricultural</a>
+
+<a class="catLink" href="featuredProjects.do?sortBy=squarefeet&dispatch=showPostFrameListing&page=0&type=Garage">Garage</a>
+
+<a class="catLink" href="featuredProjects.do?sortBy=squarefeet&dispatch=showPostFrameListing&page=0&type=Loafing Shed">Loafing Shed</a>
+
+<a class="catLink" href="featuredProjects.do?sortBy=squarefeet&dispatch=showPostFrameListing&page=0&type=Mini Warehouse">Mini Warehouse</a>
+
+<a class="catLink" href="featuredProjects.do?sortBy=squarefeet&dispatch=showPostFrameListing&page=0&type=Versatube">Versatube</a>
+
+<a class="catLink" href="featuredProjects.do?sortBy=squarefeet&dispatch=showPostFrameListing&page=0&type=Workshop">Workshop</a>
+
+</div>
+</td>
+<td id="rightFeatContent" class="singlePlan">
+            <div id="back">
+              <a href="featuredProjects.do?dispatch=showHomeListing&sortBy=squarefeet&page=0&type=Versatube&totalPages=null"><img align="absmiddle" src="web/static/images/main/linkArrow.gif" border="0">Back to Browsing</a>
+      </div>
+              <br /> 
+                         
+             <div style="margin-left:10px;">
+                 <h2></h2>
+            </div>
+            
+			<div style="margin-left:10px;">
+                 <h4>This can be your new Versatube building with Pro Rib Steel for <font color="#000099">$913.00</font>
+				 <br /><span style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;"> (approx. price per material lists)</span></h4>
+			</div>
+      <br />
+			<div style="margin-left:10px; margin-right:10px;">
+			Excellent storage shelter for car, truck, pop-up camper, firewood, farm equipment, or dog kennels. Slip fit connections for fast easy assembly.2&quot;x2&quot; galvanized steel frame 29 galvanized pro rib steel panels with 24 color choices some colors slightly higher priced.
+            </div>
+            <br /><br />
+            <div class="clear">
+			</div>
+            
+<div id="middleContent">
+<div id="projectPic">
+            
+			<div id="projectPic">
+						<a href="#" onclick="window.open('/web/pages/components/featuredProjects/postFrames/showpix.jsp?code=1901399&image=web/managed/featuredProjects/postFrames/1901399PicLg.jpg','1901399','scrollbars=no,width=780,height=520');return false;">
+							<img src="web/managed/featuredProjects/postFrames/1901399Pic.jpg" border="0" />
+						</a>
+						
+			</div><!-- projectPic -->
+</div></div>
+
+<div style="margin-left:10px;">                        
+<div id="leftContent" style="background-color:#e6e6e6; border:#CCC thin solid;">
+				<div style="margin-left:10px;">
+                	<div class="required" style="color:#333;">SPECIFICATIONS</div>
+				<div id="projectSpec">
+				<div id="projectSpec">
+					<div><span class="accentText">Total Living Area: </span>240 sq.ft &nbsp; &nbsp;<span class="accentText">Plan: </span>1901399</div>
+				  <div><span class="accentText">Material Lists Include: </span></div>
+         	 
+              <ul>
+                <li>Steel Panels</li>
+                <li>Tubular Steel Frame</li>
+                <li>Vinyl Trim</li>
+                <li>Fasteners</li>
+                <li>Ground Anchors</li>
+               </ul>
+        
+		       
+               <br />
+</div></div>
+               <div class="clear"></div></div>
+
+	</div> <!-- projectSpec -->
+			</div><!-- projectContentText -->
+            <div class="clear"></div>
+			<div style="margin-left:10px;">
+			<div class="accentText">Different siding options and sizes are available.  For more information or to design your own building on our Design-It Center<span class="registered">&reg;</span>, visit a Menards' building material department nearest you.&nbsp;<a href="/storeLocator.do">Store Locator</a></div></div></div><br /><br />
+            
+	<div style="margin-left:10px; width:700px;">
+						<span class="required" style="color:#666;"> * You may buy all the materials or any part at low cash and carry prices. Because of the wide variation in codes, Menards cannot guarantee the material list will meet your code requirements. These post frame buildings are suggested designs and material lists only. Some items may vary from those pictured. We do not guarantee the completeness or prices of these buildings. Labor, concrete flooring, some finish materials and delivery are not included. Some special order truss sizes must be jobsite delivered. Delivery is extra. This post frame may have been altered from the plan's original design. </span>
+			</div><br /><br />
+		</td>
+	</tr>
+</table><!-- rightContent -->
+
+</div>
+      <br />
+    </div>
+    
+    
+    <div id="footer">
+      
+
+
+
+
+    <ul>
+        <li class="footFirst"><img src="web/static/images/index/footer_leftCurve.png" class="pngFix" border="0" /></li>
+        <li class="footContent"><img src="web/static/images/index/footer_logo.png" border="0" align="absmiddle" class="footLogo pngFix" /> 
+          <ul class="footer_navigation leftFloat">
+            <li> <a href="careers.do" class="foot"> Careers </a></li>
+            <li class="foot">| </li>
+            <li> <a href="http://www.menardsrealestate.com/" target="_blank" class="foot">Real Estate</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="vendorRegistration.do" class="foot">Supplier Form</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="http://www.menardsracing.com" target="_blank" class="foot">Menards Racing</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="privacy.do" class="foot">Privacy &amp; Terms</a> </li>
+            <li class="foot"> | </li> 
+            <li> <a href="javascript:guestFeedback()" class="foot">Contact Us</a> </li>
+          </ul><br />
+          <span class="foot smallerText" style="padding-left:1px;">Copyright ©2004-Fri Jun 25 12:32:18 CDT 2010 Menard, Inc.</span>
+        </li>
+        <li class="footLast"><img src="web/static/images/index/footer_rightCurve.png" class="pngFix" border="0" /></li>
+
+      </ul>
+
+    </div>
+    
+
+  </div>
+
+
+
+
+<script type="text/javascript">
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+</script>
+
+</body>
+</html>

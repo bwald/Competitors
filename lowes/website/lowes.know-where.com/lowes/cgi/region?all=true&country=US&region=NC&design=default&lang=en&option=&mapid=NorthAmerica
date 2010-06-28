@@ -1,0 +1,501 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Improving Home Improvement : Store Locator</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "NC";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+	<li id="kw_crumb_top" class="kw_crumb_past"><A href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">New Search</A>&gt;</li>
+
+
+
+
+	<li id="kw_crumb_region" class="kw_crumb_current">North Carolina </li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection" onsubmit="javascript:clear_kwplace()">
+	<INPUT type=hidden name=state-map value="NC">
+	
+	
+
+<script><!--
+function clear_kwplace() {
+        var f = document.kwform;
+        if(f.region){
+			f.region.value = '';
+		}
+        if (f.place.value == "Street Address, City, State/Province, ZIP/Postal Code, or Store Number") {
+                f.place.value = "";
+        }
+}
+-->
+</script>
+<p>
+
+
+
+
+
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="mapid"  VALUE="NorthAmerica">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="lang"   VALUE="en">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="design" VALUE="default">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <INPUT type="HIDDEN" name="country" value="US">
+        <INPUT type="HIDDEN" name="region_name" value="North Carolina">
+
+
+
+
+
+
+<input name="region" type="hidden" value="NC">
+
+<div class="store-locator-search-box">
+		<div class="content">
+			<div class="search-nav">Quick Find &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a></div>
+			<fieldset>
+			<ol>
+
+				<li>
+					<div class="form-input-block">
+						<input label="Find Store" class="xlarge" type="text" name="place" id="store-location" value="Street Address, City, State/Province, ZIP/Postal Code, or Store Number" onfocus="clear_kwplace();" onblur="if(value==''){value='Street Address, City, State/Province, ZIP/Postal Code, or Store Number';}"/>
+						
+					</div>
+				</li>
+
+				<li>
+					<table>
+						<tr>
+							<td>
+
+
+<label for="narrow-search">Narrow Your Search By:</label>
+<div class="form-input-block">
+	<ol id="narrow-search">
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="B" /> Grand Opening</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="C" /> Equipment Rental</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="A" /> Installation Services</label></li>
+	</ol>
+</div>
+</td>
+							<td><a class="button-green" href="javascript:clear_kwplace(); javascript:document.kwform.submit();"><span>Find Store</span></a></td>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+
+				</li>
+			</ol>
+			</fieldset>
+		</div>
+		
+	<div class="store-locator-search-box-bottom"></div>
+</div>
+
+
+
+	
+
+	<div style="margin-left: 8px;" class="store-locator-map">
+		<div class="kw_static_map" align="left">
+					<table ><tr><td><INPUT class="mapdisplay" type=image name=map src="http://lowes.know-where.com/lowes//region/US/map/NC.gif" width=455 height=291 border=0></td></tr></table>
+
+		</div>
+	</div>
+	</form>
+	<div style="clear: both" class="store-locator-results-page">
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/util.js"></script>
+   		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwresults.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwmap.js"></script>
+		<b> Stores in North Carolina</b>
+
+
+     <div id="kwresults_div"> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px;"> <tr> <td alight="left"> <span id="kw_page_links0"> </span> </td> <td align="right"> <form id="kwresults_pp_form0"> View <select id="kwresults_pp_select0"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table>  <table class="store-locator-results-table" cellpadding="0" cellspacing="0" style="clear: both;"> <tr> <th class="first">Store</th> <th>Phone &amp; Fax</th> <th>Hours</th> <th>Services</th> <th>Weekly Ad</th> <th>&nbsp;</th> </tr>   <tr id="kwresult0" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">1</div> <div class="address-block"> <h4>LOWE'S OF ALBEMARLE, NC</h4> <ul class="address"> <li>Store Number: 1529</li> <li>814-14 N.C. 24-27 BYPASS EAST</li> <li>ALBEMARLE, NC 28001</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 983-8956</li> <li>FAX: (704) 983-8969</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1529&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1529');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult1" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">2</div> <div class="address-block"> <h4>LOWE'S OF APEX, NC</h4> <ul class="address"> <li>Store Number: 1878</li> <li>1101 BEAVER CREEK COMMONS DRIVE</li> <li>APEX, NC 27502</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 303-4200</li> <li>FAX: (919) 303-4203</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1878&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1878');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult2" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">3</div> <div class="address-block"> <h4>LOWE'S OF S. ASHEVILLE, NC</h4> <ul class="address"> <li>Store Number: 2201</li> <li>19 MCKENNA ROAD</li> <li>ARDEN, NC 28704</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 650-8000</li> <li>FAX: (828) 650-8003</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2201&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2201');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult3" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">4</div> <div class="address-block"> <h4>LOWE'S OF ASHEBORO, NC</h4> <ul class="address"> <li>Store Number: 0449</li> <li>1120 EAST DIXIE DRIVE</li> <li>ASHEBORO, NC 27203</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 629-6100</li> <li>FAX: (336) 629-0297</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0449&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0449');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult4" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">5</div> <div class="address-block"> <h4>LOWE'S OF E. ASHEVILLE, NC</h4> <ul class="address"> <li>Store Number: 0617</li> <li>89 SOUTH TUNNEL ROAD</li> <li>ASHEVILLE, NC 28805</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 299-3788</li> <li>FAX: (828) 299-7405</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0617&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0617');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult5" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">6</div> <div class="address-block"> <h4>LOWE'S OF W. ASHEVILLE, NC</h4> <ul class="address"> <li>Store Number: 0526</li> <li>95 SMOKEY PARK HIGHWAY</li> <li>ASHEVILLE, NC 28806</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 255-9113</li> <li>FAX: (828) 255-8312</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0526&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0526');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult6" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">7</div> <div class="address-block"> <h4>LOWE'S OF BANNER ELK, NC</h4> <ul class="address"> <li>Store Number: 1834</li> <li>2014 TYNECASTLE HIGHWAY</li> <li>BANNER ELK, NC 28604</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 897-8700</li> <li>FAX: (828) 897-8703</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-6</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1834&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1834');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult7" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">8</div> <div class="address-block"> <h4>LOWE'S OF BELMONT, NC</h4> <ul class="address"> <li>Store Number: 2650</li> <li>200 CALDWELL FARM ROAD</li> <li>BELMONT, NC 28012</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 825-6405</li> <li>FAX: (704) 825-6408</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2650&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2650');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult8" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">9</div> <div class="address-block"> <h4>LOWE'S OF BOONE, NC</h4> <ul class="address"> <li>Store Number: 1522</li> <li>1855 BLOWING ROCK ROAD</li> <li>BOONE, NC 28607</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 262-0773</li> <li>FAX: (828) 265-1438</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1522&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1522');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult9" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">10</div> <div class="address-block"> <h4>LOWE'S OF BREVARD, NC</h4> <ul class="address"> <li>Store Number: 1990</li> <li>119 ECUSTA ROAD</li> <li>BREVARD, NC 28712</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 877-8630</li> <li>FAX: (828) 877-8633</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1990&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1990');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult10" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">11</div> <div class="address-block"> <h4>LOWE'S OF BURLINGTON, NC</h4> <ul class="address"> <li>Store Number: 0508</li> <li>125 HUFFMAN MILL ROAD</li> <li>BURLINGTON, NC 27215</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 226-5656</li> <li>FAX: (336) 226-1434</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0508&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0508');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult11" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">12</div> <div class="address-block"> <h4>LOWE'S OF CAPE CARTERET, NC</h4> <ul class="address"> <li>Store Number: 2436</li> <li>401 WB MCLEAN DRIVE</li> <li>CAPE CARTERET, NC 28584</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 764-5000</li> <li>FAX: (252) 764-5003</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2436&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2436');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult12" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">13</div> <div class="address-block"> <h4>LOWE'S OF N. CARY, NC</h4> <ul class="address"> <li>Store Number: 1835</li> <li>1920 NW MAYNARD ROAD</li> <li>CARY, NC 27513</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 380-3210</li> <li>FAX: (919) 380-3214</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1835&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1835');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult13" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">14</div> <div class="address-block"> <h4>LOWE'S OF CARY, NC</h4> <ul class="address"> <li>Store Number: 0426</li> <li>2000 WALNUT STREET</li> <li>CARY, NC 27518</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 233-7000</li> <li>FAX: (919) 233-7018</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0426&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0426');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult14" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">15</div> <div class="address-block"> <h4>LOWE'S OF CHAPEL HILL, NC</h4> <ul class="address"> <li>Store Number: 0487</li> <li>1801 FORDHAM BOULEVARD</li> <li>CHAPEL HILL, NC 27514</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 967-3289</li> <li>FAX: (919) 967-7089</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0487&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0487');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult15" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">16</div> <div class="address-block"> <h4>LOWE'S OF CENTRAL CHARLOTTE, NC</h4> <ul class="address"> <li>Store Number: 2348</li> <li>217 IVERSON WAY</li> <li>CHARLOTTE, NC 28203</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 335-5021</li> <li>FAX: (704) 335-5024</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2348&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2348');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult16" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">17</div> <div class="address-block"> <h4>LOWE'S OF N. CHARLOTTE, NC</h4> <ul class="address"> <li>Store Number: 0408</li> <li>1100 CHANCELLOR PARK DR</li> <li>CHARLOTTE, NC 28213</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 597-2000</li> <li>FAX: (704) 597-2018</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0408&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0408');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult17" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">18</div> <div class="address-block"> <h4>LOWE'S OF CHARLOTTE - NORTHLAKE MALL, NC</h4> <ul class="address"> <li>Store Number: 2352</li> <li>10275 PERIMETER PARKWAY</li> <li>CHARLOTTE, NC 28216</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 501-4420</li> <li>FAX: (704) 501-4423</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2352&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2352');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult18" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">19</div> <div class="address-block"> <h4>LOWE'S OF PINEVILLE, NC</h4> <ul class="address"> <li>Store Number: 0377</li> <li>10625 MCMULLEN CREEK PKWY</li> <li>CHARLOTTE, NC 28226</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 543-5600</li> <li>FAX: (704) 341-7652</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0377&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0377');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult19" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">20</div> <div class="address-block"> <h4>LOWE'S OF E. CHARLOTTE, NC</h4> <ul class="address"> <li>Store Number: 1920</li> <li>8826 ALBEMARLE ROAD</li> <li>CHARLOTTE, NC 28227</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 563-3761</li> <li>FAX: (704) 563-3764</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1920&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1920');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult20" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">21</div> <div class="address-block"> <h4>LOWE'S OF S.W. CHARLOTTE, NC</h4> <ul class="address"> <li>Store Number: 1060</li> <li>8192 SOUTH TRYON STREET</li> <li>CHARLOTTE, NC 28273</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 504-1147</li> <li>FAX: (704) 504-3895</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1060&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1060');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult21" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">22</div> <div class="address-block"> <h4>LOWE'S OF S. CHARLOTTE, NC</h4> <ul class="address"> <li>Store Number: 1112</li> <li>5310 BALLANTYNE COMMONS PARKWAY</li> <li>CHARLOTTE, NC 28277</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 321-1050</li> <li>FAX: (704) 321-1042</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1112&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1112');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult22" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">23</div> <div class="address-block"> <h4>LOWE'S OF CLINTON, NC</h4> <ul class="address"> <li>Store Number: 1689</li> <li>911 SUNSET AVENUE</li> <li>CLINTON, NC 28328</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 337-0000</li> <li>FAX: (910) 337-0003</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1689&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1689');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult23" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">24</div> <div class="address-block"> <h4>LOWE'S OF CONCORD, NC</h4> <ul class="address"> <li>Store Number: 0697</li> <li>940 CONCORD PARKWAY NORTH</li> <li>CONCORD, NC 28027</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 720-9000</li> <li>FAX: (704) 720-9017</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+  <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0697&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0697');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult24" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">25</div> <div class="address-block"> <h4>LOWE'S OF S.W. CONCORD, NC</h4> <ul class="address"> <li>Store Number: 2981</li> <li>8670 CONCORD MILLS BOULEVARD</li> <li>CONCORD, NC 28027</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 652-4500</li> <li>FAX: (704) 652-4503</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2981&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2981');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult25" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">26</div> <div class="address-block"> <h4>LOWE'S OF E. LINCOLN COUNTY, NC</h4> <ul class="address"> <li>Store Number: 2636</li> <li>7144 HIGHWAY 73</li> <li>DENVER, NC 28037</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 398-3701</li> <li>FAX: (704) 398-3704</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2636&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2636');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult26" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">27</div> <div class="address-block"> <h4>LOWE'S OF N. DURHAM, NC</h4> <ul class="address"> <li>Store Number: 0576</li> <li>117 WILLIAM PENN PLAZA</li> <li>DURHAM, NC 27704</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 620-8579</li> <li>FAX: (919) 620-9719</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0576&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0576');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult27" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">28</div> <div class="address-block"> <h4>LOWE'S OF S. DURHAM, NC</h4> <ul class="address"> <li>Store Number: 2778</li> <li>4402 FAYETTEVILLE ROAD</li> <li>DURHAM, NC 27713</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 206-4800</li> <li>FAX: (919) 206-4803</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2778&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2778');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult28" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">29</div> <div class="address-block"> <h4>LOWE'S OF ELIZABETH CITY, NC</h4> <ul class="address"> <li>Store Number: 1713</li> <li>1605 WEST EHRINGHAUS STREET</li> <li>ELIZABETH CITY, NC 27909</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 331-6160</li> <li>FAX: (252) 331-6163</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1713&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1713');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult29" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">30</div> <div class="address-block"> <h4>LOWE'S OF ELKIN, NC</h4> <ul class="address"> <li>Store Number: 1653</li> <li>492 CC CAMP ROAD</li> <li>ELKIN, NC 28621</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 526-6550</li> <li>FAX: (336) 526-6553</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1653&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1653');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult30" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">31</div> <div class="address-block"> <h4>LOWE'S OF ERWIN, NC</h4> <ul class="address"> <li>Store Number: 1777</li> <li>524 EAST JACKSON BOULEVARD</li> <li>ERWIN, NC 28339</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 897-1120</li> <li>FAX: (910) 897-1123</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1777&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1777');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult31" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">32</div> <div class="address-block"> <h4>LOWE'S OF W. FAYETTEVILLE, NC</h4> <ul class="address"> <li>Store Number: 2905</li> <li>7771 GOOD MIDDLING DRIVE</li> <li>FAYETTEVILLE, NC 28304</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 213-1254</li> <li>FAX: (910) 213-1255</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2905&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2905');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult32" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">33</div> <div class="address-block"> <h4>LOWE'S OF N. FAYETTEVILLE, NC</h4> <ul class="address"> <li>Store Number: 0767</li> <li>3909 RAMSEY STREET</li> <li>FAYETTEVILLE, NC 28311</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 822-0126</li> <li>FAX: (910) 822-0599</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0767&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0767');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult33" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">34</div> <div class="address-block"> <h4>LOWE'S OF FAYETTEVILLE, NC</h4> <ul class="address"> <li>Store Number: 0388</li> <li>1929 SKIBO SQUARE</li> <li>FAYETTEVILLE, NC 28314</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 487-5600</li> <li>FAX: (910) 487-5399</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0388&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0388');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult34" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">35</div> <div class="address-block"> <h4>LOWE'S OF FOREST CITY, NC</h4> <ul class="address"> <li>Store Number: 1788</li> <li>184 LOWE'S BOULEVARD</li> <li>FOREST CITY, NC 28043</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 351-1023</li> <li>FAX: (828) 351-1026</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1788&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1788');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult35" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">36</div> <div class="address-block"> <h4>LOWE'S OF FRANKLIN, NC</h4> <ul class="address"> <li>Store Number: 0717</li> <li>161 FRANKLIN PLAZA</li> <li>FRANKLIN, NC 28734</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 349-4654</li> <li>FAX: (828) 349-4875</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0717&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0717');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult36" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">37</div> <div class="address-block"> <h4>LOWE'S OF GARNER, NC</h4> <ul class="address"> <li>Store Number: 0488</li> <li>1575 U S HIGHWAY 70 WEST</li> <li>GARNER, NC 27529</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 772-4466</li> <li>FAX: (919) 772-9369</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0488&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0488');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult37" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">38</div> <div class="address-block"> <h4>LOWE'S OF CLAYTON, NC</h4> <ul class="address"> <li>Store Number: 0677</li> <li>101 CLEVELAND CROSSING DRIVE</li> <li>GARNER, NC 27529</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 661-6440</li> <li>FAX: (919) 661-6354</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0677&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0677');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult38" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">39</div> <div class="address-block"> <h4>LOWE'S OF FRANKLIN SQUARE, NC</h4> <ul class="address"> <li>Store Number: 0457</li> <li>3250 EAST FRANKLIN BLVD.</li> <li>GASTONIA, NC 28056</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 865-6767</li> <li>FAX: (704) 854-8842</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0457&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0457');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult39" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">40</div> <div class="address-block"> <h4>LOWE'S OF GOLDSBORO, NC</h4> <ul class="address"> <li>Store Number: 0557</li> <li>1202 BERKELEY BLVD.</li> <li>GOLDSBORO, NC 27534</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 778-9969</li> <li>FAX: (919) 778-0388</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0557&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0557');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult40" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">41</div> <div class="address-block"> <h4>LOWE'S OF N.E. GREENSBORO, NC</h4> <ul class="address"> <li>Store Number: 2771</li> <li>2005 EAST CONE BOULEVARD</li> <li>GREENSBORO, NC 27405</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 541-1890</li> <li>FAX: (336) 541-1893</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2771&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2771');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult41" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">42</div> <div class="address-block"> <h4>LOWE'S OF S.E. GREENSBORO, NC</h4> <ul class="address"> <li>Store Number: 2222</li> <li>109 WEST ELMSLEY DRIVE</li> <li>GREENSBORO, NC 27406</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 333-2652</li> <li>FAX: (336) 333-2655</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2222&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2222');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult42" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">43</div> <div class="address-block"> <h4>LOWE'S OF S.W. GREENSBORO, NC</h4> <ul class="address"> <li>Store Number: 0404</li> <li>1703 SOUTH FORTY DRIVE</li> <li>GREENSBORO, NC 27407</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 292-4813</li> <li>FAX: (336) 547-3953</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0404&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0404');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult43" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">44</div> <div class="address-block"> <h4>LOWE'S OF N. GREENSBORO, NC</h4> <ul class="address"> <li>Store Number: 0387</li> <li>3001 BATTLEGROUND AVE</li> <li>GREENSBORO, NC 27408</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 545-2040</li> <li>FAX: (336) 545-2057</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0387&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0387');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult44" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">45</div> <div class="address-block"> <h4>LOWE'S OF E. GREENVILLE, NC</h4> <ul class="address"> <li>Store Number: 2837</li> <li>3840 EAST 10TH STREET</li> <li>GREENVILLE, NC 27858</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 754-6640</li> <li>FAX: (252) 754-6643</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2837&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2837');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult45" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">46</div> <div class="address-block"> <h4>LOWE'S OF SURF CITY, NC</h4> <ul class="address"> <li>Store Number: 2256</li> <li>106 WILKES LANE</li> <li>HAMPSTEAD, NC 28443</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 329-6952</li> <li>FAX: (910) 329-6955</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2256&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2256');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult46" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">47</div> <div class="address-block"> <h4>LOWE'S OF HENDERSON, NC</h4> <ul class="address"> <li>Store Number: 0738</li> <li>166 DABNEY ROAD</li> <li>HENDERSON, NC 27537</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 436-0050</li> <li>FAX: (252) 433-0493</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0738&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0738');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult47" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">48</div> <div class="address-block"> <h4>LOWE'S OF HENDERSONVILLE, NC</h4> <ul class="address"> <li>Store Number: 0031</li> <li>1415 - 7TH AVENUE, EAST</li> <li>HENDERSONVILLE, NC 28792</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 696-4900</li> <li>FAX: (828) 696-0635</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0031&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0031');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult48" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">49</div> <div class="address-block"> <h4>LOWE'S OF N. HICKORY, NC</h4> <ul class="address"> <li>Store Number: 2370</li> <li>1450 2ND STREET NE</li> <li>HICKORY, NC 28601</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 304-6420</li> <li>FAX: (828) 304-6423</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2370&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2370');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult49" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">50</div> <div class="address-block"> <h4>LOWE'S OF HICKORY, NC</h4> <ul class="address"> <li>Store Number: 1557</li> <li>1550 21ST STREET DRIVE S.E.</li> <li>HICKORY, NC 28602</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 304-9063</li> <li>FAX: (828) 327-9576</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1557&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1557');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult50" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">51</div> <div class="address-block"> <h4>LOWE'S OF N. HIGH POINT, NC</h4> <ul class="address"> <li>Store Number: 0459</li> <li>2600 NORTH MAIN STREET</li> <li>HIGH POINT, NC 27265</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 889-8600</li>  </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0459&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0459');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult51" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">52</div> <div class="address-block"> <h4>LOWE'S OF HUNTERSVILLE, NC</h4> <ul class="address"> <li>Store Number: 0489</li> <li>16830 STATESVILLE ROAD</li> <li>HUNTERSVILLE, NC 28078</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 892-9449</li> <li>FAX: (704) 892-6746</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0489&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0489');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult52" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">53</div> <div class="address-block"> <h4>LOWE'S OF INDIAN TRAIL, NC</h4> <ul class="address"> <li>Store Number: 2907</li> <li>5711 W. HIGHWAY 74</li> <li>INDIAN TRAIL, NC 28079</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 225-7110</li> <li>FAX: (704) 225-7113</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2907&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2907');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult53" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">54</div> <div class="address-block"> <h4>LOWE'S OF S. JACKSONVILLE, NC</h4> <ul class="address"> <li>Store Number: 2737</li> <li>425 YOPP ROAD</li> <li>JACKSONVILLE, NC 28540</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 320-9030</li> <li>FAX: (910) 320-9033</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2737&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2737');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult54" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">55</div> <div class="address-block"> <h4>LOWE'S OF JACKSONVILLE, NC</h4> <ul class="address"> <li>Store Number: 0556</li> <li>1255 WESTERN BLVD.</li> <li>JACKSONVILLE, NC 28546</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 938-9100</li> <li>FAX: (910) 455-8146</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0556&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0556');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult55" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">56</div> <div class="address-block"> <h4>LOWE'S OF N. CONCORD, NC</h4> <ul class="address"> <li>Store Number: 2368</li> <li>3025 DALE EARNHARDT BOULEVARD</li> <li>KANNAPOLIS, NC 28083</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 720-9810</li> <li>FAX: (704) 720-9813</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2368&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2368');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult56" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">57</div> <div class="address-block"> <h4>LOWE'S OF KERNERSVILLE, NC</h4> <ul class="address"> <li>Store Number: 1141</li> <li>145 HARMON CREEK ROAD</li> <li>KERNERSVILLE, NC 27284</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 992-0509</li> <li>FAX: (336) 996-6495</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1141&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1141');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult57" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">58</div> <div class="address-block"> <h4>LOWE'S OF KINSTON, NC</h4> <ul class="address"> <li>Store Number: 1722</li> <li>4489 HIGHWAY 70 WEST</li> <li>KINSTON, NC 28504</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 520-5100</li> <li>FAX: (252) 520-5103</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1722&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1722');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult58" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">59</div> <div class="address-block"> <h4>LOWE'S OF KNIGHTDALE, NC</h4> <ul class="address"> <li>Store Number: 1095</li> <li>7316 KNIGHTDALE BOULEVARD</li> <li>KNIGHTDALE, NC 27545</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 266-1178</li> <li>FAX: (919) 266-6716</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1095&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1095');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult59" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">60</div> <div class="address-block"> <h4>LOWE'S OF LAURINBURG, NC</h4> <ul class="address"> <li>Store Number: 2564</li> <li>910 US 15-401 BY-PASS</li> <li>LAURINBURG, NC 28352</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 610-2365</li> <li>FAX: (910) 610-2368</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2564&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2564');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult60" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">61</div> <div class="address-block"> <h4>LOWE'S OF LENOIR, NC</h4> <ul class="address"> <li>Store Number: 1509</li> <li>1201 HICKORY BLVD. S.E.</li> <li>LENOIR, NC 28645</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 726-5246</li> <li>FAX: (828) 726-6931</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1509&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1509');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult61" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">62</div> <div class="address-block"> <h4>LOWE'S OF LEXINGTON, NC</h4> <ul class="address"> <li>Store Number: 0490</li> <li>130 LOWE'S BLVD.</li> <li>LEXINGTON, NC 27292</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 248-2300</li> <li>FAX: (336) 248-2083</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0490&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0490');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult62" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">63</div> <div class="address-block"> <h4>LOWE'S OF LINCOLNTON, NC</h4> <ul class="address"> <li>Store Number: 0700</li> <li>1603 EAST MAIN STREET</li> <li>LINCOLNTON, NC 28092</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 748-9335</li> <li>FAX: (704) 735-8892</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0700&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0700');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult63" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">64</div> <div class="address-block"> <h4>LOWE'S OF LUMBERTON, NC</h4> <ul class="address"> <li>Store Number: 0739</li> <li>5060 FAYETTEVILLE ROAD</li> <li>LUMBERTON, NC 28358</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 738-2557</li> <li>FAX: (910) 738-3892</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 12-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0739&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0739');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult64" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">65</div> <div class="address-block"> <h4>LOWE'S OF MARION, NC</h4> <ul class="address"> <li>Store Number: 1922</li> <li>480 US 70 WEST</li> <li>MARION, NC 28752</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 659-5960</li> <li>FAX: (828) 659-5963</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1922&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1922');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult65" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">66</div> <div class="address-block"> <h4>LOWE'S OF S.E. CHARLOTTE, NC</h4> <ul class="address"> <li>Store Number: 1124</li> <li>2115 MATTHEWS TOWNSHIP PARKWAY</li> <li>MATTHEWS, NC 28105</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 321-7170</li> <li>FAX: (704) 321-7185</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1124&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1124');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult66" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">67</div> <div class="address-block"> <h4>LOWE'S OF MAYODAN, NC</h4> <ul class="address"> <li>Store Number: 2996</li> <li>6844 NC HIGHWAY 135</li> <li>MAYODAN, NC 27027</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 427-1400</li> <li>FAX: (336) 427-1403</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2996&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2996');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult67" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">68</div> <div class="address-block"> <h4>LOWE'S OF MEBANE, NC</h4> <ul class="address"> <li>Store Number: 2517</li> <li>200 LOWES BOULEVARD</li> <li>MEBANE, NC 27302</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 304-9401</li> <li>FAX: (919) 304-9404</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2517&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2517');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult68" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">69</div> <div class="address-block"> <h4>LOWE'S OF MOCKSVILLE, NC</h4> <ul class="address"> <li>Store Number: 2575</li> <li>1427 YADKINVILLE ROAD</li> <li>MOCKSVILLE, NC 27028</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 936-2560</li> <li>FAX: (336) 936-2563</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2575&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2575');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult69" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">70</div> <div class="address-block"> <h4>LOWE'S OF MONROE, NC</h4> <ul class="address"> <li>Store Number: 0680</li> <li>2350 WEST ROOSEVELT BLVD</li> <li>MONROE, NC 28110</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 226-1744</li> <li>FAX: (704) 226-0744</li> </ul> </td> <td> <ul> <li>M-TH 6-9</li><li> FRI-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0680&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0680');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult70" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">71</div> <div class="address-block"> <h4>CORPORATE OFFICES - MOORESVILLE, NC</h4> <ul class="address"> <li>Store Number: 1999</li> <li>1000 LOWE'S BOULEVARD</li> <li>MOORESVILLE, NC 28115</li> <li>  </li> </ul> </div> </td> <td> <ul>   </ul> </td> <td> <ul>  </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p>  </p> </td> <td>  </td> </tr>
+  <tr id="kwresult71" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">72</div> <div class="address-block"> <h4>LOWE'S OF MOORESVILLE, NC</h4> <ul class="address"> <li>Store Number: 0595</li> <li>509 RIVER HIGHWAY</li> <li>MOORESVILLE, NC 28117</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 660-7177</li> <li>FAX: (704) 662-7053</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0595&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0595');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult72" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">73</div> <div class="address-block"> <h4>LOWE'S OF MOREHEAD CITY, NC</h4> <ul class="address"> <li>Store Number: 0619</li> <li>5219 HWY 70</li> <li>MOREHEAD CITY, NC 28557</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 727-5011</li> <li>FAX: (252) 727-0715</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0619&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0619');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult73" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">74</div> <div class="address-block"> <h4>LOWE'S OF MORGANTON, NC</h4> <ul class="address"> <li>Store Number: 1097</li> <li>1224 BURKEMONT AVENUE</li> <li>MORGANTON, NC 28655</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 433-1102</li> <li>FAX: (828) 433-9059</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1097&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1097');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult74" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">75</div> <div class="address-block"> <h4>LOWE'S OF MOUNT AIRY, NC</h4> <ul class="address"> <li>Store Number: 0478</li> <li>692 SOUTH ANDY GRIFFITH PARKWAY, STE. 100</li> <li>MOUNT AIRY, NC 27030</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 789-6100</li> <li>FAX: (336) 789-3877</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0478&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0478');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult75" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">76</div> <div class="address-block"> <h4>LOWE'S OF MURPHY, NC</h4> <ul class="address"> <li>Store Number: 2505</li> <li>198 BULLDOG DRIVE</li> <li>MURPHY, NC 28906</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 835-4660</li> <li>FAX: (828) 835-4663</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2505&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2505');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult76" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">77</div> <div class="address-block"> <h4>LOWE'S OF NEW BERN, NC</h4> <ul class="address"> <li>Store Number: 0566</li> <li>1400 LOWE'S BLVD</li> <li>NEW BERN, NC 28562</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 638-6777</li> <li>FAX: (252) 636-0609</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0566&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0566');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult77" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">78</div> <div class="address-block"> <h4>LOWE'S OF PITTSBORO, NC</h4> <ul class="address"> <li>Store Number: 2448</li> <li>121 LOWE'S DRIVE</li> <li>PITTSBORO, NC 27312</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 642-4030</li> <li>FAX: (919) 642-4032</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2448&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2448');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult78" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">79</div> <div class="address-block"> <h4>LOWE'S OF N. RALEIGH, NC</h4> <ul class="address"> <li>Store Number: 0444</li> <li>4601 CAPITAL BLVD.</li> <li>RALEIGH, NC 27604</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 850-9300</li> <li>FAX: (919) 850-2042</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0444&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0444');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult79" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">80</div> <div class="address-block"> <h4>LOWE'S OF W. RALEIGH, NC</h4> <ul class="address"> <li>Store Number: 0625</li> <li>4831 GROVE BARTON RD</li> <li>RALEIGH, NC 27613</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 510-9667</li> <li>FAX: (919) 510-4902</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0625&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0625');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult80" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">81</div> <div class="address-block"> <h4>LOWE'S OF REIDSVILLE, NC</h4> <ul class="address"> <li>Store Number: 1210</li> <li>5201 US 29 BUSINESS</li> <li>REIDSVILLE, NC 27320</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 342-0553</li> <li>FAX: (336) 342-2099</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1210&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1210');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult81" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">82</div> <div class="address-block"> <h4>LOWE'S OF ROANOKE RAPIDS, NC</h4> <ul class="address"> <li>Store Number: 1815</li> <li>1600 JULIAN ALLSBROOK HIGHWAY</li> <li>ROANOKE RAPIDS, NC 27870</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 535-3840</li> <li>FAX: (252) 535-3843</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1815&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1815');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult82" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">83</div> <div class="address-block"> <h4>LOWE'S OF ROCKINGHAM, NC</h4> <ul class="address"> <li>Store Number: 1038</li> <li>1300-A EAST BROAD AVENUE</li> <li>ROCKINGHAM, NC 28379</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 410-0137</li> <li>FAX: (910) 410-9734</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1038&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1038');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult83" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">84</div> <div class="address-block"> <h4>LOWE'S OF ROCKY MOUNT, NC</h4> <ul class="address"> <li>Store Number: 0547</li> <li>700 N. WESLEYAN BLVD.</li> <li>ROCKY MOUNT, NC 27804</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 451-1161</li> <li>FAX: (252) 451-1666</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0547&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0547');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult84" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">85</div> <div class="address-block"> <h4>LOWE'S OF ROXBORO, NC</h4> <ul class="address"> <li>Store Number: 2210</li> <li>2044 DURHAM ROAD</li> <li>ROXBORO, NC 27573</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 330-2100</li> <li>FAX: (336) 330-2103</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2210&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2210');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult85" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">86</div> <div class="address-block"> <h4>LOWE'S OF SALISBURY, NC</h4> <ul class="address"> <li>Store Number: 0495</li> <li>207 FAITH ROAD</li> <li>SALISBURY, NC 28146</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 638-0808</li> <li>FAX: (704) 638-9651</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul> <li>Equipment Rental</li>
+  <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0495&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0495');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult86" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">87</div> <div class="address-block"> <h4>LOWE'S OF SANFORD, NC</h4> <ul class="address"> <li>Store Number: 0608</li> <li>3015 S. HORNER BLVD.</li> <li>SANFORD, NC 27332</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 776-5644</li> <li>FAX: (919) 776-4746</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0608&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0608');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult87" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">88</div> <div class="address-block"> <h4>LOWE'S OF SHALLOTTE, NC</h4> <ul class="address"> <li>Store Number: 1068</li> <li>351 WHITEVILLE ROAD</li> <li>SHALLOTTE, NC 28470</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 755-6111</li> <li>FAX: (910) 755-6148</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1068&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1068');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult88" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">89</div> <div class="address-block"> <h4>LOWE'S OF SHELBY, NC</h4> <ul class="address"> <li>Store Number: 0612</li> <li>425 EARL ROAD</li> <li>SHELBY, NC 28150</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 484-9883</li> <li>FAX: (704) 484-3941</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0612&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0612');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult89" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">90</div> <div class="address-block"> <h4>LOWE'S OF SMITHFIELD, NC</h4> <ul class="address"> <li>Store Number: 0647</li> <li>1230 N. BRIGHTLEAF BLVD</li> <li>SMITHFIELD, NC 27577</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 934-6666</li> <li>FAX: (919) 934-7857</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0647&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0647');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult90" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">91</div> <div class="address-block"> <h4>LOWE'S OF SOUTHERN PINES, NC</h4> <ul class="address"> <li>Store Number: 0538</li> <li>10845 US 15-501 HWY.</li> <li>SOUTHERN PINES, NC 28387</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 693-1010</li> <li>FAX: (910) 693-1675</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0538&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0538');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult91" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">92</div> <div class="address-block"> <h4>LOWE'S OF SOUTHPORT, NC</h4> <ul class="address"> <li>Store Number: 0682</li> <li>5084 SOUTHPORT - SUPPLY ROAD SOUTHEAST</li> <li>SOUTHPORT, NC 28461</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 454-8761</li> <li>FAX: (910) 454-4484</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0682&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0682');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult92" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">93</div> <div class="address-block"> <h4>LOWE'S OF STATESVILLE, NC</h4> <ul class="address"> <li>Store Number: 0458</li> <li>140 N. POINTE BLVD.</li> <li>STATESVILLE, NC 28625</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 878-9440</li> <li>FAX: (704) 878-6767</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0458&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0458');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult93" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">94</div> <div class="address-block"> <h4>LOWE'S OF SYLVA, NC</h4> <ul class="address"> <li>Store Number: 2257</li> <li>1716 EAST MAIN STREET</li> <li>SYLVA, NC 28779</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 586-1170</li> <li>FAX: (828) 586-1173</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2257&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2257');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult94" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">95</div> <div class="address-block"> <h4>LOWE'S OF TARBORO, NC</h4> <ul class="address"> <li>Store Number: 3022</li> <li>111 RIVER OAKS DRIVE</li> <li>TARBORO, NC 27886</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 824-2200</li> <li>FAX: (252) 824-2203</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=3022&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('3022');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult95" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">96</div> <div class="address-block"> <h4>LOWE'S OF TROUTMAN, NC</h4> <ul class="address"> <li>Store Number: 2750</li> <li>1041 CHARLOTTE HIGHWAY</li> <li>TROUTMAN, NC 28166</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 980-5000</li> <li>FAX: (704) 980-5003</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2750&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2750');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult96" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">97</div> <div class="address-block"> <h4>LOWE'S OF W. JEFFERSON, NC</h4> <ul class="address"> <li>Store Number: 2255</li> <li>158 LOWE'S DRIVE</li> <li>W. JEFFERSON, NC 28694</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 846-1829</li> <li>FAX: (336) 846-1832</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-6</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2255&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2255');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult97" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">98</div> <div class="address-block"> <h4>LOWE'S OF WAKE FOREST, NC</h4> <ul class="address"> <li>Store Number: 1798</li> <li>11800 GALAXY DRIVE</li> <li>WAKE FOREST, NC 27587</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (919) 554-6420</li> <li>FAX: (919) 554-6423</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1798&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1798');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult98" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">99</div> <div class="address-block"> <h4>LOWE'S OF WASHINGTON, NC</h4> <ul class="address"> <li>Store Number: 0786</li> <li>1701 CAROLINA AVENUE</li> <li>WASHINGTON, NC 27889</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 975-1006</li> <li>FAX: (252) 975-1168</li> </ul> </td> <td> <ul> <li>M-TH 7-9</li><li> FRI-SA 7-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0786&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0786');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult99" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">100</div> <div class="address-block"> <h4>LOWE'S OF WAXHAW, NC</h4> <ul class="address"> <li>Store Number: 2638</li> <li>2508 CUTHBERTSON ROAD</li> <li>WAXHAW, NC 28173</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (704) 843-8520</li> <li>FAX: (704) 843-8523</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2638&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2638');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult100" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">101</div> <div class="address-block"> <h4>LOWE'S OF WAYNESVILLE, NC</h4> <ul class="address"> <li>Store Number: 0470</li> <li>100 LINER COVE ROAD</li> <li>WAYNESVILLE, NC 28786</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 456-9999</li> <li>FAX: (828) 456-9589</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0470&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0470');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult101" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">102</div> <div class="address-block"> <h4>LOWE'S OF WEAVERVILLE, NC</h4> <ul class="address"> <li>Store Number: 2634</li> <li>24 NORTHRIDGE COMMONS PARKWAY</li> <li>WEAVERVILLE, NC 28787</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (828) 782-9020</li> <li>FAX: (828) 782-9023</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2634&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2634');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult102" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">103</div> <div class="address-block"> <h4>LOWE'S OF WHITEVILLE, NC</h4> <ul class="address"> <li>Store Number: 2869</li> <li>100 GREEN HILL DRIVE</li> <li>WHITEVILLE, NC 28472</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 212-9010</li> <li>FAX: (910) 212-9013</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2869&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2869');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult103" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">104</div> <div class="address-block"> <h4>LOWE'S OF WILKESBORO, NC</h4> <ul class="address"> <li>Store Number: 0701</li> <li>2003 US HIGHWAY 421</li> <li>WILKESBORO, NC 28697</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 838-1500</li> <li>FAX: (336) 838-1738</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 9-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0701&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0701');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult104" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">105</div> <div class="address-block"> <h4>CORPORATE OFFICES - WILKESBORO, NC</h4> <ul class="address"> <li>Store Number: 1998</li> <li>1605 CURTIS BRIDGE ROAD</li> <li>WILKESBORO, NC 28697</li> <li>  </li> </ul> </div> </td> <td> <ul>   </ul> </td> <td> <ul>  </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p>  </p> </td> <td>  </td> </tr>
+  <tr id="kwresult105" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">106</div> <div class="address-block"> <h4>LOWE'S OF UNIVERSITY CENTRE, NC</h4> <ul class="address"> <li>Store Number: 0445</li> <li>354 SOUTH COLLEGE ROAD</li> <li>WILMINGTON, NC 28403</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 395-8433</li> <li>FAX: (910) 395-8447</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0445&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0445');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult106" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">107</div> <div class="address-block"> <h4>LOWE'S OF S. WILMINGTON, NC</h4> <ul class="address"> <li>Store Number: 1138</li> <li>5110 S. COLLEGE ROAD</li> <li>WILMINGTON, NC 28412</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (910) 397-0137</li> <li>FAX: (910) 397-1536</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1138&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1138');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult107" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">108</div> <div class="address-block"> <h4>LOWE'S OF WILSON, NC</h4> <ul class="address"> <li>Store Number: 0726</li> <li>2501 FOREST HILLS ROAD WEST</li> <li>WILSON, NC 27893</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 243-5311</li> <li>FAX: (252) 293-0815</li> </ul> </td> <td> <ul> <li>M-SA 7-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0726&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0726');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult108" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">109</div> <div class="address-block"> <h4>LOWE'S OF N. WINSTON, NC</h4> <ul class="address"> <li>Store Number: 0480</li> <li>5901 UNIVERSITY PKY</li> <li>WINSTON SALEM, NC 27105</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 377-3800</li> <li>FAX: (336) 377-3818</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0480&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0480');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult109" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">110</div> <div class="address-block"> <h4>LOWE'S OF WINSTON WEST, NC</h4> <ul class="address"> <li>Store Number: 0436</li> <li>935 HANES MALL BLVD</li> <li>WINSTON-SALEM, NC 27103</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 768-2400</li> <li>FAX: (336) 768-2644</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0436&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0436');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult110" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">111</div> <div class="address-block"> <h4>LOWE'S OF S. WINSTON-SALEM, NC</h4> <ul class="address"> <li>Store Number: 2653</li> <li>1450 LUMBER LANE</li> <li>WINSTON-SALEM, NC 27127</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (336) 784-3460</li> <li>FAX: (336) 784-3463</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>   <li><a href="http://www.lowes.com/lowes/lkn?action=pg&p=InstServ/extsol/index.html">In-Home Consultation</a></li>
+   &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2653&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2653');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult111" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">112</div> <div class="address-block"> <h4>LOWE'S OF GREENVILLE, NC</h4> <ul class="address"> <li>Store Number: 0598</li> <li>800 THOMAS LANGSTON ROAD</li> <li>WINTERVILLE, NC 28590</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (252) 355-5211</li> <li>FAX: (252) 353-0437</li> </ul> </td> <td> <ul> <li>M-SA 6-10</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0598&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0598');"><span>Shop This Store</span></a> </td> </tr>
+ </table> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px"> <tr> <td alight="left"> <span id="kw_page_links1"> </span> </td> <td align="right"> <form id="kwresults_pp_form1"> View <select id="kwresults_pp_select1"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table> </div> 
+	    <script type="text/javascript">
+			KWResults = new kwresults_pager();
+			KWResults.init_results();
+			KWResults.show_page(0);
+		</script>
+	</div>
+	<div style="margin-top:10px; clear: both;"></div>
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

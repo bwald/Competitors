@@ -1,0 +1,325 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Improving Home Improvement : Store Locator</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "AZ";
+	kw_region_name = "";
+	kw_mapid = "NorthAmerica";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+	<li id="kw_crumb_top" class="kw_crumb_past"><A href="http://lowes.know-where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">New Search</A>&gt;</li>
+
+
+
+
+	<li id="kw_crumb_region" class="kw_crumb_current">Arizona </li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection" onsubmit="javascript:clear_kwplace()">
+	<INPUT type=hidden name=state-map value="AZ">
+	
+	
+
+<script><!--
+function clear_kwplace() {
+        var f = document.kwform;
+        if(f.region){
+			f.region.value = '';
+		}
+        if (f.place.value == "Street Address, City, State/Province, ZIP/Postal Code, or Store Number") {
+                f.place.value = "";
+        }
+}
+-->
+</script>
+<p>
+
+
+
+
+
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="mapid"  VALUE="NorthAmerica">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="lang"   VALUE="en">
+
+
+
+	<INPUT TYPE="HIDDEN" NAME="design" VALUE="default">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <INPUT type="HIDDEN" name="country" value="US">
+        <INPUT type="HIDDEN" name="region_name" value="Arizona">
+
+
+
+
+
+
+<input name="region" type="hidden" value="AZ">
+
+<div class="store-locator-search-box">
+		<div class="content">
+			<div class="search-nav">Quick Find &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/index?mapid=intl">Browse International Locations</a></div>
+			<fieldset>
+			<ol>
+
+				<li>
+					<div class="form-input-block">
+						<input label="Find Store" class="xlarge" type="text" name="place" id="store-location" value="Street Address, City, State/Province, ZIP/Postal Code, or Store Number" onfocus="clear_kwplace();" onblur="if(value==''){value='Street Address, City, State/Province, ZIP/Postal Code, or Store Number';}"/>
+						
+					</div>
+				</li>
+
+				<li>
+					<table>
+						<tr>
+							<td>
+
+
+<label for="narrow-search">Narrow Your Search By:</label>
+<div class="form-input-block">
+	<ol id="narrow-search">
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="B" /> Grand Opening</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="C" /> Equipment Rental</label></li>
+		<li><label class="checkbox" for=""><input type="checkbox" class="checkbox" name="A" /> Installation Services</label></li>
+	</ol>
+</div>
+</td>
+							<td><a class="button-green" href="javascript:clear_kwplace(); javascript:document.kwform.submit();"><span>Find Store</span></a></td>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+
+				</li>
+			</ol>
+			</fieldset>
+		</div>
+		
+	<div class="store-locator-search-box-bottom"></div>
+</div>
+
+
+
+	
+
+	<div style="margin-left: 8px;" class="store-locator-map">
+		<div class="kw_static_map" align="left">
+					<table ><tr><td><INPUT class="mapdisplay" type=image name=map src="http://lowes.know-where.com/lowes//region/US/map/AZ.gif" width=455 height=291 border=0></td></tr></table>
+
+		</div>
+	</div>
+	</form>
+	<div style="clear: both" class="store-locator-results-page">
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/util.js"></script>
+   		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwresults.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwmap.js"></script>
+		<b> Stores in Arizona</b>
+
+
+     <div id="kwresults_div"> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px;"> <tr> <td alight="left"> <span id="kw_page_links0"> </span> </td> <td align="right"> <form id="kwresults_pp_form0"> View <select id="kwresults_pp_select0"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table>  <table class="store-locator-results-table" cellpadding="0" cellspacing="0" style="clear: both;"> <tr> <th class="first">Store</th> <th>Phone &amp; Fax</th> <th>Hours</th> <th>Services</th> <th>Weekly Ad</th> <th>&nbsp;</th> </tr>   <tr id="kwresult0" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">1</div> <div class="address-block"> <h4>LOWE'S OF BUCKEYE, AZ</h4> <ul class="address"> <li>Store Number: 2295</li> <li>700 SOUTH WATSON ROAD</li> <li>BUCKEYE, AZ 85326</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 474-5015</li> <li>FAX: (623) 474-6408</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2295&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2295');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult1" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">2</div> <div class="address-block"> <h4>LOWE'S OF BULLHEAD CITY, AZ</h4> <ul class="address"> <li>Store Number: 2202</li> <li>1680 HIGHWAY 95</li> <li>BULLHEAD CITY, AZ 86442</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (928) 704-5760</li> <li>FAX: (928) 704-5763</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2202&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2202');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult2" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">3</div> <div class="address-block"> <h4>LOWE'S OF CAREFREE, AZ</h4> <ul class="address"> <li>Store Number: 2683</li> <li>PO BOX 6008, 34700 N. CAVE CREEK ROAD</li> <li>CAREFREE, AZ 85377</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 437-3540</li> <li>FAX: (480) 437-3543</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2683&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2683');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult3" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">4</div> <div class="address-block"> <h4>LOWE'S OF CASA GRANDE, AZ</h4> <ul class="address"> <li>Store Number: 2272</li> <li>1436 EAST FLORENCE BOULEVARD</li> <li>CASA GRANDE, AZ 85222</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (520) 836-4170</li> <li>FAX: (520) 836-4173</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2272&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2272');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult4" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">5</div> <div class="address-block"> <h4>LOWE'S OF E. CHANDLER, AZ</h4> <ul class="address"> <li>Store Number: 1032</li> <li>2900 WEST CHANDLER BLVD.</li> <li>CHANDLER, AZ 85224</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 855-0012</li> <li>FAX: (480) 855-0763</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1032&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1032');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult5" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">6</div> <div class="address-block"> <h4>LOWE'S OF W. CHANDLER, AZ</h4> <ul class="address"> <li>Store Number: 0674</li> <li>7100 WEST RAY ROAD</li> <li>CHANDLER, AZ 85226</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 753-0103</li> <li>FAX: (480) 753-4442</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0674&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0674');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult6" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">7</div> <div class="address-block"> <h4>LOWE'S OF OCOTILLO, AZ</h4> <ul class="address"> <li>Store Number: 2582</li> <li>4300 SOUTH ARIZONA AVENUE</li> <li>CHANDLER, AZ 85248</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 883-2200</li> <li>FAX: (480) 883-2203</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2582&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2582');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult7" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">8</div> <div class="address-block"> <h4>LOWE'S OF GILBERT, AZ</h4> <ul class="address"> <li>Store Number: 1090</li> <li>734 SOUTH GILBERT ROAD</li> <li>GILBERT, AZ 85296</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 558-1007</li> <li>FAX: (480) 558-1067</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1090&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1090');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult8" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">9</div> <div class="address-block"> <h4>LOWE'S OF E. GILBERT, AZ</h4> <ul class="address"> <li>Store Number: 2808</li> <li>4730 S. HIGLEY ROAD</li> <li>GILBERT, AZ 85297</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 840-6280</li> <li>FAX: (480) 840-6283</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2808&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2808');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult9" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">10</div> <div class="address-block"> <h4>LOWE'S OF GLENDALE, AZ</h4> <ul class="address"> <li>Store Number: 1728</li> <li>5809 WEST NORTHERN AVENUE</li> <li>GLENDALE, AZ 85301</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 463-6120</li> <li>FAX: (623) 463-6123</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1728&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1728');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult10" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">11</div> <div class="address-block"> <h4>LOWE'S OF GOODYEAR, AZ</h4> <ul class="address"> <li>Store Number: 1553</li> <li>13191 WEST MCDOWELL ROAD</li> <li>GOODYEAR, AZ 85338</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 935-9157</li> <li>FAX: (623) 935-4191</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1553&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1553');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult11" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">12</div> <div class="address-block"> <h4>LOWE'S OF LAKE HAVASU, AZ</h4> <ul class="address"> <li>Store Number: 2562</li> <li>4000 HIGHWAY 95N</li> <li>LAKE HAVASU CITY, AZ 86404</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (928) 764-2120</li> <li>FAX: (928) 764-2123</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-7</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2562&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2562');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult12" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">13</div> <div class="address-block"> <h4>LOWE'S OF E. MESA, AZ</h4> <ul class="address"> <li>Store Number: 0714</li> <li>1440 SOUTH HIGLEY ROAD</li> <li>MESA, AZ 85206</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 832-1666</li> <li>FAX: (480) 832-6805</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0714&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0714');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult13" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">14</div> <div class="address-block"> <h4>LOWE'S OF APACHE JUNCTION, AZ</h4> <ul class="address"> <li>Store Number: 2527</li> <li>1229 S. ELLSWORTH ROAD</li> <li>MESA, AZ 85209</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 373-2440</li> <li>FAX: (480) 373-2443</li> </ul> </td> <td> <ul> <li>M-SA 5-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2527&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2527');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult14" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">15</div> <div class="address-block"> <h4>LOWE'S OF PEORIA, AZ</h4> <ul class="address"> <li>Store Number: 1117</li> <li>8497 WEST THUNDERBIRD ROAD</li> <li>PEORIA, AZ 85381</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 776-3382</li> <li>FAX: (623) 486-0267</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1117&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1117');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult15" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">16</div> <div class="address-block"> <h4>LOWE'S OF N. PEORIA, AZ</h4> <ul class="address"> <li>Store Number: 2820</li> <li>25311 N. LAKE PLEASANT PARKWAY</li> <li>PEORIA, AZ 85383</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 537-2640</li> <li>FAX: (523) 537-2643</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2820&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2820');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult16" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">17</div> <div class="address-block"> <h4>LOWE'S OF W. PHOENIX, AZ</h4> <ul class="address"> <li>Store Number: 1042</li> <li>1620 NORTH 75TH AVENUE</li> <li>PHOENIX, AZ 85035</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 845-6292</li> <li>FAX: (623) 845-6359</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1042&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1042');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult17" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">18</div> <div class="address-block"> <h4>LOWE'S OF S. PHOENIX, AZ</h4> <ul class="address"> <li>Store Number: 2421</li> <li>1950 WEST BASELINE ROAD</li> <li>PHOENIX, AZ 85041</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (602) 323-8550</li> <li>FAX: (602) 323-8553</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2421&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2421');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult18" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">19</div> <div class="address-block"> <h4>LOWE'S OF N. PHOENIX, AZ</h4> <ul class="address"> <li>Store Number: 1204</li> <li>2929 W. THUNDERBIRD ROAD</li> <li>PHOENIX, AZ 85053</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (602) 564-7811</li> <li>FAX: (602) 564-2946</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1204&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1204');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult19" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">20</div> <div class="address-block"> <h4>LOWE'S OF HAPPY VALLEY, AZ</h4> <ul class="address"> <li>Store Number: 2557</li> <li>2501 W. HAPPY VALLEY ROAD, BLDG 40</li> <li>PHOENIX, AZ 85085</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 445-9840</li> <li>FAX: (623) 445-9843</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2557&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2557');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult20" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">21</div> <div class="address-block"> <h4>LOWE'S OF PRESCOTT, AZ</h4> <ul class="address"> <li>Store Number: 1157</li> <li>2300 EAST STATE ROUTE 69</li> <li>PRESCOTT, AZ 86301</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (928) 541-8640</li> <li>FAX: (928) 541-8643</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1157&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1157');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult21" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">22</div> <div class="address-block"> <h4>LOWE'S OF SCOTTSDALE, AZ</h4> <ul class="address"> <li>Store Number: 0792</li> <li>16285 NORTH SCOTTSDALE ROAD</li> <li>SCOTTSDALE, AZ 85254</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 607-0246</li> <li>FAX: (480) 607-6732</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=0792&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('0792');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult22" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">23</div> <div class="address-block"> <h4>LOWE'S OF S. SCOTTSDALE, AZ</h4> <ul class="address"> <li>Store Number: 1850</li> <li>7950 EAST MCDOWELL ROAD</li> <li>SCOTTSDALE, AZ 85257</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 874-8120</li> <li>FAX: (480) 874-8123</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1850&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1850');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult23" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">24</div> <div class="address-block"> <h4>LOWE'S OF SHOWLOW, AZ</h4> <ul class="address"> <li>Store Number: 2833</li> <li>5800 SOUTH WHITE MOUNTAIN ROAD</li> <li>SHOW LOW, AZ 85901</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (928) 532-2620</li> <li>FAX: (928) 532-2623</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 8-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2833&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2833');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult24" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">25</div> <div class="address-block"> <h4>LOWE'S OF SIERRA VISTA, AZ</h4> <ul class="address"> <li>Store Number: 2663</li> <li>3700 MARTIN LUTHER KING PARKWAY</li> <li>SIERRA VISTA, AZ 85635</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (520) 439-3640</li> <li>FAX: (520) 439-3643</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=2663&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('2663');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult25" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">26</div> <div class="address-block"> <h4>LOWE'S OF SURPRISE, AZ</h4> <ul class="address"> <li>Store Number: 1607</li> <li>13363 W. GRAND AVENUE</li> <li>SURPRISE, AZ 85374</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (623) 975-6020</li> <li>FAX: (623) 975-6593</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1607&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1607');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult26" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">27</div> <div class="address-block"> <h4>LOWE'S OF TEMPE, AZ</h4> <ul class="address"> <li>Store Number: 3000</li> <li>777 EAST BASELINE ROAD</li> <li>TEMPE, AZ 85283</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (480) 458-1870</li> <li>FAX: (480) 458-1873</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=3000&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('3000');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult27" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">28</div> <div class="address-block"> <h4>LOWE'S OF C. TUCSON, AZ</h4> <ul class="address"> <li>Store Number: 1638</li> <li>4151 NORTH ORACLE ROAD</li> <li>TUCSON, AZ 85705</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (520) 887-1003</li> <li>FAX: (520) 408-0875</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1638&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1638');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult28" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">29</div> <div class="address-block"> <h4>LOWE'S OF E. TUCSON, AZ</h4> <ul class="address"> <li>Store Number: 1754</li> <li>7105 EAST SPEEDWAY BOULEVARD</li> <li>TUCSON, AZ 85710</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (520) 721-3510</li> <li>FAX: (520) 721-3513</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1754&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1754');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult29" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">30</div> <div class="address-block"> <h4>LOWE'S OF MARANA, AZ</h4> <ul class="address"> <li>Store Number: 1707</li> <li>4075 WEST INA ROAD</li> <li>TUCSON, AZ 85741</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (520) 572-7300</li> <li>FAX: (520) 572-7303</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1707&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1707');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult30" class="kwresult_normal0"> <td class="first"> <div class="kwnumbering">31</div> <div class="address-block"> <h4>LOWE'S OF S.W. TUCSON, AZ</h4> <ul class="address"> <li>Store Number: 1791</li> <li>1800 WEST VALENCIA ROAD</li> <li>TUCSON, AZ 85746</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (520) 741-2400</li> <li>FAX: (520) 741-2403</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1791&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1791');"><span>Shop This Store</span></a> </td> </tr>
+  <tr id="kwresult31" class="kwresult_normal1"> <td class="first"> <div class="kwnumbering">32</div> <div class="address-block"> <h4>LOWE'S OF YUMA, AZ</h4> <ul class="address"> <li>Store Number: 1082</li> <li>115 WEST 32ND STREET</li> <li>YUMA, AZ 85364</li> <li>  </li> </ul> </div> </td> <td> <ul> <li>Phone: (928) 317-0119</li> <li>FAX: (928) 317-5145</li> </ul> </td> <td> <ul> <li>M-SA 6-9</li><li> SU 7-8</li> </ul> </td> <td> <ul>    &nbsp; </ul> </td> <td> <p> <a href="http://lowes.shoplocal.com/lowes/new_user_entry.aspx?storeref=1082&adref=top_nav_header" target="_new">View Weekly Ad</a>
+ </p> </td> <td> <a class="button-grey" href="javascript:_iframe.lowes.updateLocalStore('1082');"><span>Shop This Store</span></a> </td> </tr>
+ </table> 	<table cellpadding="0" cellspacing="0" width="918" style="clear: both; margin-bottom: 5px"> <tr> <td alight="left"> <span id="kw_page_links1"> </span> </td> <td align="right"> <form id="kwresults_pp_form1"> View <select id="kwresults_pp_select1"> <option value="5" selected=true>5 per page</option>
+<option value="10">10 per page</option>
+<option value="15">15 per page</option>
+<option value="-1">all results</option>
+ </select> </form> </td> </tr> </table> </div> 
+	    <script type="text/javascript">
+			KWResults = new kwresults_pager();
+			KWResults.init_results();
+			KWResults.show_page(0);
+		</script>
+	</div>
+	<div style="margin-top:10px; clear: both;"></div>
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

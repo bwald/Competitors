@@ -1,0 +1,154 @@
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+	<!--------------------------------------------->
+<!--                                         -->
+<!-- Locator service by Know-Where Systems,  -->
+<!-- customized for Lowe's.                  -->
+<!--                                         -->
+<!--      http://www.Know-Where.com/         -->
+<!--                                         -->
+<!-- Copyright 2010 Know-Where Systems, Inc. -->
+<!--------------------------------------------->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Lowe's Stores</title>
+
+
+
+<base href="http://www.lowes.com">
+
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/config.js"></script>
+		<script type="text/javascript" src="http://lowes.know-where.com/lowes/js/kw/kwstrings.en.js"></script>
+		<link href="http://lowes.know-where.com/lowes/css/kwresults.css" rel="stylesheet" type="text/css">
+		<link href="http://lowes.know-where.com/lowes/css/main.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="http://www.lowes.com/css/main.css" type="text/css" charset="utf-8"/>
+<!--[if lte IE 6]>
+        <link rel="stylesheet"  href="http://www.lowes.com/css/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255); background-image: none; text-align: left;" >
+
+
+
+
+<script type="text/javascript"><!--
+	kw_host = "http://lowes.know-where.com";
+	kw_dir = "lowes";
+	kw_hostdir = kw_host + '/' + kw_dir;
+	kw_place = "";
+	kw_option = "";
+	kw_region = "";
+	kw_region_name = "";
+	kw_mapid = "intl";
+	kw_lang = "en";
+	
+	kw_ssl = false;
+--></script>
+
+
+
+<div id="kw_contains_all">
+
+
+
+<!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+<!-- Activity Name for this tag is:Store Locator Page -->
+<!-- Web site URL where tag should be placed: http://lowes.com -->
+<!-- This tag must be placed within the opening <body> tag, as close to the beginning of it as possible-->
+<!-- Creation Date:02/05/08 -->
+<SCRIPT language="JavaScript">
+var axel = Math.random()+"";
+var a = axel * 10000000000000;
+document.write('<IMG SRC="https://ad.doubleclick.net/activity;src=1160694;type=lowes046;cat=store706;ord=1;num='+ a + '?" WIDTH=1 HEIGHT=1 BORDER=0>');
+</SCRIPT>
+<NOSCRIPT>
+<IMG SRC="https://ad.doubleclick.net/activity;src=1160694;type=lowes046;cat=store706;ord=1;num=1?" WIDTH=1 HEIGHT=1 BORDER=0>
+</NOSCRIPT>
+
+
+
+
+<div id="kw_breadcrumbs_div">
+<ul class="kw_breadcrumbs" id="kw_breadcrumbs_list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+<div id="iframeContent">
+	<h1 id="page-header">Find Store</h1>	
+	<form name="kwform" action="http://lowes.know-where.com/lowes/cgi/selection">
+
+	
+			
+<div class="search-nav"><a href="http://lowes.Know-Where.com/lowes/cgi/index?design=default&lang=en&option=&mapid=NorthAmerica">Quick Find</a> &bull; <a href="http://lowes.know-where.com/lowes/cgi/region_list?design=default&lang=en&option=&mapid=NorthAmerica">Browse by State/Province</a> &bull; Browse International Locations</div>
+	
+		
+	
+	<div class="store-locator-map">
+		<div class="kw_static_map" align="left">
+			
+		</div>
+	</div>
+	</form>
+	<div style="margin-top:10px; clear:both;"></div>
+</div>
+
+<div class="kw_location_list">
+
+	
+	
+	<p>
+	
+		<TABLE border=0 cellpadding=3 cellspacing=2></TABLE><BR><BR><BR>
+
+<A NAME=""><P><BR><BR><FONT size="+3"><B></B></FONT></A>
+
+   
+
+</div>
+
+<p style="clear: both">
+<font size="1"> <A href="http://www.Know-Where.com/" style="color:#6C6CBD" target="_NEW">Locator service by <STRONG>Know-Where Systems</STRONG></A></font>
+</p>
+</BODY>
+</HTML>
+
+
+

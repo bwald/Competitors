@@ -1,0 +1,169 @@
+#search_results{
+
+}
+
+div.kwnumbering {
+	background:transparent url(http://lowes.know-where.com/lowes/Icon/bg-result-number.gif) no-repeat scroll left top;
+	color:#FFFFFF;
+	display:inline;
+	float:left;
+	font-weight:bold;
+	height:18px;
+	line-height:18px;
+	margin-right:10px;
+	text-align:center;
+	width:18px;
+}
+
+.kw_page_link_current{
+	text-decoration: none;
+	color: #666666;
+	font-weight: bold;
+}	
+
+.kw_page_link_active{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #015184;
+}
+
+.kwresult_slot {
+	font-size: 10px;
+}
+
+.kwresult_row0{
+	background-color: #E5E8EE;
+}
+
+.kwresult_row1{
+	background-color: #FFFFFF;
+}
+
+.kwresult_normal0 {
+	border-color: #e5e8ee;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #e5e8ee;
+}
+
+.kwresult_normal1 {
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+}
+
+.kwresult_rh0 {
+	background-color: #E5E8EE;
+}
+
+.kwresult_rh1 {
+	background-color: #FFFFFF;
+}
+
+.kwresult_lh0 {
+	background-color: #E5E8EE;
+}
+
+.kwresult_lh1 {
+	background-color: #FFFFFF;
+}
+
+.kwresult_hidden {
+	display: none;
+}
+
+.kwresult_show {
+	display: block;
+}
+
+.kwresult_show_inline {
+	display: inline;
+}
+
+.kwresult_highlight {
+	background-color: #BCD1E7;
+}
+
+.kwdetail_hidden {
+	display: none;
+}
+
+.kwdetail_show {
+	display: block;	
+}
+
+.kw_textbox {
+	width: 205px;
+	color: #000000;
+}
+
+.kw_textbox_focus {
+	width: 205px;
+	color: #000000;
+}
+
+.kw_pulldown {
+font-size: 12px;
+width: 242px;
+margin-left: 3px;
+}
+
+
+ul#tabnav { /* general settings */
+	
+	text-align: left; /* set to left, right or center */
+	margin: 0 0 0 0; /* set margins as desired */
+	font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+	border-bottom: 1px solid #FF6633; /* set border COLOR as desired */
+	list-style-type: none;
+	padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#tabnav li { 
+	display: inline; /* do not change */
+	margin-right: 0px; 
+	margin-left: 0px; 
+	padding-left: 0px; 
+	padding-right: 0;
+}
+
+ul#tabnav li a { /* settings for all tab links */
+	padding: 3px 12px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+	border: 1px solid #FFFFFF; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+	background-color: #ccffcc;  /* set unselected tab background color as desired */
+	margin-right: 0px; /* set additional spacing between tabs as desired */
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.kw_selected { /* settings for selected tab */
+	border-bottom: 1px solid #FF8140; /* set border color to page background color */
+	background-color: #FF8140; /* set background color to match above border color */
+}
+
+.kw_selected a {
+	color: #000000; /* set selected tab link color as desired */
+	position: relative;
+	top: 1px;
+	padding-top: 4px;   /* must change with respect to padding (X) above and below */
+}	 
+
+.kw_unselected a {
+	color: #FFCC99; /* set unselected tab link color as desired */
+}
+
+ul#tabnav a:hover { /* settings for hover effect */
+	background: #FFDD77; /* set desired hover color */
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#LOCAL_MAP {
+	cursor: url("http://lowes.know-where.com/lowes/Icon/openhand.cur"), pointer;
+}
+
+
+div[id^=OpenLayers_Control_PanZoom]{
+    cursor: pointer;
+}

@@ -77,35 +77,15 @@ def getLowesByState(page):
 
 def main():
 
-	'''
 	### get Lowes stores ###
 	csvwriter = writer(open('/home/bwald/Documents/homedepot/competitors/lowes/csv/loweslocations.csv', 'wb'))
 
 	Lowes = getLowesStores()
 
 	print "Number of Lowes stores recorded: " + len(Lowes.storelist)
-	'''
 
-	br = mechanize.Browser()
-	#br.open("file:///home/bwald/Documents/homedepot/competitors/menards/website/www.menards.com/storeLocator.do")
-	br.open("www.menards.com/storeLocator.do")
-
-	#html = br.response().read()
-	
-	assert br.viewing_html()
-	print br.title()
-	br.select_form(name="state")
-	'''
-	br.form.set_value("IA", name="state", kind="list")
-	try:
-		br.submit()
-	except HTTPError, e:
-		sys.exit("it failed for %d: %s" % (e.code, e.msg))
-
-	html2 = br.response().read()
-	print html2
-	'''
-
+	for i in range(len(Lowes.storelist)):
+		csvwriter.writerow(Lowes.storelist[i])
 
 if __name__  == "__main__":
         main()

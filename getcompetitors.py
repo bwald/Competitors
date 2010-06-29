@@ -98,15 +98,15 @@ def main():
 	br.select_form(nr=0)
 	br.form.set_value(["IA"], name="state", kind="list")
 
+	print br.response().read()
+	br.reload()
+
 	'''
 	try:
 		br.submit()
 	except HTTPError, e:
 		sys.exit("it failed for %d: %s" % (e.code, e.msg))
 	'''
-
-	html2 = br.response().read()
-	print html2
 
 
 if __name__  == "__main__":
